@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560"><style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;fill:#1f2933}
+.b{font-weight:600}.h{font-weight:600;font-size:15px}.s{font-size:12px}.i{font-style:italic}
+.m{fill:#5b6672}.bg{fill:#ffffff}.panel{fill:#f4f6f8;stroke:#d0d7de}
+.sec{fill:#dfe5ec;stroke:#1f2933;stroke-width:1.5}.grid{stroke:#d0d7de;stroke-width:1;fill:none}
+.zone{fill:#f3d9b1;opacity:.45}
+.sfg{stroke:#1f2933}.ffg{fill:#1f2933}.sm{stroke:#5b6672}.fm{fill:#5b6672}
+.sf{stroke:#0b5cad}.ff{fill:#0b5cad}.tf{fill:#0b5cad}
+.so{stroke:#c2410c}.fo{fill:#c2410c}.to{fill:#c2410c}
+.sr{stroke:#c81e1e}.fr{fill:#c81e1e}.tr{fill:#c81e1e}
+.sg{stroke:#0f7b5f}.fg{fill:#0f7b5f}.tg{fill:#0f7b5f}
+.sp{stroke:#7e3fb2}.fp{fill:#7e3fb2}.tp{fill:#7e3fb2}
+@media (prefers-color-scheme:dark){
+text{fill:#e6edf3}.m{fill:#9aa7b4}.bg{fill:#0d1117}.panel{fill:#161b22;stroke:#30363d}
+.sec{fill:#3a4553;stroke:#e6edf3}.grid{stroke:#30363d}.zone{fill:#7a5a1e}
+.sfg{stroke:#e6edf3}.ffg{fill:#e6edf3}.sm{stroke:#9aa7b4}.fm{fill:#9aa7b4}
+.sf{stroke:#6cb6ff}.ff{fill:#6cb6ff}.tf{fill:#6cb6ff}
+.so{stroke:#ffa657}.fo{fill:#ffa657}.to{fill:#ffa657}
+.sr{stroke:#ff7b72}.fr{fill:#ff7b72}.tr{fill:#ff7b72}
+.sg{stroke:#3fb950}.fg{fill:#3fb950}.tg{fill:#3fb950}
+.sp{stroke:#d2a8ff}.fp{fill:#d2a8ff}.tp{fill:#d2a8ff}
+}
+</style>
+<rect class="bg" width="960" height="560"/>
+<line class="sf" x1="60.0" y1="22.0" x2="96.0" y2="22.0" stroke-width="2.5"/>
+<text x="102.0" y="26.0" class="s">last door S</text>
+<line class="so" x1="230.0" y1="22.0" x2="266.0" y2="22.0" stroke-width="2.5" stroke-dasharray="7 4"/>
+<text x="272.0" y="26.0" class="s">last door G</text>
+<rect class="zone" x="80.0" y="58.0" width="276.3" height="190.0" rx="0"/>
+<rect class="zone" x="633.7" y="58.0" width="276.3" height="190.0" rx="0"/>
+<line class="sm" x1="149.1" y1="58.0" x2="149.1" y2="248.0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="149.1" y="54.0" text-anchor="middle" class="s m">1/k</text>
+<line class="sm" x1="356.3" y1="58.0" x2="356.3" y2="248.0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="356.3" y="54.0" text-anchor="middle" class="s m">4/k</text>
+<line class="sm" x1="633.7" y1="58.0" x2="633.7" y2="248.0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="633.7" y="54.0" text-anchor="middle" class="s m">4/k</text>
+<line class="sm" x1="840.9" y1="58.0" x2="840.9" y2="248.0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="840.9" y="54.0" text-anchor="middle" class="s m">1/k</text>
+<line class="sm" x1="80.0" y1="216.2" x2="910.0" y2="216.2" stroke-width="0.5"/>
+<text x="74.0" y="220.2" text-anchor="end" class="s m">0,01</text>
+<line class="sm" x1="80.0" y1="170.7" x2="910.0" y2="170.7" stroke-width="0.5"/>
+<text x="74.0" y="174.7" text-anchor="end" class="s m">0,1</text>
+<line class="sm" x1="80.0" y1="125.2" x2="910.0" y2="125.2" stroke-width="0.5"/>
+<text x="74.0" y="129.2" text-anchor="end" class="s m">1</text>
+<line class="sm" x1="80.0" y1="79.7" x2="910.0" y2="79.7" stroke-width="0.5"/>
+<text x="74.0" y="83.7" text-anchor="end" class="s m">10</text>
+<line class="sm" x1="80.0" y1="58.0" x2="80.0" y2="248.0" stroke-width="1"/>
+<line class="sm" x1="80.0" y1="248.0" x2="910.0" y2="248.0" stroke-width="1"/>
+<text x="495.0" y="74.0" text-anchor="middle" class="s b">fout in σ (%)</text>
+<line class="sr" x1="80.0" y1="125.2" x2="910.0" y2="125.2" stroke-width="1.2" stroke-dasharray="2 3"/>
+<text x="495.0" y="120.2" text-anchor="middle" class="s tr">marge 1 %</text>
+<polyline class="sf" fill="none" stroke-width="2.5" stroke-linejoin="round" points="146.7,162.0 204.8,175.4 262.8,190.3 320.9,205.7 378.9,223.2 466.0,234.3 495.0,218.3 524.0,205.7 553.0,194.5 611.1,174.1 669.1,153.0 727.2,130.9 785.2,107.0 843.3,82.1"/>
+<circle class="ff" cx="146.7" cy="162.0" r="3"/>
+<circle class="ff" cx="204.8" cy="175.4" r="3"/>
+<circle class="ff" cx="262.8" cy="190.3" r="3"/>
+<circle class="ff" cx="320.9" cy="205.7" r="3"/>
+<circle class="ff" cx="378.9" cy="223.2" r="3"/>
+<circle class="ff" cx="466.0" cy="234.3" r="3"/>
+<circle class="ff" cx="495.0" cy="218.3" r="3"/>
+<circle class="ff" cx="524.0" cy="205.7" r="3"/>
+<circle class="ff" cx="553.0" cy="194.5" r="3"/>
+<circle class="ff" cx="611.1" cy="174.1" r="3"/>
+<circle class="ff" cx="669.1" cy="153.0" r="3"/>
+<circle class="ff" cx="727.2" cy="130.9" r="3"/>
+<circle class="ff" cx="785.2" cy="107.0" r="3"/>
+<circle class="ff" cx="843.3" cy="82.1" r="3"/>
+<polyline class="so" fill="none" stroke-width="2.5" stroke-linejoin="round" points="146.7,74.5 204.8,88.5 262.8,103.0 320.9,117.7 378.9,132.2 437.0,146.3 466.0,153.0 495.0,159.1 524.0,164.2 553.0,167.1 611.1,163.4 669.1,147.8 727.2,127.0 785.2,103.4 843.3,78.6" stroke-dasharray="7 4"/>
+<circle class="fo" cx="146.7" cy="74.5" r="3"/>
+<circle class="fo" cx="204.8" cy="88.5" r="3"/>
+<circle class="fo" cx="262.8" cy="103.0" r="3"/>
+<circle class="fo" cx="320.9" cy="117.7" r="3"/>
+<circle class="fo" cx="378.9" cy="132.2" r="3"/>
+<circle class="fo" cx="437.0" cy="146.3" r="3"/>
+<circle class="fo" cx="466.0" cy="153.0" r="3"/>
+<circle class="fo" cx="495.0" cy="159.1" r="3"/>
+<circle class="fo" cx="524.0" cy="164.2" r="3"/>
+<circle class="fo" cx="553.0" cy="167.1" r="3"/>
+<circle class="fo" cx="611.1" cy="163.4" r="3"/>
+<circle class="fo" cx="669.1" cy="147.8" r="3"/>
+<circle class="fo" cx="727.2" cy="127.0" r="3"/>
+<circle class="fo" cx="785.2" cy="103.4" r="3"/>
+<circle class="fo" cx="843.3" cy="78.6" r="3"/>
+<rect class="zone" x="80.0" y="294.0" width="276.3" height="190.0" rx="0"/>
+<rect class="zone" x="633.7" y="294.0" width="276.3" height="190.0" rx="0"/>
+<line class="sm" x1="149.1" y1="294.0" x2="149.1" y2="484.0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="149.1" y="290.0" text-anchor="middle" class="s m">1/k</text>
+<line class="sm" x1="356.3" y1="294.0" x2="356.3" y2="484.0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="356.3" y="290.0" text-anchor="middle" class="s m">4/k</text>
+<line class="sm" x1="633.7" y1="294.0" x2="633.7" y2="484.0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="633.7" y="290.0" text-anchor="middle" class="s m">4/k</text>
+<line class="sm" x1="840.9" y1="294.0" x2="840.9" y2="484.0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="840.9" y="290.0" text-anchor="middle" class="s m">1/k</text>
+<line class="sm" x1="80.0" y1="484.0" x2="910.0" y2="484.0" stroke-width="0.5"/>
+<text x="74.0" y="488.0" text-anchor="end" class="s m">0,1</text>
+<line class="sm" x1="80.0" y1="420.7" x2="910.0" y2="420.7" stroke-width="0.5"/>
+<text x="74.0" y="424.7" text-anchor="end" class="s m">1</text>
+<line class="sm" x1="80.0" y1="357.3" x2="910.0" y2="357.3" stroke-width="0.5"/>
+<text x="74.0" y="361.3" text-anchor="end" class="s m">10</text>
+<line class="sm" x1="80.0" y1="294.0" x2="910.0" y2="294.0" stroke-width="0.5"/>
+<text x="74.0" y="298.0" text-anchor="end" class="s m">100</text>
+<line class="sm" x1="80.0" y1="484.0" x2="80.0" y2="488.0" stroke-width="1"/>
+<text x="80.0" y="501.0" text-anchor="middle" class="s m">0</text>
+<line class="sm" x1="225.1" y1="484.0" x2="225.1" y2="488.0" stroke-width="1"/>
+<text x="225.1" y="501.0" text-anchor="middle" class="s m">5</text>
+<line class="sm" x1="370.2" y1="484.0" x2="370.2" y2="488.0" stroke-width="1"/>
+<text x="370.2" y="501.0" text-anchor="middle" class="s m">10</text>
+<line class="sm" x1="515.3" y1="484.0" x2="515.3" y2="488.0" stroke-width="1"/>
+<text x="515.3" y="501.0" text-anchor="middle" class="s m">15</text>
+<line class="sm" x1="660.4" y1="484.0" x2="660.4" y2="488.0" stroke-width="1"/>
+<text x="660.4" y="501.0" text-anchor="middle" class="s m">20</text>
+<line class="sm" x1="805.5" y1="484.0" x2="805.5" y2="488.0" stroke-width="1"/>
+<text x="805.5" y="501.0" text-anchor="middle" class="s m">25</text>
+<line class="sm" x1="80.0" y1="294.0" x2="80.0" y2="484.0" stroke-width="1"/>
+<line class="sm" x1="80.0" y1="484.0" x2="910.0" y2="484.0" stroke-width="1"/>
+<text x="495.0" y="518.0" text-anchor="middle" class="s">plaats x / h</text>
+<text x="495.0" y="310.0" text-anchor="middle" class="s b">fout in τ (%)</text>
+<line class="sr" x1="80.0" y1="376.4" x2="910.0" y2="376.4" stroke-width="1.2" stroke-dasharray="2 3"/>
+<text x="495.0" y="371.4" text-anchor="middle" class="s tr">marge 5 %</text>
+<polyline class="sf" fill="none" stroke-width="2.5" stroke-linejoin="round" points="146.7,393.2 204.8,409.9 262.8,427.5 320.9,440.9 378.9,448.8 437.0,451.2 466.0,450.3 495.0,448.8 524.0,445.2 553.0,440.3 611.1,426.5 669.1,408.4 727.2,388.2 785.2,367.0 843.3,352.0"/>
+<circle class="ff" cx="146.7" cy="393.2" r="3"/>
+<circle class="ff" cx="204.8" cy="409.9" r="3"/>
+<circle class="ff" cx="262.8" cy="427.5" r="3"/>
+<circle class="ff" cx="320.9" cy="440.9" r="3"/>
+<circle class="ff" cx="378.9" cy="448.8" r="3"/>
+<circle class="ff" cx="437.0" cy="451.2" r="3"/>
+<circle class="ff" cx="466.0" cy="450.3" r="3"/>
+<circle class="ff" cx="495.0" cy="448.8" r="3"/>
+<circle class="ff" cx="524.0" cy="445.2" r="3"/>
+<circle class="ff" cx="553.0" cy="440.3" r="3"/>
+<circle class="ff" cx="611.1" cy="426.5" r="3"/>
+<circle class="ff" cx="669.1" cy="408.4" r="3"/>
+<circle class="ff" cx="727.2" cy="388.2" r="3"/>
+<circle class="ff" cx="785.2" cy="367.0" r="3"/>
+<circle class="ff" cx="843.3" cy="352.0" r="3"/>
+<polyline class="so" fill="none" stroke-width="2.5" stroke-linejoin="round" points="146.7,304.8 204.8,336.5 262.8,362.8 320.9,386.7 378.9,386.8 437.0,386.2 466.0,386.0 495.0,385.9 524.0,385.8 553.0,385.7 611.1,385.7 669.1,385.5 727.2,385.2 785.2,384.5 843.3,383.6" stroke-dasharray="7 4"/>
+<circle class="fo" cx="146.7" cy="304.8" r="3"/>
+<circle class="fo" cx="204.8" cy="336.5" r="3"/>
+<circle class="fo" cx="262.8" cy="362.8" r="3"/>
+<circle class="fo" cx="320.9" cy="386.7" r="3"/>
+<circle class="fo" cx="378.9" cy="386.8" r="3"/>
+<circle class="fo" cx="437.0" cy="386.2" r="3"/>
+<circle class="fo" cx="466.0" cy="386.0" r="3"/>
+<circle class="fo" cx="495.0" cy="385.9" r="3"/>
+<circle class="fo" cx="524.0" cy="385.8" r="3"/>
+<circle class="fo" cx="553.0" cy="385.7" r="3"/>
+<circle class="fo" cx="611.1" cy="385.7" r="3"/>
+<circle class="fo" cx="669.1" cy="385.5" r="3"/>
+<circle class="fo" cx="727.2" cy="385.2" r="3"/>
+<circle class="fo" cx="785.2" cy="384.5" r="3"/>
+<circle class="fo" cx="843.3" cy="383.6" r="3"/>
+<text x="80.0" y="518.0" class="s b">inklemming</text>
+<text x="910.0" y="518.0" text-anchor="end" class="s b">belast einde</text>
+<text x="480.0" y="546.0" text-anchor="middle" class="s m">4/k van het einde: hier nog niet geldig</text>
+</svg>

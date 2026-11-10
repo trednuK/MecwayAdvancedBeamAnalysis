@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400"><style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;fill:#1f2933}
+.b{font-weight:600}.h{font-weight:600;font-size:15px}.s{font-size:12px}.i{font-style:italic}
+.m{fill:#5b6672}.bg{fill:#ffffff}.panel{fill:#f4f6f8;stroke:#d0d7de}
+.sec{fill:#dfe5ec;stroke:#1f2933;stroke-width:1.5}.grid{stroke:#d0d7de;stroke-width:1;fill:none}
+.zone{fill:#f3d9b1;opacity:.45}
+.sfg{stroke:#1f2933}.ffg{fill:#1f2933}.sm{stroke:#5b6672}.fm{fill:#5b6672}
+.sf{stroke:#0b5cad}.ff{fill:#0b5cad}.tf{fill:#0b5cad}
+.so{stroke:#c2410c}.fo{fill:#c2410c}.to{fill:#c2410c}
+.sr{stroke:#c81e1e}.fr{fill:#c81e1e}.tr{fill:#c81e1e}
+.sg{stroke:#0f7b5f}.fg{fill:#0f7b5f}.tg{fill:#0f7b5f}
+.sp{stroke:#7e3fb2}.fp{fill:#7e3fb2}.tp{fill:#7e3fb2}
+@media (prefers-color-scheme:dark){
+text{fill:#e6edf3}.m{fill:#9aa7b4}.bg{fill:#0d1117}.panel{fill:#161b22;stroke:#30363d}
+.sec{fill:#3a4553;stroke:#e6edf3}.grid{stroke:#30363d}.zone{fill:#7a5a1e}
+.sfg{stroke:#e6edf3}.ffg{fill:#e6edf3}.sm{stroke:#9aa7b4}.fm{fill:#9aa7b4}
+.sf{stroke:#6cb6ff}.ff{fill:#6cb6ff}.tf{fill:#6cb6ff}
+.so{stroke:#ffa657}.fo{fill:#ffa657}.to{fill:#ffa657}
+.sr{stroke:#ff7b72}.fr{fill:#ff7b72}.tr{fill:#ff7b72}
+.sg{stroke:#3fb950}.fg{fill:#3fb950}.tg{fill:#3fb950}
+.sp{stroke:#d2a8ff}.fp{fill:#d2a8ff}.tp{fill:#d2a8ff}
+}
+</style><defs><clipPath id="m"><polygon points="78.0,78.0 420.0,78.0 420.0,170.0 210.0,170.0 210.0,345.0 78.0,345.0"/></clipPath><radialGradient id="heat" gradientUnits="userSpaceOnUse" cx="210" cy="170" r="105.8"><stop offset="0" stop-color="#d73027"/><stop offset=".35" stop-color="#d73027" stop-opacity=".55"/><stop offset="1" stop-color="#d73027" stop-opacity="0"/></radialGradient></defs>
+<rect class="bg" width="960" height="400"/>
+<text x="40.0" y="28.0" class="h">Around a re-entrant corner</text>
+<polygon class="sec" points="78.0,78.0 420.0,78.0 420.0,170.0 210.0,170.0 210.0,345.0 78.0,345.0"/>
+<circle cx="210" cy="170" r="105.8" fill="url(#heat)" clip-path="url(#m)"/>
+<circle class="so" cx="210" cy="170" r="92" fill="none" stroke-width="2" stroke-dasharray="7 5" clip-path="url(#m)"/>
+<polygon class="grid sfg" points="78.0,78.0 420.0,78.0 420.0,170.0 210.0,170.0 210.0,345.0 78.0,345.0"/>
+<line class="so" x1="203.0" y1="163.0" x2="217.0" y2="177.0" stroke-width="2.5"/>
+<line class="so" x1="203.0" y1="177.0" x2="217.0" y2="163.0" stroke-width="2.5"/>
+<line class="so" x1="240.0" y1="200.0" x2="218.0" y2="178.0" stroke-width="1"/>
+<text x="244.0" y="210.0" class="b to">✕ peak in the corner</text>
+<circle class="bg sf" cx="318.0" cy="124.0" r="8"/>
+<circle class="sf" cx="318" cy="124.0" r="8" fill="none" stroke-width="2.5"/>
+<line class="sf" x1="328.0" y1="134.0" x2="342.0" y2="180.0" stroke-width="1"/>
+<text x="244.0" y="236.0" class="b tf">○ maximum outside the corner</text>
+<line class="sfg" x1="210.0" y1="163.6" x2="210.0" y2="84.4" stroke-width="1.5"/>
+<polygon class="ffg" points="210.0,78.0 213.4,85.3 206.6,85.3"/>
+<polygon class="ffg" points="210.0,170.0 206.6,162.7 213.4,162.7"/>
+<text x="218.0" y="133.2" class="b">t</text>
+<text x="244.0" y="262.0" class="s to">zone: radius r = 1 t</text>
+<text x="40.0" y="372.0" class="s m">t: distance to the nearest edge that does not touch the corner</text>
+<text x="610.0" y="28.0" text-anchor="middle" class="h">Torsion, I section without fillets</text>
+<line class="sm" x1="520.0" y1="312.0" x2="900.0" y2="312.0" stroke-width="0.5"/>
+<text x="514.0" y="316.0" text-anchor="end" class="s m">0.0</text>
+<line class="sm" x1="520.0" y1="240.6" x2="900.0" y2="240.6" stroke-width="0.5"/>
+<text x="514.0" y="244.6" text-anchor="end" class="s m">1.0</text>
+<line class="sm" x1="520.0" y1="169.1" x2="900.0" y2="169.1" stroke-width="0.5"/>
+<text x="514.0" y="173.1" text-anchor="end" class="s m">2.0</text>
+<line class="sm" x1="520.0" y1="97.7" x2="900.0" y2="97.7" stroke-width="0.5"/>
+<text x="514.0" y="101.7" text-anchor="end" class="s m">3.0</text>
+<line class="sm" x1="520.0" y1="312.0" x2="520.0" y2="316.0" stroke-width="1"/>
+<text x="520.0" y="329.0" text-anchor="middle" class="s m">1 000</text>
+<line class="sm" x1="710.0" y1="312.0" x2="710.0" y2="316.0" stroke-width="1"/>
+<text x="710.0" y="329.0" text-anchor="middle" class="s m">10 000</text>
+<line class="sm" x1="900.0" y1="312.0" x2="900.0" y2="316.0" stroke-width="1"/>
+<text x="900.0" y="329.0" text-anchor="middle" class="s m">100 000</text>
+<line class="sm" x1="520.0" y1="62.0" x2="520.0" y2="312.0" stroke-width="1"/>
+<line class="sm" x1="520.0" y1="312.0" x2="900.0" y2="312.0" stroke-width="1"/>
+<text x="710.0" y="346.0" text-anchor="middle" class="s">elements in the section</text>
+<text x="514.0" y="52.0" class="s">τmax / (T·t/J)</text>
+<polyline class="so" fill="none" stroke-width="2.5" stroke-linejoin="round" points="579.1,186.3 630.9,162.7 734.2,132.0 843.5,79.1"/>
+<polyline class="sf" fill="none" stroke-width="2.5" stroke-linejoin="round" points="579.1,238.1 630.9,237.4 734.2,237.0 843.5,236.7"/>
+<line class="so" x1="575.1" y1="182.3" x2="583.1" y2="190.3" stroke-width="2.5"/>
+<line class="so" x1="575.1" y1="190.3" x2="583.1" y2="182.3" stroke-width="2.5"/>
+<text x="579.1" y="176.3" text-anchor="middle" class="s to">1.76</text>
+<circle class="bg sf" cx="579.1" cy="238.1" r="4" stroke-width="2"/>
+<text x="579.1" y="257.1" text-anchor="middle" class="s tf">1.035</text>
+<line class="so" x1="626.9" y1="158.7" x2="634.9" y2="166.7" stroke-width="2.5"/>
+<line class="so" x1="626.9" y1="166.7" x2="634.9" y2="158.7" stroke-width="2.5"/>
+<text x="630.9" y="152.7" text-anchor="middle" class="s to">2.09</text>
+<circle class="bg sf" cx="630.9" cy="237.4" r="4" stroke-width="2"/>
+<text x="630.9" y="256.4" text-anchor="middle" class="s tf">1.044</text>
+<line class="so" x1="730.2" y1="128.0" x2="738.2" y2="136.0" stroke-width="2.5"/>
+<line class="so" x1="730.2" y1="136.0" x2="738.2" y2="128.0" stroke-width="2.5"/>
+<text x="734.2" y="122.0" text-anchor="middle" class="s to">2.52</text>
+<circle class="bg sf" cx="734.2" cy="237.0" r="4" stroke-width="2"/>
+<text x="734.2" y="256.0" text-anchor="middle" class="s tf">1.050</text>
+<line class="so" x1="839.5" y1="75.1" x2="847.5" y2="83.1" stroke-width="2.5"/>
+<line class="so" x1="839.5" y1="83.1" x2="847.5" y2="75.1" stroke-width="2.5"/>
+<text x="843.5" y="69.1" text-anchor="middle" class="s to">3.26</text>
+<circle class="bg sf" cx="843.5" cy="236.7" r="4" stroke-width="2"/>
+<text x="843.5" y="255.7" text-anchor="middle" class="s tf">1.054</text>
+<text x="553.5" y="94.1" class="s to">whole section: grows with the mesh</text>
+<text x="553.5" y="292.0" class="s tf">outside r = 1 t: about 2 % difference</text>
+</svg>

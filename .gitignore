@@ -1,0 +1,12 @@
+# Local description and Office lock files: stay out of the repository
+Beschrijving *.docx
+~$*
+
+# Local work
+WorkDir/
+CLAUDE.local.md
+__pycache__/
+*.pyc
+tests/mecway/results/
+tests/validation/work/
+.claude/

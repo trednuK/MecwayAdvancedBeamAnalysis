@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380"><style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;fill:#1f2933}
+.b{font-weight:600}.h{font-weight:600;font-size:15px}.s{font-size:12px}.i{font-style:italic}
+.m{fill:#5b6672}.bg{fill:#ffffff}.panel{fill:#f4f6f8;stroke:#d0d7de}
+.sec{fill:#dfe5ec;stroke:#1f2933;stroke-width:1.5}.grid{stroke:#d0d7de;stroke-width:1;fill:none}
+.zone{fill:#f3d9b1;opacity:.45}
+.sfg{stroke:#1f2933}.ffg{fill:#1f2933}.sm{stroke:#5b6672}.fm{fill:#5b6672}
+.sf{stroke:#0b5cad}.ff{fill:#0b5cad}.tf{fill:#0b5cad}
+.so{stroke:#c2410c}.fo{fill:#c2410c}.to{fill:#c2410c}
+.sr{stroke:#c81e1e}.fr{fill:#c81e1e}.tr{fill:#c81e1e}
+.sg{stroke:#0f7b5f}.fg{fill:#0f7b5f}.tg{fill:#0f7b5f}
+.sp{stroke:#7e3fb2}.fp{fill:#7e3fb2}.tp{fill:#7e3fb2}
+@media (prefers-color-scheme:dark){
+text{fill:#e6edf3}.m{fill:#9aa7b4}.bg{fill:#0d1117}.panel{fill:#161b22;stroke:#30363d}
+.sec{fill:#3a4553;stroke:#e6edf3}.grid{stroke:#30363d}.zone{fill:#7a5a1e}
+.sfg{stroke:#e6edf3}.ffg{fill:#e6edf3}.sm{stroke:#9aa7b4}.fm{fill:#9aa7b4}
+.sf{stroke:#6cb6ff}.ff{fill:#6cb6ff}.tf{fill:#6cb6ff}
+.so{stroke:#ffa657}.fo{fill:#ffa657}.to{fill:#ffa657}
+.sr{stroke:#ff7b72}.fr{fill:#ff7b72}.tr{fill:#ff7b72}
+.sg{stroke:#3fb950}.fg{fill:#3fb950}.tg{fill:#3fb950}
+.sp{stroke:#d2a8ff}.fp{fill:#d2a8ff}.tp{fill:#d2a8ff}
+}
+</style>
+<rect class="bg" width="960" height="380"/>
+<rect class="grid" x="14.0" y="14.0" width="300.0" height="336.0" rx="10"/>
+<text x="30.0" y="38.0" class="h">Mecway</text>
+<rect class="panel" x="30.0" y="52.0" width="268.0" height="124.0" rx="8"/>
+<text x="42.0" y="74.0" class="h tf">Huidige oplossing (API)</text>
+<text x="42.0" y="96.0" class="s">selectie, element- en knoopnummers</text>
+<text x="42.0" y="115.0" class="s">snedekrachten per elementeinde</text>
+<text x="42.0" y="134.0" class="s">anders knoopwaarden</text>
+<text x="42.0" y="153.0" class="s">anders verplaatsing en rotatie</text>
+<rect class="panel" x="30.0" y="212.0" width="268.0" height="106.0" rx="8"/>
+<text x="42.0" y="234.0" class="h to">Opgeslagen model (.liml)</text>
+<text x="42.0" y="256.0" class="s">oriëntatie, materialen, lasten</text>
+<text x="42.0" y="275.0" class="s">SECTIE-VORM</text>
+<text x="42.0" y="294.0" class="s">#ASTER-SECTIE</text>
+<text x="30.0" y="340.0" class="s m">Oplosser: Mecway intern, CCX, Mystran, of Code-Aster via de bridge</text>
+<rect class="panel" x="436.0" y="58.0" width="214.0" height="118.0" rx="8"/>
+<text x="448.0" y="80.0" class="h tg">Venster</text>
+<text x="448.0" y="102.0" class="s">IronPython, in Mecway</text>
+<text x="448.0" y="121.0" class="s">lijsten, schuifbalk, vinkjes</text>
+<text x="448.0" y="140.0" class="s">vergelijkt bestand en API</text>
+<text x="448.0" y="159.0" class="s">tekent het beeld</text>
+<rect class="panel" x="684.0" y="150.0" width="262.0" height="168.0" rx="8"/>
+<text x="696.0" y="172.0" class="h tp">Rekenproces</text>
+<text x="696.0" y="194.0" class="s">CPython 3, numpy, scipy</text>
+<text x="696.0" y="213.0" class="s">1. leest het model, bouwt de keten</text>
+<text x="696.0" y="232.0" class="s">2. per doorsnede: mesh, ω, ψ, φ,</text>
+<text x="696.0" y="251.0" class="s"> eenheidsvelden (één keer)</text>
+<text x="696.0" y="270.0" class="s">3. krachten op plaats s, correctie</text>
+<text x="696.0" y="289.0" class="s"> verdeelde last, T_S</text>
+<text x="696.0" y="308.0" class="s">4. optellen, kleuren, beeld maken</text>
+<line class="sf" x1="298.0" y1="96.0" x2="428.0" y2="96.0" stroke-width="2.5"/>
+<polygon class="ff" points="436.0,96.0 426.9,100.2 426.9,91.8"/>
+<text x="367.0" y="88.0" text-anchor="middle" class="s tf">krachten, nummers</text>
+<line class="sm" x1="436.0" y1="142.0" x2="304.4" y2="142.0" stroke-width="1.5"/>
+<polygon class="fm" points="298.0,142.0 305.3,138.6 305.3,145.4"/>
+<text x="306.0" y="196.0" class="s m">optie: tijdelijk element voor de positie</text>
+<line class="so" x1="298.0" y1="264.0" x2="676.0" y2="264.0" stroke-width="2.5"/>
+<polygon class="fo" points="684.0,264.0 674.9,268.2 674.9,259.8"/>
+<text x="490.0" y="256.0" text-anchor="middle" class="s to">pad van het bestand</text>
+<line class="sg" x1="650.0" y1="112.0" x2="780.0" y2="112.0" stroke-width="2.5"/>
+<line class="sg" x1="780.0" y1="112.0" x2="780.0" y2="142.0" stroke-width="2.5"/>
+<polygon class="fg" points="780.0,150.0 775.8,140.9 784.2,140.9"/>
+<text x="662.0" y="102.0" class="s tg">verzoek: alleen het nieuwste</text>
+<polyline class="sp" fill="none" stroke-width="2.5" stroke-linejoin="round" points="860.0,150.0 860.0,34.0 543.0,34.0"/>
+<line class="sp" x1="543.0" y1="34.0" x2="543.0" y2="50.0" stroke-width="2.5"/>
+<polygon class="fp" points="543.0,58.0 538.8,48.9 547.2,48.9"/>
+<text x="700.0" y="26.0" class="s tp">beeld en getallen</text>
+</svg>

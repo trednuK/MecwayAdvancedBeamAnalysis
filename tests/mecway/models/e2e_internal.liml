@@ -1,0 +1,105 @@
+<liml version="33">
+  <analysis type="S30" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.25" y="0" z="0" />
+  <node nid="3" x="0.5" y="0" z="0" />
+  <node nid="4" x="0.75" y="0" z="0" />
+  <node nid="5" x="1" y="0" z="0" />
+  <node nid="6" x="0" y="0.25" z="0" />
+  <node nid="7" x="0.25" y="0.25" z="0" />
+  <node nid="8" x="0.5" y="0.25" z="0" />
+  <node nid="9" x="0.75" y="0.25" z="0" />
+  <node nid="10" x="1" y="0.25" z="0" />
+  <node nid="11" x="0" y="0.5" z="0" />
+  <node nid="12" x="0.25" y="0.5" z="0" />
+  <node nid="13" x="0.5" y="0.5" z="0" />
+  <node nid="14" x="0.75" y="0.5" z="0" />
+  <node nid="15" x="1" y="0.5" z="0" />
+  <node nid="16" x="0" y="0.75" z="0" />
+  <node nid="17" x="0.25" y="0.75" z="0" />
+  <node nid="18" x="0.5" y="0.75" z="0" />
+  <node nid="19" x="0.75" y="0.75" z="0" />
+  <node nid="20" x="1" y="0.75" z="0" />
+  <node nid="21" x="0" y="1" z="0" />
+  <node nid="22" x="0.25" y="1" z="0" />
+  <node nid="23" x="0.5" y="1" z="0" />
+  <node nid="24" x="0.75" y="1" z="0" />
+  <node nid="25" x="1" y="1" z="0" />
+  <elset name="E_GenR" colorrgb="DADADA" material="GenR">
+    <elem eid="1" shape="line2" nodes="1 2" />
+    <elem eid="2" shape="line2" nodes="2 3" />
+    <elem eid="3" shape="line2" nodes="3 4" />
+    <elem eid="4" shape="line2" nodes="4 5" />
+  </elset>
+  <elset name="E_GenU" colorrgb="DADADA" material="GenU">
+    <elem eid="5" shape="line2" nodes="6 7" />
+    <elem eid="6" shape="line2" nodes="7 8" />
+    <elem eid="7" shape="line2" nodes="8 9" />
+    <elem eid="8" shape="line2" nodes="9 10" />
+  </elset>
+  <elset name="E_Ip" colorrgb="DADADA" material="Ip">
+    <elem eid="9" shape="line2" nodes="11 12" />
+    <elem eid="10" shape="line2" nodes="12 13" />
+    <elem eid="11" shape="line2" nodes="13 14" />
+    <elem eid="12" shape="line2" nodes="14 15" />
+    <elem eid="13" shape="line2" nodes="16 17" />
+    <elem eid="14" shape="line2" nodes="17 18" />
+    <elem eid="15" shape="line2" nodes="18 19" />
+    <elem eid="16" shape="line2" nodes="19 20" />
+    <elem eid="17" shape="line2" nodes="21 22" />
+    <elem eid="18" shape="line2" nodes="23 22" />
+    <elem eid="19" shape="line2" nodes="24 23" />
+    <elem eid="20" shape="line2" nodes="24 25" />
+  </elset>
+  <force selection="tip_gen_r"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_gen_r"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <force selection="tip_gen_u"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_gen_u"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <force selection="tip_ip"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_ip"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <linepressure selection="q6_ip_q"><x>120.0 N/m</x><y>-1000.0 N/m</y><z>700.0 N/m</z></linepressure>
+  <force selection="tip_ip_rev"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_ip_rev"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <fixed selection="clamp" />
+  <ccxmodeldefinition>** SECTIE-VORM GenR: N=4, A=0.005000000000000001
+** SECTIE-VORM GenR: P=-0.05 -0.025 0.05 -0.025 0.05 0.025
+** SECTIE-VORM GenR: P=-0.05 0.025
+** SECTIE-VORM GenU: N=8, A=0.0009500000000000012
+** SECTIE-VORM GenU: P=-0.05 -0.03565789474 -0.045 -0.03565789474 -0.045 0.009342105263
+** SECTIE-VORM GenU: P=0.045 0.009342105263 0.045 -0.03565789474 0.05 -0.03565789474
+** SECTIE-VORM GenU: P=0.05 0.01434210526 -0.05 0.01434210526</ccxmodeldefinition>
+  <mat name="GenR">
+    <geometric type="UniformGeneralSection" area="0.005000000000000001 m²" iyy="1.0416666666666671e-06 m⁴" izz="4.1666666666666686e-06 m⁴" torsionconstant="2.86e-06 m⁴" perimeter="0.3 m" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="GenU">
+    <geometric type="UniformGeneralSection" area="0.0009500000000000012 m²" iyy="2.2500548245614159e-07 m⁴" izz="1.432916666666669e-06 m⁴" torsionconstant="8e-08 m⁴" perimeter="0.3 m" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Ip">
+    <geometric type="I" ia="100 mm" ib="50 mm" ic="10 mm" id="8 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <nodeselection name="tip_gen_r" direct="true"><node nid="5" /></nodeselection>
+  <elementselection name="sel_gen_r"><element eid="1" /><element eid="2" /><element eid="3" /><element eid="4" /></elementselection>
+  <nodeselection name="tip_gen_u" direct="true"><node nid="10" /></nodeselection>
+  <elementselection name="sel_gen_u"><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /></elementselection>
+  <nodeselection name="tip_ip" direct="true"><node nid="15" /></nodeselection>
+  <elementselection name="sel_ip"><element eid="9" /><element eid="10" /><element eid="11" /><element eid="12" /></elementselection>
+  <faceselection name="face_ip"><face eid="9" faceid="1" /><face eid="10" faceid="1" /><face eid="11" faceid="1" /><face eid="12" faceid="1" /></faceselection>
+  <elementselection name="q6_ip_q" direct="true"><element eid="13" /><element eid="14" /><element eid="15" /><element eid="16" /></elementselection>
+  <elementselection name="sel_ip_q"><element eid="13" /><element eid="14" /><element eid="15" /><element eid="16" /></elementselection>
+  <nodeselection name="tip_ip_rev" direct="true"><node nid="25" /></nodeselection>
+  <elementselection name="sel_ip_rev"><element eid="19" /><element eid="17" /><element eid="20" /><element eid="18" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /><node nid="6" /><node nid="11" /><node nid="16" /><node nid="21" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

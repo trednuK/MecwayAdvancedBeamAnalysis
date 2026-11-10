@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400"><style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;fill:#1f2933}
+.b{font-weight:600}.h{font-weight:600;font-size:15px}.s{font-size:12px}.i{font-style:italic}
+.m{fill:#5b6672}.bg{fill:#ffffff}.panel{fill:#f4f6f8;stroke:#d0d7de}
+.sec{fill:#dfe5ec;stroke:#1f2933;stroke-width:1.5}.grid{stroke:#d0d7de;stroke-width:1;fill:none}
+.zone{fill:#f3d9b1;opacity:.45}
+.sfg{stroke:#1f2933}.ffg{fill:#1f2933}.sm{stroke:#5b6672}.fm{fill:#5b6672}
+.sf{stroke:#0b5cad}.ff{fill:#0b5cad}.tf{fill:#0b5cad}
+.so{stroke:#c2410c}.fo{fill:#c2410c}.to{fill:#c2410c}
+.sr{stroke:#c81e1e}.fr{fill:#c81e1e}.tr{fill:#c81e1e}
+.sg{stroke:#0f7b5f}.fg{fill:#0f7b5f}.tg{fill:#0f7b5f}
+.sp{stroke:#7e3fb2}.fp{fill:#7e3fb2}.tp{fill:#7e3fb2}
+@media (prefers-color-scheme:dark){
+text{fill:#e6edf3}.m{fill:#9aa7b4}.bg{fill:#0d1117}.panel{fill:#161b22;stroke:#30363d}
+.sec{fill:#3a4553;stroke:#e6edf3}.grid{stroke:#30363d}.zone{fill:#7a5a1e}
+.sfg{stroke:#e6edf3}.ffg{fill:#e6edf3}.sm{stroke:#9aa7b4}.fm{fill:#9aa7b4}
+.sf{stroke:#6cb6ff}.ff{fill:#6cb6ff}.tf{fill:#6cb6ff}
+.so{stroke:#ffa657}.fo{fill:#ffa657}.to{fill:#ffa657}
+.sr{stroke:#ff7b72}.fr{fill:#ff7b72}.tr{fill:#ff7b72}
+.sg{stroke:#3fb950}.fg{fill:#3fb950}.tg{fill:#3fb950}
+.sp{stroke:#d2a8ff}.fp{fill:#d2a8ff}.tp{fill:#d2a8ff}
+}
+</style>
+<rect class="bg" width="960" height="400"/>
+<text x="30.0" y="28.0" class="h">Krachten op het +U-vlak</text>
+<polygon class="sec" points="221.0,172.7 269.0,149.6 148.8,91.9 100.8,115.0"/>
+<polygon class="sec" points="221.0,172.7 221.0,260.4 100.8,202.7 100.8,115.0"/>
+<polygon class="sec" style="opacity:.55" points="221.0,172.7 269.0,149.6 269.0,237.3 221.0,260.4"/>
+<line class="sm" x1="89.8" y1="209.7" x2="100.8" y2="202.7" stroke-width="1"/>
+<line class="sm" x1="89.8" y1="198.7" x2="100.8" y2="191.7" stroke-width="1"/>
+<line class="sm" x1="89.8" y1="187.8" x2="100.8" y2="180.8" stroke-width="1"/>
+<line class="sm" x1="89.8" y1="176.8" x2="100.8" y2="169.8" stroke-width="1"/>
+<line class="sm" x1="89.8" y1="165.8" x2="100.8" y2="158.8" stroke-width="1"/>
+<line class="sm" x1="89.8" y1="154.9" x2="100.8" y2="147.9" stroke-width="1"/>
+<line class="sm" x1="89.8" y1="143.9" x2="100.8" y2="136.9" stroke-width="1"/>
+<line class="sm" x1="89.8" y1="132.9" x2="100.8" y2="125.9" stroke-width="1"/>
+<line class="sm" x1="89.8" y1="122.0" x2="100.8" y2="115.0" stroke-width="1"/>
+<text x="90.8" y="226.7" text-anchor="middle" class="s m">inklemming</text>
+<circle class="ffg" cx="245.0" cy="205.0" r="3.5"/>
+<line class="sf" x1="245.0" y1="205.0" x2="337.9" y2="249.6" stroke-width="2.5"/>
+<polygon class="ff" points="345.1,253.1 335.1,253.0 338.8,245.3"/>
+<text x="359.1" y="263.1" class="b tf">+U:  N</text>
+<line class="sf" x1="245.0" y1="205.0" x2="321.2" y2="168.4" stroke-width="2.5"/>
+<polygon class="ff" points="328.4,164.9 322.1,172.7 318.4,165.0"/>
+<text x="340.4" y="162.9" class="b tf">+V:  Vv</text>
+<line class="sf" x1="245.0" y1="205.0" x2="245.0" y2="114.7" stroke-width="2.5"/>
+<polygon class="ff" points="245.0,106.7 249.2,115.7 240.8,115.7"/>
+<text x="233.0" y="98.7" text-anchor="end" class="b tf">+W:  Vw</text>
+<text x="510.0" y="28.0" class="h">Momenten op het +U-vlak</text>
+<polygon class="sec" points="701.0,172.7 749.0,149.6 628.8,91.9 580.8,115.0"/>
+<polygon class="sec" points="701.0,172.7 701.0,260.4 580.8,202.7 580.8,115.0"/>
+<polygon class="sec" style="opacity:.55" points="701.0,172.7 749.0,149.6 749.0,237.3 701.0,260.4"/>
+<line class="sm" x1="569.8" y1="209.7" x2="580.8" y2="202.7" stroke-width="1"/>
+<line class="sm" x1="569.8" y1="198.7" x2="580.8" y2="191.7" stroke-width="1"/>
+<line class="sm" x1="569.8" y1="187.8" x2="580.8" y2="180.8" stroke-width="1"/>
+<line class="sm" x1="569.8" y1="176.8" x2="580.8" y2="169.8" stroke-width="1"/>
+<line class="sm" x1="569.8" y1="165.8" x2="580.8" y2="158.8" stroke-width="1"/>
+<line class="sm" x1="569.8" y1="154.9" x2="580.8" y2="147.9" stroke-width="1"/>
+<line class="sm" x1="569.8" y1="143.9" x2="580.8" y2="136.9" stroke-width="1"/>
+<line class="sm" x1="569.8" y1="132.9" x2="580.8" y2="125.9" stroke-width="1"/>
+<line class="sm" x1="569.8" y1="122.0" x2="580.8" y2="115.0" stroke-width="1"/>
+<text x="570.8" y="226.7" text-anchor="middle" class="s m">inklemming</text>
+<circle class="ffg" cx="725.0" cy="205.0" r="3.5"/>
+<line class="so" x1="725.0" y1="205.0" x2="810.7" y2="246.2" stroke-width="2.5"/>
+<polygon class="fo" points="825.1,253.1 815.1,253.0 818.8,245.3"/>
+<polygon class="fo" points="817.9,249.6 807.9,249.5 811.6,241.9"/>
+<polyline class="so" fill="none" stroke-width="2" stroke-linejoin="round" points="807.1,230.3 806.6,229.3 806.1,228.3 805.4,227.5 804.7,226.8 803.9,226.3 803.0,225.9 802.1,225.6 801.1,225.5 800.0,225.6 798.9,225.8 797.8,226.1 796.7,226.6 795.6,227.3 794.5,228.1 793.5,229.0 792.4,230.0 791.5,231.2 790.6,232.4 789.7,233.7 789.0,235.1 788.3,236.5 787.7,237.9 787.3,239.4 786.9,240.9 786.6,242.3 786.5,243.8 786.5,245.2 786.6,246.5 786.8,247.7 787.1,248.9 787.6,250.0 788.1,250.9 788.7,251.7 789.5,252.4 790.3,253.0 791.2,253.4 792.1,253.6 793.1,253.7 794.2,253.7 795.2,253.5 796.4,253.1 797.5,252.6 798.6,251.9 799.7,251.2 800.7,250.2 801.7,249.2 802.7,248.1"/>
+<polygon class="fo" points="803.6,246.9 802.0,254.7 796.6,250.7"/>
+<text x="839.1" y="263.1" class="b to">+U:  T</text>
+<line class="so" x1="725.0" y1="205.0" x2="794.0" y2="171.9" stroke-width="2.5"/>
+<polygon class="fo" points="808.4,164.9 802.1,172.7 798.4,165.0"/>
+<polygon class="fo" points="801.2,168.4 794.9,176.1 791.2,168.5"/>
+<polyline class="so" fill="none" stroke-width="2" stroke-linejoin="round" points="788.7,165.5 789.7,166.6 790.7,167.7 791.6,168.9 792.4,170.2 793.2,171.6 793.9,173.0 794.4,174.5 794.9,175.9 795.3,177.4 795.5,178.9 795.7,180.3 795.7,181.7 795.6,183.0 795.4,184.3 795.0,185.4 794.6,186.5 794.1,187.4 793.4,188.3 792.7,189.0 791.9,189.5 791.0,189.9 790.1,190.2 789.0,190.3 788.0,190.2 786.9,190.0 785.8,189.6 784.7,189.1 783.6,188.5 782.5,187.7 781.4,186.8 780.4,185.7 779.5,184.6 778.5,183.4 777.7,182.1 777.0,180.7 776.3,179.3 775.7,177.8 775.2,176.4 774.9,174.9 774.6,173.4 774.5,172.0 774.5,170.6 774.6,169.3 774.8,168.0 775.1,166.9 775.5,165.8 776.1,164.9"/>
+<polygon class="fo" points="776.7,164.0 775.0,171.8 769.6,167.7"/>
+<text x="820.4" y="162.9" class="b to">+V:  Mv</text>
+<line class="so" x1="725.0" y1="205.0" x2="725.0" y2="122.7" stroke-width="2.5"/>
+<polygon class="fo" points="725.0,106.7 729.2,115.7 720.8,115.7"/>
+<polygon class="fo" points="725.0,114.7 729.2,123.7 720.8,123.7"/>
+<polyline class="so" fill="none" stroke-width="2" stroke-linejoin="round" points="738.6,137.7 739.2,137.0 739.6,136.2 739.9,135.5 740.0,134.7 739.9,134.0 739.7,133.2 739.3,132.5 738.8,131.8 738.1,131.1 737.3,130.5 736.3,129.9 735.2,129.3 734.0,128.9 732.7,128.4 731.3,128.1 729.9,127.8 728.4,127.6 726.8,127.5 725.3,127.4 723.7,127.4 722.1,127.5 720.6,127.7 719.1,128.0 717.7,128.3 716.4,128.7 715.2,129.2 714.0,129.7 713.0,130.3 712.1,130.9 711.4,131.6 710.8,132.3 710.4,133.0 710.1,133.7 710.0,134.5 710.1,135.2 710.3,136.0 710.7,136.7 711.2,137.4 711.9,138.1 712.7,138.7 713.7,139.3 714.8,139.9 716.0,140.4 717.3,140.8 718.7,141.1 720.1,141.4 721.6,141.6"/>
+<polygon class="fo" points="723.2,141.8 715.7,144.5 716.2,137.8"/>
+<text x="713.0" y="98.7" text-anchor="end" class="b to">+W:  Mw</text>
+<text x="480.0" y="318.0" text-anchor="middle" class="s">Getekend: het deel aan de −U-kant van de snede. De pijlen tonen wat het weggesneden deel aan de +U-kant erop uitoefent.</text>
+<text x="480.0" y="338.0" text-anchor="middle" class="s m">rechterhandregel: duim langs de pijl, vingers geven de draaizin</text>
+<text x="480.0" y="374.0" text-anchor="middle">N = ∫ σ dA  Vv = ∫ τ_uv dA  Vw = ∫ τ_uw dA  T = ∫ (v τ_uw − w τ_uv) dA  Mv = ∫ w σ dA  Mw = −∫ v σ dA</text>
+</svg>

@@ -1,0 +1,39 @@
+<liml version="33">
+  <analysis type="L30" solver="ccx" />
+  <timesteps timeperiod="1 s" stepsize="0.25 s" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.125" y="0" z="0" />
+  <node nid="3" x="0.25" y="0" z="0" />
+  <node nid="4" x="0.375" y="0" z="0" />
+  <node nid="5" x="0.5" y="0" z="0" />
+  <node nid="6" x="0.625" y="0" z="0" />
+  <node nid="7" x="0.75" y="0" z="0" />
+  <node nid="8" x="0.875" y="0" z="0" />
+  <node nid="9" x="1" y="0" z="0" />
+  <elset name="E_Rect" colorrgb="DADADA" material="Rect">
+    <elem eid="1" shape="line3" nodes="1 2 3" />
+    <elem eid="2" shape="line3" nodes="3 4 5" />
+    <elem eid="3" shape="line3" nodes="5 6 7" />
+    <elem eid="4" shape="line3" nodes="7 8 9" />
+  </elset>
+  <force selection="tip_ip"><y time="0 s">0 N</y><y time="1 s">100 N</y></force>
+  <fixed selection="clamp" />
+  <mat name="Rect">
+    <geometric type="RectBar" recta="100 mm" rectb="50 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    <density type="Simple" density="7850.0 kg/m³" />
+  </mat>
+  <nodeselection name="tip_ip" direct="true"><node nid="9" /></nodeselection>
+  <elementselection name="sel_ip"><element eid="1" /><element eid="2" /><element eid="3" /><element eid="4" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

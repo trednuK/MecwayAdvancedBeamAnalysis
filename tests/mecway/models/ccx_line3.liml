@@ -1,0 +1,52 @@
+<liml version="33">
+  <analysis type="S30" solver="ccx" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.125" y="0" z="0" />
+  <node nid="3" x="0.25" y="0" z="0" />
+  <node nid="4" x="0.375" y="0" z="0" />
+  <node nid="5" x="0.5" y="0" z="0" />
+  <node nid="6" x="0.625" y="0" z="0" />
+  <node nid="7" x="0.75" y="0" z="0" />
+  <node nid="8" x="0.875" y="0" z="0" />
+  <node nid="9" x="1" y="0" z="0" />
+  <node nid="10" x="0" y="0.25" z="0" />
+  <node nid="11" x="0.125" y="0.25" z="0" />
+  <node nid="12" x="0.25" y="0.25" z="0" />
+  <node nid="13" x="0.375" y="0.25" z="0" />
+  <node nid="14" x="0.5" y="0.25" z="0" />
+  <node nid="15" x="0.625" y="0.25" z="0" />
+  <node nid="16" x="0.75" y="0.25" z="0" />
+  <node nid="17" x="0.875" y="0.25" z="0" />
+  <node nid="18" x="1" y="0.25" z="0" />
+  <elset name="E_Rect" colorrgb="DADADA" material="Rect">
+    <elem eid="1" shape="line3" nodes="1 2 3" />
+    <elem eid="2" shape="line3" nodes="3 4 5" />
+    <elem eid="3" shape="line3" nodes="5 6 7" />
+    <elem eid="4" shape="line3" nodes="7 8 9" />
+    <elem eid="5" shape="line3" nodes="10 11 12" />
+    <elem eid="6" shape="line3" nodes="12 13 14" />
+    <elem eid="7" shape="line3" nodes="14 15 16" />
+    <elem eid="8" shape="line3" nodes="16 17 18" />
+  </elset>
+  <force selection="tip_tip"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_tip"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <linepressure selection="q2_q"><x>120.0 N/m</x><y>-1000.0 N/m</y><z>700.0 N/m</z></linepressure>
+  <fixed selection="clamp" />
+  <mat name="Rect">
+    <geometric type="RectBar" recta="100 mm" rectb="50 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <nodeselection name="tip_tip" direct="true"><node nid="9" /></nodeselection>
+  <elementselection name="q2_q" direct="true"><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /><node nid="10" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

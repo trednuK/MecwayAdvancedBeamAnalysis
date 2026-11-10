@@ -1,0 +1,56 @@
+<liml version="33">
+  <analysis type="V30" maxmode="3" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.0625" y="0" z="0" />
+  <node nid="3" x="0.125" y="0" z="0" />
+  <node nid="4" x="0.1875" y="0" z="0" />
+  <node nid="5" x="0.25" y="0" z="0" />
+  <node nid="6" x="0.3125" y="0" z="0" />
+  <node nid="7" x="0.375" y="0" z="0" />
+  <node nid="8" x="0.4375" y="0" z="0" />
+  <node nid="9" x="0.5" y="0" z="0" />
+  <node nid="10" x="0.5625" y="0" z="0" />
+  <node nid="11" x="0.625" y="0" z="0" />
+  <node nid="12" x="0.6875" y="0" z="0" />
+  <node nid="13" x="0.75" y="0" z="0" />
+  <node nid="14" x="0.8125" y="0" z="0" />
+  <node nid="15" x="0.875" y="0" z="0" />
+  <node nid="16" x="0.9375" y="0" z="0" />
+  <node nid="17" x="1" y="0" z="0" />
+  <elset name="E_Ip" colorrgb="DADADA" material="Ip">
+    <elem eid="1" shape="line2" nodes="1 2" />
+    <elem eid="2" shape="line2" nodes="2 3" />
+    <elem eid="3" shape="line2" nodes="3 4" />
+    <elem eid="4" shape="line2" nodes="4 5" />
+    <elem eid="5" shape="line2" nodes="5 6" />
+    <elem eid="6" shape="line2" nodes="6 7" />
+    <elem eid="7" shape="line2" nodes="7 8" />
+    <elem eid="8" shape="line2" nodes="8 9" />
+    <elem eid="9" shape="line2" nodes="9 10" />
+    <elem eid="10" shape="line2" nodes="10 11" />
+    <elem eid="11" shape="line2" nodes="11 12" />
+    <elem eid="12" shape="line2" nodes="12 13" />
+    <elem eid="13" shape="line2" nodes="13 14" />
+    <elem eid="14" shape="line2" nodes="14 15" />
+    <elem eid="15" shape="line2" nodes="15 16" />
+    <elem eid="16" shape="line2" nodes="16 17" />
+  </elset>
+  <fixed selection="clamp" />
+  <mat name="Ip">
+    <geometric type="I" ia="100 mm" ib="50 mm" ic="10 mm" id="8 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    <density type="Simple" density="7850.0 kg/m³" />
+  </mat>
+  <elementselection name="sel_ip"><element eid="1" /><element eid="2" /><element eid="3" /><element eid="4" /><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /><element eid="9" /><element eid="10" /><element eid="11" /><element eid="12" /><element eid="13" /><element eid="14" /><element eid="15" /><element eid="16" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

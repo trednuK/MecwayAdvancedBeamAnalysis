@@ -1,0 +1,48 @@
+<liml version="33">
+  <analysis type="S30" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.1" y="0" z="0" />
+  <node nid="3" x="0.2" y="0" z="0" />
+  <node nid="4" x="0.3" y="0" z="0" />
+  <node nid="5" x="0.4" y="0" z="0" />
+  <node nid="6" x="0.5" y="0" z="0" />
+  <node nid="7" x="0.6" y="0" z="0" />
+  <node nid="8" x="0.7" y="0" z="0" />
+  <node nid="9" x="0.8" y="0" z="0" />
+  <elset name="E_u" colorrgb="DADADA" material="u">
+    <elem eid="1" shape="line2" nodes="1 2" />
+    <elem eid="2" shape="line2" nodes="2 3" />
+    <elem eid="3" shape="line2" nodes="3 4" />
+    <elem eid="4" shape="line2" nodes="4 5" />
+    <elem eid="5" shape="line2" nodes="5 6" />
+    <elem eid="6" shape="line2" nodes="6 7" />
+    <elem eid="7" shape="line2" nodes="7 8" />
+    <elem eid="8" shape="line2" nodes="8 9" />
+  </elset>
+  <force selection="tip_b"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_b"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <fixed selection="clamp" />
+  <ccxmodeldefinition>** SECTIE-VORM u: N=8, A=0.0013040000000000005
+** SECTIE-VORM u: P=-0.01649693252 -0.05 0.03350306748 -0.05 0.03350306748 -0.042
+** SECTIE-VORM u: P=-0.01049693252 -0.042 -0.01049693252 0.042 0.03350306748 0.042
+** SECTIE-VORM u: P=0.03350306748 0.05 -0.01649693252 0.05
+** ASTER-SECTIE u: A=0.0013040000000000005, IY=1.9934186666666674e-06, IZ=3.1783265439672813e-07, JX=2.2046016926022174e-08, AY=2.0, AZ=1.5, EY=0.04193220491300617, EZ=-0.0040000014374910004, JG=4.803379137912219e-10, IYR2=0, IZR2=0</ccxmodeldefinition>
+  <mat name="u">
+    <geometric type="UniformGeneralSection" area="0.0013040000000000005 m²" iyy="1.9934186666666674e-06 m⁴" izz="3.1783265439672813e-07 m⁴" torsionconstant="2.2046016926022174e-08 m⁴" perimeter="0.3 m" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    <density type="Simple" density="7850.0 kg/m³" />
+  </mat>
+  <nodeselection name="tip_b" direct="true"><node nid="9" /></nodeselection>
+  <elementselection name="sel_b"><element eid="1" /><element eid="2" /><element eid="3" /><element eid="4" /><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

@@ -1,0 +1,53 @@
+<liml version="33">
+  <analysis type="S30" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.25" y="0" z="0" />
+  <node nid="3" x="0.5" y="0" z="0" />
+  <node nid="4" x="0.75" y="0" z="0" />
+  <node nid="5" x="1" y="0" z="0" />
+  <node nid="6" x="0" y="0.5" z="0" />
+  <node nid="7" x="0.25" y="0.5" z="0" />
+  <node nid="8" x="0.5" y="0.5" z="0" />
+  <node nid="9" x="0.75" y="0.5" z="0" />
+  <node nid="10" x="1" y="0.5" z="0" />
+  <elset name="E_Rect" colorrgb="DADADA" material="Rect">
+    <elem eid="1" shape="line2" nodes="1 2" />
+    <elem eid="2" shape="line2" nodes="2 3" />
+    <elem eid="3" shape="line2" nodes="3 4" />
+    <elem eid="4" shape="line2" nodes="4 5" />
+    <elem eid="5" shape="line2" nodes="6 7" />
+    <elem eid="6" shape="line2" nodes="7 8" />
+    <elem eid="7" shape="line2" nodes="8 9" />
+    <elem eid="8" shape="line2" nodes="9 10" />
+  </elset>
+  <configuration name="A" />
+  <configuration name="B" />
+  <force selection="tip_ip"><x>0 N</x><y>100 N</y><z>0 N</z><suppressed configuration="B" /></force>
+  <force selection="tip_ip"><x>0 N</x><y>300 N</y><z>0 N</z><suppressed configuration="A" /></force>
+  <force selection="tip_oc"><x>0 N</x><y>100 N</y><z>0 N</z></force>
+  <linepressure selection="q_oc"><x>0 N/m</x><y>-1000 N/m</y><z>0 N/m</z></linepressure>
+  <linepressure selection="q_oc"><x>0 N/m</x><y>0 N/m</y><z>-500 N/m</z><suppressed configuration="A" /></linepressure>
+  <orientation selection="or_oc"><ux>0</ux><uy>0</uy><uz>0</uz><vx>0</vx><vy>0</vy><vz>1</vz><angleu>0 °</angleu><suppressed configuration="B" /></orientation>
+  <fixed selection="clamp" />
+  <mat name="Rect">
+    <geometric type="RectBar" recta="100 mm" rectb="50 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <nodeselection name="tip_ip" direct="true"><node nid="5" /></nodeselection>
+  <elementselection name="sel_ip"><element eid="1" /><element eid="2" /><element eid="3" /><element eid="4" /></elementselection>
+  <nodeselection name="tip_oc" direct="true"><node nid="10" /></nodeselection>
+  <elementselection name="q_oc" direct="true"><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /></elementselection>
+  <elementselection name="or_oc" direct="true"><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /></elementselection>
+  <elementselection name="sel_oc"><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /><node nid="6" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

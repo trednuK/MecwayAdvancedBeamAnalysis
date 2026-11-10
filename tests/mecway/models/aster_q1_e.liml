@@ -1,0 +1,32 @@
+<liml version="33">
+  <analysis type="S30" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.64" y="0" z="0" />
+  <elset name="E_rect" colorrgb="DADADA" material="rect">
+    <elem eid="1" shape="line2" nodes="1 2" />
+  </elset>
+  <linepressure selection="q0_b"><x>120.0 N/m</x><y>-1000.0 N/m</y><z>700.0 N/m</z></linepressure>
+  <fixed selection="clamp" />
+  <ccxmodeldefinition>** SECTIE-VORM rect: N=4, A=0.0032000000000000006
+** SECTIE-VORM rect: P=-0.02 -0.04 0.02 -0.04 0.02 0.04
+** SECTIE-VORM rect: P=-0.02 0.04
+** ASTER-SECTIE rect: A=0.0032000000000000006, IY=1.7066666666666667e-06, IZ=4.2666666666666673e-07, JX=1.1708502305830964e-06, AY=2.0, AZ=1.5, EY=1.8546321991253334e-12, EZ=2.763182661226123e-12, JG=8.324166522385261e-11, IYR2=0, IZR2=0</ccxmodeldefinition>
+  <mat name="rect">
+    <geometric type="UniformGeneralSection" area="0.0032000000000000006 m²" iyy="1.7066666666666667e-06 m⁴" izz="4.2666666666666673e-07 m⁴" torsionconstant="1.1708502305830964e-06 m⁴" perimeter="0.3 m" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    <density type="Simple" density="7850.0 kg/m³" />
+  </mat>
+  <elementselection name="q0_b" direct="true"><element eid="1" /></elementselection>
+  <elementselection name="sel_b"><element eid="1" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

@@ -1,0 +1,2756 @@
+<liml version="35">
+  <analysis type="S30" />
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.25" y="0" z="0" />
+  <node nid="3" x="0.5" y="0" z="0" />
+  <node nid="4" x="0.75" y="0" z="0" />
+  <node nid="5" x="1" y="0" z="0" />
+  <node nid="6" x="0" y="0.25" z="0" />
+  <node nid="7" x="0.25" y="0.25" z="0" />
+  <node nid="8" x="0.5" y="0.25" z="0" />
+  <node nid="9" x="0.75" y="0.25" z="0" />
+  <node nid="10" x="1" y="0.25" z="0" />
+  <node nid="11" x="0" y="0.5" z="0" />
+  <node nid="12" x="0.25" y="0.5" z="0" />
+  <node nid="13" x="0.5" y="0.5" z="0" />
+  <node nid="14" x="0.75" y="0.5" z="0" />
+  <node nid="15" x="1" y="0.5" z="0" />
+  <node nid="16" x="0" y="0.75" z="0" />
+  <node nid="17" x="0.25" y="0.75" z="0" />
+  <node nid="18" x="0.5" y="0.75" z="0" />
+  <node nid="19" x="0.75" y="0.75" z="0" />
+  <node nid="20" x="1" y="0.75" z="0" />
+  <node nid="21" x="0" y="1" z="0" />
+  <node nid="22" x="0.25" y="1" z="0" />
+  <node nid="23" x="0.5" y="1" z="0" />
+  <node nid="24" x="0.75" y="1" z="0" />
+  <node nid="25" x="1" y="1" z="0" />
+  <node nid="26" x="0" y="1.25" z="0" />
+  <node nid="27" x="0.25" y="1.25" z="0" />
+  <node nid="28" x="0.5" y="1.25" z="0" />
+  <node nid="29" x="0.75" y="1.25" z="0" />
+  <node nid="30" x="1" y="1.25" z="0" />
+  <node nid="31" x="0" y="1.5" z="0" />
+  <node nid="32" x="0.25" y="1.5" z="0" />
+  <node nid="33" x="0.5" y="1.5" z="0" />
+  <node nid="34" x="0.75" y="1.5" z="0" />
+  <node nid="35" x="1" y="1.5" z="0" />
+  <node nid="36" x="0" y="1.75" z="0" />
+  <node nid="37" x="0.25" y="1.75" z="0" />
+  <node nid="38" x="0.5" y="1.75" z="0" />
+  <node nid="39" x="0.75" y="1.75" z="0" />
+  <node nid="40" x="1" y="1.75" z="0" />
+  <node nid="41" x="0" y="2" z="0" />
+  <node nid="42" x="0.25" y="2" z="0" />
+  <node nid="43" x="0.5" y="2" z="0" />
+  <node nid="44" x="0.75" y="2" z="0" />
+  <node nid="45" x="1" y="2" z="0" />
+  <node nid="46" x="0" y="2.25" z="0" />
+  <node nid="47" x="0.25" y="2.25" z="0" />
+  <node nid="48" x="0.5" y="2.25" z="0" />
+  <node nid="49" x="0.75" y="2.25" z="0" />
+  <node nid="50" x="1" y="2.25" z="0" />
+  <node nid="51" x="0" y="2.5" z="0" />
+  <node nid="52" x="0.25" y="2.5" z="0" />
+  <node nid="53" x="0.5" y="2.5" z="0" />
+  <node nid="54" x="0.75" y="2.5" z="0" />
+  <node nid="55" x="1" y="2.5" z="0" />
+  <node nid="56" x="0" y="2.75" z="0" />
+  <node nid="57" x="0.25" y="2.75" z="0" />
+  <node nid="58" x="0.5" y="2.75" z="0" />
+  <node nid="59" x="0.75" y="2.75" z="0" />
+  <node nid="60" x="1" y="2.75" z="0" />
+  <node nid="61" x="0" y="3" z="0" />
+  <node nid="62" x="0.25" y="3" z="0" />
+  <node nid="63" x="0.5" y="3" z="0" />
+  <node nid="64" x="0.75" y="3" z="0" />
+  <node nid="65" x="1" y="3" z="0" />
+  <node nid="66" x="0" y="3.25" z="0" />
+  <node nid="67" x="0.25" y="3.25" z="0" />
+  <node nid="68" x="0.5" y="3.25" z="0" />
+  <node nid="69" x="0.75" y="3.25" z="0" />
+  <node nid="70" x="1" y="3.25" z="0" />
+  <node nid="71" x="0" y="3.5" z="0" />
+  <node nid="72" x="0.25" y="3.5" z="0" />
+  <node nid="73" x="0.5" y="3.5" z="0" />
+  <node nid="74" x="0.75" y="3.5" z="0" />
+  <node nid="75" x="1" y="3.5" z="0" />
+  <node nid="76" x="0" y="3.75" z="0" />
+  <node nid="77" x="0.25" y="3.75" z="0" />
+  <node nid="78" x="0.5" y="3.75" z="0" />
+  <node nid="79" x="0.75" y="3.75" z="0" />
+  <node nid="80" x="1" y="3.75" z="0" />
+  <node nid="81" x="0" y="4" z="0" />
+  <node nid="82" x="0.25" y="4" z="0" />
+  <node nid="83" x="0.5" y="4" z="0" />
+  <node nid="84" x="0.75" y="4" z="0" />
+  <node nid="85" x="1" y="4" z="0" />
+  <node nid="86" x="0" y="4.25" z="0" />
+  <node nid="87" x="0.25" y="4.25" z="0" />
+  <node nid="88" x="0.5" y="4.25" z="0" />
+  <node nid="89" x="0.75" y="4.25" z="0" />
+  <node nid="90" x="1" y="4.25" z="0" />
+  <node nid="91" x="0" y="4.5" z="0" />
+  <node nid="92" x="0.25" y="4.5" z="0" />
+  <node nid="93" x="0.5" y="4.5" z="0" />
+  <node nid="94" x="0.75" y="4.5" z="0" />
+  <node nid="95" x="1" y="4.5" z="0" />
+  <node nid="96" x="0" y="4.75" z="0" />
+  <node nid="97" x="0.25" y="4.75" z="0" />
+  <node nid="98" x="0.5" y="4.75" z="0" />
+  <node nid="99" x="0.75" y="4.75" z="0" />
+  <node nid="100" x="1" y="4.75" z="0" />
+  <node nid="101" x="0" y="5" z="0" />
+  <node nid="102" x="0.25" y="5" z="0" />
+  <node nid="103" x="0.5" y="5" z="0" />
+  <node nid="104" x="0.75" y="5" z="0" />
+  <node nid="105" x="1" y="5" z="0" />
+  <node nid="106" x="0" y="5.25" z="0" />
+  <node nid="107" x="0.25" y="5.25" z="0" />
+  <node nid="108" x="0.5" y="5.25" z="0" />
+  <node nid="109" x="0.75" y="5.25" z="0" />
+  <node nid="110" x="1" y="5.25" z="0" />
+  <elset name="E_Circ" colorrgb="DADADA" material="Circ">
+    <elem eid="1" shape="line2" nodes="1 2" />
+    <elem eid="2" shape="line2" nodes="2 3" />
+    <elem eid="3" shape="line2" nodes="3 4" />
+    <elem eid="4" shape="line2" nodes="4 5" />
+    <elem eid="5" shape="line2" nodes="7 6" />
+    <elem eid="6" shape="line2" nodes="8 7" />
+    <elem eid="7" shape="line2" nodes="9 8" />
+    <elem eid="8" shape="line2" nodes="10 9" />
+  </elset>
+  <elset name="E_Cp" colorrgb="DADADA" material="Cp">
+    <elem eid="9" shape="line2" nodes="11 12" />
+    <elem eid="10" shape="line2" nodes="12 13" />
+    <elem eid="11" shape="line2" nodes="13 14" />
+    <elem eid="12" shape="line2" nodes="14 15" />
+    <elem eid="13" shape="line2" nodes="17 16" />
+    <elem eid="14" shape="line2" nodes="18 17" />
+    <elem eid="15" shape="line2" nodes="19 18" />
+    <elem eid="16" shape="line2" nodes="20 19" />
+  </elset>
+  <elset name="E_Gen" colorrgb="DADADA" material="Gen">
+    <elem eid="17" shape="line2" nodes="21 22" />
+    <elem eid="18" shape="line2" nodes="22 23" />
+    <elem eid="19" shape="line2" nodes="23 24" />
+    <elem eid="20" shape="line2" nodes="24 25" />
+    <elem eid="21" shape="line2" nodes="27 26" />
+    <elem eid="22" shape="line2" nodes="28 27" />
+    <elem eid="23" shape="line2" nodes="29 28" />
+    <elem eid="24" shape="line2" nodes="30 29" />
+  </elset>
+  <elset name="E_Ip" colorrgb="DADADA" material="Ip">
+    <elem eid="25" shape="line2" nodes="31 32" />
+    <elem eid="26" shape="line2" nodes="32 33" />
+    <elem eid="27" shape="line2" nodes="33 34" />
+    <elem eid="28" shape="line2" nodes="34 35" />
+    <elem eid="29" shape="line2" nodes="37 36" />
+    <elem eid="30" shape="line2" nodes="38 37" />
+    <elem eid="31" shape="line2" nodes="39 38" />
+    <elem eid="32" shape="line2" nodes="40 39" />
+  </elset>
+  <elset name="E_La" colorrgb="DADADA" material="La">
+    <elem eid="33" shape="line2" nodes="41 42" />
+    <elem eid="34" shape="line2" nodes="42 43" />
+    <elem eid="35" shape="line2" nodes="43 44" />
+    <elem eid="36" shape="line2" nodes="44 45" />
+    <elem eid="37" shape="line2" nodes="47 46" />
+    <elem eid="38" shape="line2" nodes="48 47" />
+    <elem eid="39" shape="line2" nodes="49 48" />
+    <elem eid="40" shape="line2" nodes="50 49" />
+  </elset>
+  <elset name="E_Lb" colorrgb="DADADA" material="Lb">
+    <elem eid="41" shape="line2" nodes="51 52" />
+    <elem eid="42" shape="line2" nodes="52 53" />
+    <elem eid="43" shape="line2" nodes="53 54" />
+    <elem eid="44" shape="line2" nodes="54 55" />
+    <elem eid="45" shape="line2" nodes="57 56" />
+    <elem eid="46" shape="line2" nodes="58 57" />
+    <elem eid="47" shape="line2" nodes="59 58" />
+    <elem eid="48" shape="line2" nodes="60 59" />
+  </elset>
+  <elset name="E_Lc" colorrgb="DADADA" material="Lc">
+    <elem eid="49" shape="line2" nodes="61 62" />
+    <elem eid="50" shape="line2" nodes="62 63" />
+    <elem eid="51" shape="line2" nodes="63 64" />
+    <elem eid="52" shape="line2" nodes="64 65" />
+    <elem eid="53" shape="line2" nodes="67 66" />
+    <elem eid="54" shape="line2" nodes="68 67" />
+    <elem eid="55" shape="line2" nodes="69 68" />
+    <elem eid="56" shape="line2" nodes="70 69" />
+  </elset>
+  <elset name="E_Rect" colorrgb="DADADA" material="Rect">
+    <elem eid="57" shape="line2" nodes="71 72" />
+    <elem eid="58" shape="line2" nodes="72 73" />
+    <elem eid="59" shape="line2" nodes="73 74" />
+    <elem eid="60" shape="line2" nodes="74 75" />
+    <elem eid="61" shape="line2" nodes="77 76" />
+    <elem eid="62" shape="line2" nodes="78 77" />
+    <elem eid="63" shape="line2" nodes="79 78" />
+    <elem eid="64" shape="line2" nodes="80 79" />
+  </elset>
+  <elset name="E_Tp" colorrgb="DADADA" material="Tp">
+    <elem eid="65" shape="line2" nodes="81 82" />
+    <elem eid="66" shape="line2" nodes="82 83" />
+    <elem eid="67" shape="line2" nodes="83 84" />
+    <elem eid="68" shape="line2" nodes="84 85" />
+    <elem eid="69" shape="line2" nodes="87 86" />
+    <elem eid="70" shape="line2" nodes="88 87" />
+    <elem eid="71" shape="line2" nodes="89 88" />
+    <elem eid="72" shape="line2" nodes="90 89" />
+  </elset>
+  <elset name="E_Tube" colorrgb="DADADA" material="Tube">
+    <elem eid="73" shape="line2" nodes="91 92" />
+    <elem eid="74" shape="line2" nodes="92 93" />
+    <elem eid="75" shape="line2" nodes="93 94" />
+    <elem eid="76" shape="line2" nodes="94 95" />
+    <elem eid="77" shape="line2" nodes="97 96" />
+    <elem eid="78" shape="line2" nodes="98 97" />
+    <elem eid="79" shape="line2" nodes="99 98" />
+    <elem eid="80" shape="line2" nodes="100 99" />
+  </elset>
+  <elset name="E_Tube4" colorrgb="DADADA" material="Tube4">
+    <elem eid="81" shape="line2" nodes="101 102" />
+    <elem eid="82" shape="line2" nodes="102 103" />
+    <elem eid="83" shape="line2" nodes="103 104" />
+    <elem eid="84" shape="line2" nodes="104 105" />
+    <elem eid="85" shape="line2" nodes="107 106" />
+    <elem eid="86" shape="line2" nodes="108 107" />
+    <elem eid="87" shape="line2" nodes="109 108" />
+    <elem eid="88" shape="line2" nodes="110 109" />
+  </elset>
+  <force selection="tip_n_Circ">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Circ">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Circ">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Circ">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Cp">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Cp">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Cp">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Cp">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Gen">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Gen">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Gen">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Gen">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Ip">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Ip">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Ip">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Ip">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_La">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_La">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_La">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_La">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Lb">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Lb">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Lb">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Lb">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Lc">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Lc">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Lc">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Lc">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Rect">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Rect">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Rect">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Rect">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Tp">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Tp">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Tp">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Tp">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Tube">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Tube">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Tube">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Tube">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_n_Tube4">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_n_Tube4">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_r_Tube4">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_r_Tube4">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <fixed selection="clamp" />
+  <ccxmodeldefinition>** ASTER-SECTIE Gen: A=0.002, IY=2e-06, IZ=8e-06, JX=1e-06, EY=0.001, EZ=-0.002
+** SECTIE-VORM Gen: N=4, A=0.002
+** SECTIE-VORM Gen: P=-0.05 -0.01 0.05 -0.01 0.05
+** SECTIE-VORM Gen: P=0.01 -0.05 0.01</ccxmodeldefinition>
+  <mat name="Circ">
+    <geometric type="CircularBar" roundod="80 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Cp">
+    <geometric type="C" ca="80 mm" cb="150 mm" cc="6 mm" cd="5 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Gen">
+    <geometric type="UniformGeneralSection" iyy="2000000 mm⁴" izz="8000000 mm⁴" torsionconstant="1000000 mm⁴" perimeter="300 mm" area="2000 mm²" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Ip">
+    <geometric type="I" ia="100 mm" ib="50 mm" ic="10 mm" id="8 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="La">
+    <geometric type="L" la="80 mm" lb="100 mm" lc="5 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Lb">
+    <geometric type="L" la="120 mm" lb="80 mm" lc="10 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Lc">
+    <geometric type="L" la="100 mm" lb="100 mm" lc="10 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Rect">
+    <geometric type="RectBar" recta="100 mm" rectb="50 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Tp">
+    <geometric type="T" ta="50 mm" tb="5 mm" tc="9 mm" td="30 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Tube">
+    <geometric type="UniformCircularTube" roundod="80 mm" roundid="60 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <mat name="Tube4">
+    <geometric type="RectTube" recta="100 mm" rectb="60 mm" rectthickness="6 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <nodeselection name="tip_n_Circ" direct="true">
+    <node nid="5" />
+  </nodeselection>
+  <nodeselection name="tip_r_Circ" direct="true">
+    <node nid="10" />
+  </nodeselection>
+  <nodeselection name="tip_n_Cp" direct="true">
+    <node nid="15" />
+  </nodeselection>
+  <nodeselection name="tip_r_Cp" direct="true">
+    <node nid="20" />
+  </nodeselection>
+  <nodeselection name="tip_n_Gen" direct="true">
+    <node nid="25" />
+  </nodeselection>
+  <nodeselection name="tip_r_Gen" direct="true">
+    <node nid="30" />
+  </nodeselection>
+  <nodeselection name="tip_n_Ip" direct="true">
+    <node nid="35" />
+  </nodeselection>
+  <nodeselection name="tip_r_Ip" direct="true">
+    <node nid="40" />
+  </nodeselection>
+  <nodeselection name="tip_n_La" direct="true">
+    <node nid="45" />
+  </nodeselection>
+  <nodeselection name="tip_r_La" direct="true">
+    <node nid="50" />
+  </nodeselection>
+  <nodeselection name="tip_n_Lb" direct="true">
+    <node nid="55" />
+  </nodeselection>
+  <nodeselection name="tip_r_Lb" direct="true">
+    <node nid="60" />
+  </nodeselection>
+  <nodeselection name="tip_n_Lc" direct="true">
+    <node nid="65" />
+  </nodeselection>
+  <nodeselection name="tip_r_Lc" direct="true">
+    <node nid="70" />
+  </nodeselection>
+  <nodeselection name="tip_n_Rect" direct="true">
+    <node nid="75" />
+  </nodeselection>
+  <nodeselection name="tip_r_Rect" direct="true">
+    <node nid="80" />
+  </nodeselection>
+  <nodeselection name="tip_n_Tp" direct="true">
+    <node nid="85" />
+  </nodeselection>
+  <nodeselection name="tip_r_Tp" direct="true">
+    <node nid="90" />
+  </nodeselection>
+  <nodeselection name="tip_n_Tube" direct="true">
+    <node nid="95" />
+  </nodeselection>
+  <nodeselection name="tip_r_Tube" direct="true">
+    <node nid="100" />
+  </nodeselection>
+  <nodeselection name="tip_n_Tube4" direct="true">
+    <node nid="105" />
+  </nodeselection>
+  <nodeselection name="tip_r_Tube4" direct="true">
+    <node nid="110" />
+  </nodeselection>
+  <nodeselection name="clamp" direct="true">
+    <node nid="1" />
+    <node nid="6" />
+    <node nid="11" />
+    <node nid="16" />
+    <node nid="21" />
+    <node nid="26" />
+    <node nid="31" />
+    <node nid="36" />
+    <node nid="41" />
+    <node nid="46" />
+    <node nid="51" />
+    <node nid="56" />
+    <node nid="61" />
+    <node nid="66" />
+    <node nid="71" />
+    <node nid="76" />
+    <node nid="81" />
+    <node nid="86" />
+    <node nid="91" />
+    <node nid="96" />
+    <node nid="101" />
+    <node nid="106" />
+  </nodeselection>
+  <fieldvariable name="displacement" displayunit="mm" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="GPa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+  <solution>
+    <analysis type="S30" />
+    <node nid="1" x="0" y="0" z="0" />
+    <node nid="2" x="0.25" y="0" z="0" />
+    <node nid="3" x="0.5" y="0" z="0" />
+    <node nid="4" x="0.75" y="0" z="0" />
+    <node nid="5" x="1" y="0" z="0" />
+    <node nid="6" x="0" y="0.25" z="0" />
+    <node nid="7" x="0.25" y="0.25" z="0" />
+    <node nid="8" x="0.5" y="0.25" z="0" />
+    <node nid="9" x="0.75" y="0.25" z="0" />
+    <node nid="10" x="1" y="0.25" z="0" />
+    <node nid="11" x="0" y="0.5" z="0" />
+    <node nid="12" x="0.25" y="0.5" z="0" />
+    <node nid="13" x="0.5" y="0.5" z="0" />
+    <node nid="14" x="0.75" y="0.5" z="0" />
+    <node nid="15" x="1" y="0.5" z="0" />
+    <node nid="16" x="0" y="0.75" z="0" />
+    <node nid="17" x="0.25" y="0.75" z="0" />
+    <node nid="18" x="0.5" y="0.75" z="0" />
+    <node nid="19" x="0.75" y="0.75" z="0" />
+    <node nid="20" x="1" y="0.75" z="0" />
+    <node nid="21" x="0" y="1" z="0" />
+    <node nid="22" x="0.25" y="1" z="0" />
+    <node nid="23" x="0.5" y="1" z="0" />
+    <node nid="24" x="0.75" y="1" z="0" />
+    <node nid="25" x="1" y="1" z="0" />
+    <node nid="26" x="0" y="1.25" z="0" />
+    <node nid="27" x="0.25" y="1.25" z="0" />
+    <node nid="28" x="0.5" y="1.25" z="0" />
+    <node nid="29" x="0.75" y="1.25" z="0" />
+    <node nid="30" x="1" y="1.25" z="0" />
+    <node nid="31" x="0" y="1.5" z="0" />
+    <node nid="32" x="0.25" y="1.5" z="0" />
+    <node nid="33" x="0.5" y="1.5" z="0" />
+    <node nid="34" x="0.75" y="1.5" z="0" />
+    <node nid="35" x="1" y="1.5" z="0" />
+    <node nid="36" x="0" y="1.75" z="0" />
+    <node nid="37" x="0.25" y="1.75" z="0" />
+    <node nid="38" x="0.5" y="1.75" z="0" />
+    <node nid="39" x="0.75" y="1.75" z="0" />
+    <node nid="40" x="1" y="1.75" z="0" />
+    <node nid="41" x="0" y="2" z="0" />
+    <node nid="42" x="0.25" y="2" z="0" />
+    <node nid="43" x="0.5" y="2" z="0" />
+    <node nid="44" x="0.75" y="2" z="0" />
+    <node nid="45" x="1" y="2" z="0" />
+    <node nid="46" x="0" y="2.25" z="0" />
+    <node nid="47" x="0.25" y="2.25" z="0" />
+    <node nid="48" x="0.5" y="2.25" z="0" />
+    <node nid="49" x="0.75" y="2.25" z="0" />
+    <node nid="50" x="1" y="2.25" z="0" />
+    <node nid="51" x="0" y="2.5" z="0" />
+    <node nid="52" x="0.25" y="2.5" z="0" />
+    <node nid="53" x="0.5" y="2.5" z="0" />
+    <node nid="54" x="0.75" y="2.5" z="0" />
+    <node nid="55" x="1" y="2.5" z="0" />
+    <node nid="56" x="0" y="2.75" z="0" />
+    <node nid="57" x="0.25" y="2.75" z="0" />
+    <node nid="58" x="0.5" y="2.75" z="0" />
+    <node nid="59" x="0.75" y="2.75" z="0" />
+    <node nid="60" x="1" y="2.75" z="0" />
+    <node nid="61" x="0" y="3" z="0" />
+    <node nid="62" x="0.25" y="3" z="0" />
+    <node nid="63" x="0.5" y="3" z="0" />
+    <node nid="64" x="0.75" y="3" z="0" />
+    <node nid="65" x="1" y="3" z="0" />
+    <node nid="66" x="0" y="3.25" z="0" />
+    <node nid="67" x="0.25" y="3.25" z="0" />
+    <node nid="68" x="0.5" y="3.25" z="0" />
+    <node nid="69" x="0.75" y="3.25" z="0" />
+    <node nid="70" x="1" y="3.25" z="0" />
+    <node nid="71" x="0" y="3.5" z="0" />
+    <node nid="72" x="0.25" y="3.5" z="0" />
+    <node nid="73" x="0.5" y="3.5" z="0" />
+    <node nid="74" x="0.75" y="3.5" z="0" />
+    <node nid="75" x="1" y="3.5" z="0" />
+    <node nid="76" x="0" y="3.75" z="0" />
+    <node nid="77" x="0.25" y="3.75" z="0" />
+    <node nid="78" x="0.5" y="3.75" z="0" />
+    <node nid="79" x="0.75" y="3.75" z="0" />
+    <node nid="80" x="1" y="3.75" z="0" />
+    <node nid="81" x="0" y="4" z="0" />
+    <node nid="82" x="0.25" y="4" z="0" />
+    <node nid="83" x="0.5" y="4" z="0" />
+    <node nid="84" x="0.75" y="4" z="0" />
+    <node nid="85" x="1" y="4" z="0" />
+    <node nid="86" x="0" y="4.25" z="0" />
+    <node nid="87" x="0.25" y="4.25" z="0" />
+    <node nid="88" x="0.5" y="4.25" z="0" />
+    <node nid="89" x="0.75" y="4.25" z="0" />
+    <node nid="90" x="1" y="4.25" z="0" />
+    <node nid="91" x="0" y="4.5" z="0" />
+    <node nid="92" x="0.25" y="4.5" z="0" />
+    <node nid="93" x="0.5" y="4.5" z="0" />
+    <node nid="94" x="0.75" y="4.5" z="0" />
+    <node nid="95" x="1" y="4.5" z="0" />
+    <node nid="96" x="0" y="4.75" z="0" />
+    <node nid="97" x="0.25" y="4.75" z="0" />
+    <node nid="98" x="0.5" y="4.75" z="0" />
+    <node nid="99" x="0.75" y="4.75" z="0" />
+    <node nid="100" x="1" y="4.75" z="0" />
+    <node nid="101" x="0" y="5" z="0" />
+    <node nid="102" x="0.25" y="5" z="0" />
+    <node nid="103" x="0.5" y="5" z="0" />
+    <node nid="104" x="0.75" y="5" z="0" />
+    <node nid="105" x="1" y="5" z="0" />
+    <node nid="106" x="0" y="5.25" z="0" />
+    <node nid="107" x="0.25" y="5.25" z="0" />
+    <node nid="108" x="0.5" y="5.25" z="0" />
+    <node nid="109" x="0.75" y="5.25" z="0" />
+    <node nid="110" x="1" y="5.25" z="0" />
+    <elset name="E_Circ" colorrgb="DADADA" material="Circ">
+      <elem eid="1" shape="line2" nodes="1 2" />
+      <elem eid="2" shape="line2" nodes="2 3" />
+      <elem eid="3" shape="line2" nodes="3 4" />
+      <elem eid="4" shape="line2" nodes="4 5" />
+      <elem eid="5" shape="line2" nodes="7 6" />
+      <elem eid="6" shape="line2" nodes="8 7" />
+      <elem eid="7" shape="line2" nodes="9 8" />
+      <elem eid="8" shape="line2" nodes="10 9" />
+    </elset>
+    <elset name="E_Cp" colorrgb="DADADA" material="Cp">
+      <elem eid="9" shape="line2" nodes="11 12" />
+      <elem eid="10" shape="line2" nodes="12 13" />
+      <elem eid="11" shape="line2" nodes="13 14" />
+      <elem eid="12" shape="line2" nodes="14 15" />
+      <elem eid="13" shape="line2" nodes="17 16" />
+      <elem eid="14" shape="line2" nodes="18 17" />
+      <elem eid="15" shape="line2" nodes="19 18" />
+      <elem eid="16" shape="line2" nodes="20 19" />
+    </elset>
+    <elset name="E_Gen" colorrgb="DADADA" material="Gen">
+      <elem eid="17" shape="line2" nodes="21 22" />
+      <elem eid="18" shape="line2" nodes="22 23" />
+      <elem eid="19" shape="line2" nodes="23 24" />
+      <elem eid="20" shape="line2" nodes="24 25" />
+      <elem eid="21" shape="line2" nodes="27 26" />
+      <elem eid="22" shape="line2" nodes="28 27" />
+      <elem eid="23" shape="line2" nodes="29 28" />
+      <elem eid="24" shape="line2" nodes="30 29" />
+    </elset>
+    <elset name="E_Ip" colorrgb="DADADA" material="Ip">
+      <elem eid="25" shape="line2" nodes="31 32" />
+      <elem eid="26" shape="line2" nodes="32 33" />
+      <elem eid="27" shape="line2" nodes="33 34" />
+      <elem eid="28" shape="line2" nodes="34 35" />
+      <elem eid="29" shape="line2" nodes="37 36" />
+      <elem eid="30" shape="line2" nodes="38 37" />
+      <elem eid="31" shape="line2" nodes="39 38" />
+      <elem eid="32" shape="line2" nodes="40 39" />
+    </elset>
+    <elset name="E_La" colorrgb="DADADA" material="La">
+      <elem eid="33" shape="line2" nodes="41 42" />
+      <elem eid="34" shape="line2" nodes="42 43" />
+      <elem eid="35" shape="line2" nodes="43 44" />
+      <elem eid="36" shape="line2" nodes="44 45" />
+      <elem eid="37" shape="line2" nodes="47 46" />
+      <elem eid="38" shape="line2" nodes="48 47" />
+      <elem eid="39" shape="line2" nodes="49 48" />
+      <elem eid="40" shape="line2" nodes="50 49" />
+    </elset>
+    <elset name="E_Lb" colorrgb="DADADA" material="Lb">
+      <elem eid="41" shape="line2" nodes="51 52" />
+      <elem eid="42" shape="line2" nodes="52 53" />
+      <elem eid="43" shape="line2" nodes="53 54" />
+      <elem eid="44" shape="line2" nodes="54 55" />
+      <elem eid="45" shape="line2" nodes="57 56" />
+      <elem eid="46" shape="line2" nodes="58 57" />
+      <elem eid="47" shape="line2" nodes="59 58" />
+      <elem eid="48" shape="line2" nodes="60 59" />
+    </elset>
+    <elset name="E_Lc" colorrgb="DADADA" material="Lc">
+      <elem eid="49" shape="line2" nodes="61 62" />
+      <elem eid="50" shape="line2" nodes="62 63" />
+      <elem eid="51" shape="line2" nodes="63 64" />
+      <elem eid="52" shape="line2" nodes="64 65" />
+      <elem eid="53" shape="line2" nodes="67 66" />
+      <elem eid="54" shape="line2" nodes="68 67" />
+      <elem eid="55" shape="line2" nodes="69 68" />
+      <elem eid="56" shape="line2" nodes="70 69" />
+    </elset>
+    <elset name="E_Rect" colorrgb="DADADA" material="Rect">
+      <elem eid="57" shape="line2" nodes="71 72" />
+      <elem eid="58" shape="line2" nodes="72 73" />
+      <elem eid="59" shape="line2" nodes="73 74" />
+      <elem eid="60" shape="line2" nodes="74 75" />
+      <elem eid="61" shape="line2" nodes="77 76" />
+      <elem eid="62" shape="line2" nodes="78 77" />
+      <elem eid="63" shape="line2" nodes="79 78" />
+      <elem eid="64" shape="line2" nodes="80 79" />
+    </elset>
+    <elset name="E_Tp" colorrgb="DADADA" material="Tp">
+      <elem eid="65" shape="line2" nodes="81 82" />
+      <elem eid="66" shape="line2" nodes="82 83" />
+      <elem eid="67" shape="line2" nodes="83 84" />
+      <elem eid="68" shape="line2" nodes="84 85" />
+      <elem eid="69" shape="line2" nodes="87 86" />
+      <elem eid="70" shape="line2" nodes="88 87" />
+      <elem eid="71" shape="line2" nodes="89 88" />
+      <elem eid="72" shape="line2" nodes="90 89" />
+    </elset>
+    <elset name="E_Tube" colorrgb="DADADA" material="Tube">
+      <elem eid="73" shape="line2" nodes="91 92" />
+      <elem eid="74" shape="line2" nodes="92 93" />
+      <elem eid="75" shape="line2" nodes="93 94" />
+      <elem eid="76" shape="line2" nodes="94 95" />
+      <elem eid="77" shape="line2" nodes="97 96" />
+      <elem eid="78" shape="line2" nodes="98 97" />
+      <elem eid="79" shape="line2" nodes="99 98" />
+      <elem eid="80" shape="line2" nodes="100 99" />
+    </elset>
+    <elset name="E_Tube4" colorrgb="DADADA" material="Tube4">
+      <elem eid="81" shape="line2" nodes="101 102" />
+      <elem eid="82" shape="line2" nodes="102 103" />
+      <elem eid="83" shape="line2" nodes="103 104" />
+      <elem eid="84" shape="line2" nodes="104 105" />
+      <elem eid="85" shape="line2" nodes="107 106" />
+      <elem eid="86" shape="line2" nodes="108 107" />
+      <elem eid="87" shape="line2" nodes="109 108" />
+      <elem eid="88" shape="line2" nodes="110 109" />
+    </elset>
+    <force selection="tip_n_Circ">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Circ">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Circ">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Circ">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Cp">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Cp">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Cp">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Cp">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Gen">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Gen">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Gen">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Gen">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Ip">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Ip">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Ip">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Ip">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_La">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_La">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_La">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_La">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Lb">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Lb">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Lb">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Lb">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Lc">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Lc">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Lc">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Lc">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Rect">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Rect">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Rect">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Rect">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Tp">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Tp">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Tp">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Tp">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Tube">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Tube">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Tube">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Tube">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_n_Tube4">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_n_Tube4">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_r_Tube4">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_r_Tube4">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <fixed selection="clamp" />
+    <ccxmodeldefinition>** ASTER-SECTIE Gen: A=0.002, IY=2e-06, IZ=8e-06, JX=1e-06, EY=0.001, EZ=-0.002
+** SECTIE-VORM Gen: N=4, A=0.002
+** SECTIE-VORM Gen: P=-0.05 -0.01 0.05 -0.01 0.05
+** SECTIE-VORM Gen: P=0.01 -0.05 0.01</ccxmodeldefinition>
+    <mat name="Circ">
+      <geometric type="CircularBar" roundod="80 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Cp">
+      <geometric type="C" ca="80 mm" cb="150 mm" cc="6 mm" cd="5 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Gen">
+      <geometric type="UniformGeneralSection" iyy="2E-06 m⁴" izz="8E-06 m⁴" torsionconstant="1000000 mm⁴" perimeter="300 mm" area="0.002 m²" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Ip">
+      <geometric type="I" ia="100 mm" ib="50 mm" ic="10 mm" id="8 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="La">
+      <geometric type="L" la="80 mm" lb="100 mm" lc="5 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Lb">
+      <geometric type="L" la="120 mm" lb="80 mm" lc="10 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Lc">
+      <geometric type="L" la="100 mm" lb="100 mm" lc="10 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Rect">
+      <geometric type="RectBar" recta="100 mm" rectb="50 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Tp">
+      <geometric type="T" ta="50 mm" tb="5 mm" tc="9 mm" td="30 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Tube">
+      <geometric type="UniformCircularTube" roundod="80 mm" roundid="60 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <mat name="Tube4">
+      <geometric type="RectTube" recta="100 mm" rectb="60 mm" rectthickness="6 mm" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <nodeselection name="tip_n_Circ" direct="true">
+      <node nid="5" />
+    </nodeselection>
+    <nodeselection name="tip_r_Circ" direct="true">
+      <node nid="10" />
+    </nodeselection>
+    <nodeselection name="tip_n_Cp" direct="true">
+      <node nid="15" />
+    </nodeselection>
+    <nodeselection name="tip_r_Cp" direct="true">
+      <node nid="20" />
+    </nodeselection>
+    <nodeselection name="tip_n_Gen" direct="true">
+      <node nid="25" />
+    </nodeselection>
+    <nodeselection name="tip_r_Gen" direct="true">
+      <node nid="30" />
+    </nodeselection>
+    <nodeselection name="tip_n_Ip" direct="true">
+      <node nid="35" />
+    </nodeselection>
+    <nodeselection name="tip_r_Ip" direct="true">
+      <node nid="40" />
+    </nodeselection>
+    <nodeselection name="tip_n_La" direct="true">
+      <node nid="45" />
+    </nodeselection>
+    <nodeselection name="tip_r_La" direct="true">
+      <node nid="50" />
+    </nodeselection>
+    <nodeselection name="tip_n_Lb" direct="true">
+      <node nid="55" />
+    </nodeselection>
+    <nodeselection name="tip_r_Lb" direct="true">
+      <node nid="60" />
+    </nodeselection>
+    <nodeselection name="tip_n_Lc" direct="true">
+      <node nid="65" />
+    </nodeselection>
+    <nodeselection name="tip_r_Lc" direct="true">
+      <node nid="70" />
+    </nodeselection>
+    <nodeselection name="tip_n_Rect" direct="true">
+      <node nid="75" />
+    </nodeselection>
+    <nodeselection name="tip_r_Rect" direct="true">
+      <node nid="80" />
+    </nodeselection>
+    <nodeselection name="tip_n_Tp" direct="true">
+      <node nid="85" />
+    </nodeselection>
+    <nodeselection name="tip_r_Tp" direct="true">
+      <node nid="90" />
+    </nodeselection>
+    <nodeselection name="tip_n_Tube" direct="true">
+      <node nid="95" />
+    </nodeselection>
+    <nodeselection name="tip_r_Tube" direct="true">
+      <node nid="100" />
+    </nodeselection>
+    <nodeselection name="tip_n_Tube4" direct="true">
+      <node nid="105" />
+    </nodeselection>
+    <nodeselection name="tip_r_Tube4" direct="true">
+      <node nid="110" />
+    </nodeselection>
+    <nodeselection name="clamp" direct="true">
+      <node nid="1" />
+      <node nid="6" />
+      <node nid="11" />
+      <node nid="16" />
+      <node nid="21" />
+      <node nid="26" />
+      <node nid="31" />
+      <node nid="36" />
+      <node nid="41" />
+      <node nid="46" />
+      <node nid="51" />
+      <node nid="56" />
+      <node nid="61" />
+      <node nid="66" />
+      <node nid="71" />
+      <node nid="76" />
+      <node nid="81" />
+      <node nid="86" />
+      <node nid="91" />
+      <node nid="96" />
+      <node nid="101" />
+      <node nid="106" />
+    </nodeselection>
+    <results precision="double">
+      <nodeids name="displmag">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="displx">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="disply">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="displz">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="rotx">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="roty">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="rotz">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="stresspt1">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAfAAAAIAAAACEAAAAiAAAA
+IwAAACQAAAAlAAAAJgAAACcAAAAoAAAAKQAAACoAAAArAAAALAAAAC0AAAAuAAAA
+LwAAADAAAAAxAAAAMgAAADMAAAA0AAAANQAAADYAAAA3AAAAOAAAADkAAAA6AAAA
+OwAAADwAAAA9AAAAPgAAAD8AAABAAAAAQQAAAEIAAABDAAAARAAAAEUAAABGAAAA
+RwAAAEgAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAABPAAAAUAAAAFEAAABSAAAA
+UwAAAFQAAABVAAAAVgAAAFcAAABYAAAAWQAAAFoAAABbAAAAXAAAAF0AAABeAAAA
+XwAAAGAAAABhAAAAYgAAAGMAAABkAAAAZQAAAGYAAABnAAAAaAAAAGkAAABqAAAA
+awAAAGwAAABtAAAAbgAAAA==
+</nodeids>
+      <nodeids name="stresspt2">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAfAAAAIAAAACEAAAAiAAAA
+IwAAACQAAAAlAAAAJgAAACcAAAAoAAAAKQAAACoAAAArAAAALAAAAC0AAAAuAAAA
+LwAAADAAAAAxAAAAMgAAADMAAAA0AAAANQAAADYAAAA3AAAAOAAAADkAAAA6AAAA
+OwAAADwAAAA9AAAAPgAAAD8AAABAAAAAQQAAAEIAAABDAAAARAAAAEUAAABGAAAA
+RwAAAEgAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAABPAAAAUAAAAFEAAABSAAAA
+UwAAAFQAAABVAAAAVgAAAFcAAABYAAAAWQAAAFoAAABbAAAAXAAAAF0AAABeAAAA
+XwAAAGAAAABhAAAAYgAAAGMAAABkAAAAZQAAAGYAAABnAAAAaAAAAGkAAABqAAAA
+awAAAGwAAABtAAAAbgAAAA==
+</nodeids>
+      <nodeids name="stresspt3">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAfAAAAIAAAACEAAAAiAAAA
+IwAAACQAAAAlAAAAJgAAACcAAAAoAAAAKQAAACoAAAArAAAALAAAAC0AAAAuAAAA
+LwAAADAAAAAxAAAAMgAAADMAAAA0AAAANQAAADYAAAA3AAAAOAAAADkAAAA6AAAA
+OwAAADwAAAA9AAAAPgAAAD8AAABAAAAAQQAAAEIAAABDAAAARAAAAEUAAABGAAAA
+RwAAAEgAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAABPAAAAUAAAAFEAAABSAAAA
+UwAAAFQAAABVAAAAVgAAAFcAAABYAAAAWQAAAFoAAABbAAAAXAAAAF0AAABeAAAA
+XwAAAGAAAABhAAAAYgAAAGMAAABkAAAAZQAAAGYAAABnAAAAaAAAAGkAAABqAAAA
+awAAAGwAAABtAAAAbgAAAA==
+</nodeids>
+      <nodeids name="stresspt4">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAfAAAAIAAAACEAAAAiAAAA
+IwAAACQAAAAlAAAAJgAAACcAAAAoAAAAKQAAACoAAAArAAAALAAAAC0AAAAuAAAA
+LwAAADAAAAAxAAAAMgAAADMAAAA0AAAANQAAADYAAAA3AAAAOAAAADkAAAA6AAAA
+OwAAADwAAAA9AAAAPgAAAD8AAABAAAAAQQAAAEIAAABDAAAARAAAAEUAAABGAAAA
+RwAAAEgAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAABPAAAAUAAAAFEAAABSAAAA
+UwAAAFQAAABVAAAAVgAAAFcAAABYAAAAWQAAAFoAAABbAAAAXAAAAF0AAABeAAAA
+XwAAAGAAAABhAAAAYgAAAGMAAABkAAAAZQAAAGYAAABnAAAAaAAAAGkAAABqAAAA
+awAAAGwAAABtAAAAbgAAAA==
+</nodeids>
+      <nodeids name="stressptu">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="reactionforcemag">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAACQAAAApAAAALgAAADMAAAA4AAAA
+PQAAAEIAAABHAAAATAAAAFEAAABWAAAAWwAAAGAAAABlAAAAagAAAA==
+</nodeids>
+      <nodeids name="reactionforcex">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAACQAAAApAAAALgAAADMAAAA4AAAA
+PQAAAEIAAABHAAAATAAAAFEAAABWAAAAWwAAAGAAAABlAAAAagAAAA==
+</nodeids>
+      <nodeids name="reactionforcey">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAACQAAAApAAAALgAAADMAAAA4AAAA
+PQAAAEIAAABHAAAATAAAAFEAAABWAAAAWwAAAGAAAABlAAAAagAAAA==
+</nodeids>
+      <nodeids name="reactionforcez">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAACQAAAApAAAALgAAADMAAAA4AAAA
+PQAAAEIAAABHAAAATAAAAFEAAABWAAAAWwAAAGAAAABlAAAAagAAAA==
+</nodeids>
+      <nodeids name="reactionmommag">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAACQAAAApAAAALgAAADMAAAA4AAAA
+PQAAAEIAAABHAAAATAAAAFEAAABWAAAAWwAAAGAAAABlAAAAagAAAA==
+</nodeids>
+      <nodeids name="reactionmomx">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAACQAAAApAAAALgAAADMAAAA4AAAA
+PQAAAEIAAABHAAAATAAAAFEAAABWAAAAWwAAAGAAAABlAAAAagAAAA==
+</nodeids>
+      <nodeids name="reactionmomy">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAACQAAAApAAAALgAAADMAAAA4AAAA
+PQAAAEIAAABHAAAATAAAAFEAAABWAAAAWwAAAGAAAABlAAAAagAAAA==
+</nodeids>
+      <nodeids name="reactionmomz">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAACQAAAApAAAALgAAADMAAAA4AAAA
+PQAAAEIAAABHAAAATAAAAFEAAABWAAAAWwAAAGAAAABlAAAAagAAAA==
+</nodeids>
+      <nodeids name="bendingmomv">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="bendingmomw">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="tensileforce">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="sheary">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="shearz">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <nodeids name="torsion">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAF8AAABgAAAA
+YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAA
+bQAAAG4AAAA=
+</nodeids>
+      <elementnodeids name="stresspt1">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAA
+IQAAACIAAAAjAAAAJAAAACUAAAAmAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAA
+LQAAAC4AAAAvAAAAMAAAADEAAAAyAAAAMwAAADQAAAA1AAAANgAAADcAAAA4AAAA
+OQAAADoAAAA7AAAAPAAAAD0AAAA+AAAAPwAAAEAAAABBAAAAQgAAAEMAAABEAAAA
+RQAAAEYAAABHAAAASAAAAEkAAABKAAAASwAAAEwAAABNAAAATgAAAE8AAABQAAAA
+UQAAAFIAAABTAAAAVAAAAFUAAABWAAAAVwAAAFgAAAA=
+</elementnodeids>
+      <elementnodeids name="stresspt2">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAA
+IQAAACIAAAAjAAAAJAAAACUAAAAmAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAA
+LQAAAC4AAAAvAAAAMAAAADEAAAAyAAAAMwAAADQAAAA1AAAANgAAADcAAAA4AAAA
+OQAAADoAAAA7AAAAPAAAAD0AAAA+AAAAPwAAAEAAAABBAAAAQgAAAEMAAABEAAAA
+RQAAAEYAAABHAAAASAAAAEkAAABKAAAASwAAAEwAAABNAAAATgAAAE8AAABQAAAA
+UQAAAFIAAABTAAAAVAAAAFUAAABWAAAAVwAAAFgAAAA=
+</elementnodeids>
+      <elementnodeids name="stresspt3">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAA
+IQAAACIAAAAjAAAAJAAAACUAAAAmAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAA
+LQAAAC4AAAAvAAAAMAAAADEAAAAyAAAAMwAAADQAAAA1AAAANgAAADcAAAA4AAAA
+OQAAADoAAAA7AAAAPAAAAD0AAAA+AAAAPwAAAEAAAABBAAAAQgAAAEMAAABEAAAA
+RQAAAEYAAABHAAAASAAAAEkAAABKAAAASwAAAEwAAABNAAAATgAAAE8AAABQAAAA
+UQAAAFIAAABTAAAAVAAAAFUAAABWAAAAVwAAAFgAAAA=
+</elementnodeids>
+      <elementnodeids name="stresspt4">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAA
+IQAAACIAAAAjAAAAJAAAACUAAAAmAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAA
+LQAAAC4AAAAvAAAAMAAAADEAAAAyAAAAMwAAADQAAAA1AAAANgAAADcAAAA4AAAA
+OQAAADoAAAA7AAAAPAAAAD0AAAA+AAAAPwAAAEAAAABBAAAAQgAAAEMAAABEAAAA
+RQAAAEYAAABHAAAASAAAAEkAAABKAAAASwAAAEwAAABNAAAATgAAAE8AAABQAAAA
+UQAAAFIAAABTAAAAVAAAAFUAAABWAAAAVwAAAFgAAAA=
+</elementnodeids>
+      <elementnodeids name="stressptu">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAA==
+</elementnodeids>
+      <elementnodeids name="bendingmomv">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAA==
+</elementnodeids>
+      <elementnodeids name="bendingmomw">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAA==
+</elementnodeids>
+      <elementnodeids name="tensileforce">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAA==
+</elementnodeids>
+      <elementnodeids name="sheary">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAA==
+</elementnodeids>
+      <elementnodeids name="shearz">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAA==
+</elementnodeids>
+      <elementnodeids name="torsion">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAA
+JQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAA
+MQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAA
+PQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAA
+SQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAA
+VQAAAFYAAABXAAAAWAAAAA==
+</elementnodeids>
+      <nodevariable name="displmag">
+        <maxandmin>
+          <component name="E_Circ" max="0.000215371913959212" min="0" />
+          <component name="E_Cp" max="0.000187937063165555" min="0" />
+          <component name="E_Gen" max="0.000106927038663659" min="0" />
+          <component name="E_Ip" max="0.000914333109388183" min="0" />
+          <component name="E_La" max="0.000803775515798312" min="0" />
+          <component name="E_Lb" max="0.000679126926836013" min="0" />
+          <component name="E_Lc" max="0.000292762634246834" min="0" />
+          <component name="E_Rect" max="0.00020529942736229" min="0" />
+          <component name="E_Tp" max="0.00710926487945975" min="0" />
+          <component name="E_Tube" max="0.000315058386639052" min="0" />
+          <component name="E_Tube4" max="0.000257559254688923" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAADa9Oe/vObyPsm9W6FCTRE/gNImlEerIT/RmGOnrjosPwAAAAAAAAAA
+2vTnv7zm8j7JvVuhQk0RP4DSJpRHqyE/0Zhjp646LD8AAAAAAAAAALmcmYuK3vE+
+dVsffjEEED/Ocg4QMd8fP+YvexQfoig/AAAAAAAAAAC0nJmLit7xPnBbH34xBBA/
+xHIOEDHfHz/eL3sUH6IoPwAAAAAAAAAA/AiAFJoi5D7dyFjKYhcCPyQTNAWsDhI/
+DV9WicAHHD8AAAAAAAAAABMJgBSaIuQ+7shYymIXAj8yEzQFrA4SPyBfVonABxw/
+AAAAAAAAAAADCZGPtu0VPwqSU0yfnDM/9Mbu8SZ1Qz8Habdm+/VNPwAAAAAAAAAA
+AwmRj7btFT8KklNMn5wzP/TG7vEmdUM/CGm3Zvv1TT8AAAAAAAAAAK0g2yme/BI/
+A9tskmcLMT/ibwApOP5AP3P23saOVko/AAAAAAAAAACrINspnvwSPwLbbJJnCzE/
+4W8AKTj+QD9x9t7GjlZKPwAAAAAAAAAAMCaT32QYDT+Tc913fdAqP1CnPaO+mTs/
+g19l+O1ARj8AAAAAAAAAADAmk99kGA0/k3Pdd33QKj9Qpz2jvpk7P4NfZfjtQEY/
+AAAAAAAAAAAyOv3oKYr7Pmy7xVMIwBg/HOuazfG1KD/HYIjwvS8zPwAAAAAAAAAA
+Hjr96CmK+z5bu8VTCMAYPwzrms3xtSg/u2CI8L0vMz8AAAAAAAAAAFSyHqtTVPM+
+onJD6xpeET/VmS81wFUhP+MFH6e06Co/AAAAAAAAAABKsh6rU1TzPppyQ+saXhE/
+zpkvNcBVIT/ZBR+ntOgqPwAAAAAAAAAAfFYAGUc4Qz+arOjwG6phP5C/ZqTzH3I/
+EH1+wpoefT8AAAAAAAAAAHxWABlHOEM/mqzo8BuqYT+Qv2ak8x9yPxB9fsKaHn0/
+AAAAAAAAAAAaUlDmY6b7PtoBnZ9gTxk/AgOvx+nYKT9RuYl3zaU0PwAAAAAAAAAA
+GlJQ5mOm+z7aAZ2fYE8ZPwIDr8fp2Ck/UbmJd82lND8AAAAAAAAAAHLOXwL3nvc+
+OtwdAOhdFT971BECOoIlP6ktX5Mg4TA/AAAAAAAAAACMzl8C9573Pk/cHQDoXRU/
+jNQRAjqCJT+2LV+TIOEwPw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="displx">
+        <maxandmin>
+          <component name="E_Circ" max="9.47350851737472E-08" min="0" />
+          <component name="E_Cp" max="2.88600288600289E-07" min="0" />
+          <component name="E_Gen" max="2.38095238095238E-07" min="0" />
+          <component name="E_Ip" max="2.90360046457607E-07" min="0" />
+          <component name="E_La" max="5.4421768707483E-07" min="0" />
+          <component name="E_Lb" max="2.5062656641604E-07" min="0" />
+          <component name="E_Lc" max="2.5062656641604E-07" min="0" />
+          <component name="E_Rect" max="9.52380952380952E-08" min="0" />
+          <component name="E_Tp" max="7.93650793650794E-07" min="0" />
+          <component name="E_Tube" max="2.16537337539994E-07" min="0" />
+          <component name="E_Tube4" max="2.68125268125268E-07" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAAAPk0k+JW5ZPg+TST4lbmk+Sy637psScz4Pk0k+JW55PgAAAAAAAAAA
+D5NJPiVuWT4Pk0k+JW5pPksut+6bEnM+D5NJPiVueT4AAAAAAAAAAPbADH4dXnM+
+9sAMfh1egz5xIRM9LA2NPvbADH4dXpM+AAAAAAAAAAD2wAx+HV5zPvbADH4dXoM+
+cSETPSwNjT72wAx+HV6TPgAAAAAAAAAAYj7I3OP0bz5iPsjc4/R/PsouluWq94c+
+Yj7I3OP0jz4AAAAAAAAAAGI+yNzj9G8+Yj7I3OP0fz7KLpblqveHPmI+yNzj9I8+
+AAAAAAAAAACa50H9WHxzPprnQf1YfIM+Z9vie4U6jT6a50H9WHyTPgAAAAAAAAAA
+mudB/Vh8cz6a50H9WHyDPmfb4nuFOo0+mudB/Vh8kz4AAAAAAAAAABT/llnLQoI+
+FP+WWctCkj6efmIGMWSbPhT/llnLQqI+AAAAAAAAAAAU/5ZZy0KCPhT/llnLQpI+
+nn5iBjFkmz4U/5ZZy0KiPgAAAAAAAAAAB7XHS7vRcD4ItcdLu9GAPoyPq/GYOok+
+CLXHS7vRkD4AAAAAAAAAAAe1x0u70XA+CLXHS7vRgD6Mj6vxmDqJPgi1x0u70ZA+
+AAAAAAAAAAALtcdLu9FwPgu1x0u70YA+kI+r8Zg6iT4LtcdLu9GQPgAAAAAAAAAA
+C7XHS7vRcD4LtcdLu9GAPpCPq/GYOok+C7XHS7vRkD4AAAAAAAAAAIDLOUq2kFk+
+gMs5SraQaT6gWKu3iCxzPoDLOUq2kHk+AAAAAAAAAACAyzlKtpBZPoDLOUq2kGk+
+oFirt4gscz6AyzlKtpB5PgAAAAAAAAAAUYlRjWihij5RiVGNaKGaPv0m/WkO+aM+
+UYlRjWihqj4AAAAAAAAAAFGJUY1ooYo+UYlRjWihmj79Jv1pDvmjPlGJUY1ooao+
+AAAAAAAAAADIFVSQKhBtPsgVVJAqEH0+VhA/7B/MhT7IFVSQKhCNPgAAAAAAAAAA
+yBVUkCoQbT7IFVSQKhB9PlYQP+wfzIU+yBVUkCoQjT4AAAAAAAAAAEaGZ2Zb/nE+
+RoZnZlv+gT5oSZsZif2KPkaGZ2Zb/pE+AAAAAAAAAABLhmdmW/5xPkuGZ2Zb/oE+
+cEmbGYn9ij5LhmdmW/6RPg==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="disply">
+        <maxandmin>
+          <component name="E_Circ" max="0.000193417465563068" min="0" />
+          <component name="E_Cp" max="6.40193740917229E-05" min="0" />
+          <component name="E_Gen" max="4.8611111111111E-05" min="0" />
+          <component name="E_Ip" max="0.000163765674714581" min="0" />
+          <component name="E_La" max="0.000335288366029885" min="0" />
+          <component name="E_Lb" max="0.000676532137521122" min="0" />
+          <component name="E_Lc" max="0.000135698361926918" min="0" />
+          <component name="E_Rect" max="9.33333333333327E-05" min="0" />
+          <component name="E_Tp" max="0.00681476613791388" min="0" />
+          <component name="E_Tube" max="0.000282942121052258" min="0" />
+          <component name="E_Tube4" max="0.000171006920014885" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAABu5jc/YI7wPt4Qj3SBhg4/fB8EuEpuHz/gmM1gA1opPwAAAAAAAAAA
+buY3P2CO8D7eEI90gYYOP3wfBLhKbh8/4JjNYANaKT8AAAAAAAAAAL6fMY5z69U+
+Ur8Vhw419D6+Gvmvfs4EP27+3XhEyBA/AAAAAAAAAAB/nzGOc+vVPha/FYcONfQ+
+fhr5r37OBD86/t14RMgQPwAAAAAAAAAAtfVSWOGk0D4N9dh6/6/uPoR+rc0Dmf8+
+TQg/D3l8CT8AAAAAAAAAAL/1UljhpNA+H/XYev+v7j6Wfq3NA5n/PlgIPw95fAk/
+AAAAAAAAAADYk1kJOgnsPk6UnoCB2Ak/XAfgFsKcGj82lShvEHclPwAAAAAAAAAA
+0JNZCToJ7D5GlJ6AgdgJP1QH4BbCnBo/MJUobxB3JT8AAAAAAAAAAK73OPw0s/w+
+VISE2DR1Gj8ZE2pLGz4rP6CdG5E0+TU/AAAAAAAAAACW9zj8NLP8PkKEhNg0dRo/
+CBNqSxs+Kz+UnRuRNPk1PwAAAAAAAAAApRKlKXX0DD80LWQCXLEqP7qwhzYLfDs/
+TmLisykrRj8AAAAAAAAAAKUSpSl19Aw/NC1kAlyxKj+6sIc2C3w7P05i4rMpK0Y/
+AAAAAAAAAADgbBKkJDvnPmL8QMeFagU/Xn29xyMNFj9gG54NSMkhPwAAAAAAAAAA
+4GwSpCQ75z5i/EDHhWoFP159vccjDRY/YBueDUjJIT8AAAAAAAAAADI+yNzj9N8+
+UpmID8J1/T4DE5JKdFUOP5hPCXV+dxg/AAAAAAAAAAAyPsjc4/TfPlKZiA/Cdf0+
+AxOSSnRVDj+YTwl1fncYPwAAAAAAAAAA7wNbIaU6Qj+h5786EM5gP7xkqb6qTXE/
+B14T28zpez8AAAAAAAAAAO8DWyGlOkI/oee/OhDOYD+8ZKm+qk1xPwdeE9vM6Xs/
+AAAAAAAAAAAhEkZ4Izj4PrKY4LLAUxY/LYMqq0n9Jj/ZpRUo+4oyPwAAAAAAAAAA
+IRJGeCM4+D6ymOCywFMWPy2DKqtJ/SY/2aUVKPuKMj8AAAAAAAAAADvjCzyVRu0+
+fPVakxH9Cj+0SP+n/8kbP/wZ+UEKaiY/AAAAAAAAAAA74ws8lUbtPnz1WpMR/Qo/
+tEj/p//JGz/8GflBCmomPw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="displz">
+        <maxandmin>
+          <component name="E_Circ" max="0" min="-9.47350851737474E-05" />
+          <component name="E_Cp" max="0" min="-0.000176696848195069" />
+          <component name="E_Gen" max="0" min="-9.52380952380952E-05" />
+          <component name="E_Ip" max="0" min="-0.000899547527593615" />
+          <component name="E_La" max="0" min="-0.00073050427461375" />
+          <component name="E_Lb" max="0" min="-5.93092475180222E-05" />
+          <component name="E_Lc" max="0" min="-0.000259414440168278" />
+          <component name="E_Rect" max="0" min="-0.000182857142857145" />
+          <component name="E_Tp" max="0" min="-0.0020249960449296" />
+          <component name="E_Tube" max="0" min="-0.000138583896025596" />
+          <component name="E_Tube4" max="0" min="-0.000192596290441371" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAADSk6MF1jzivtQGO74mTAC/EMmsZeYmEL+q2dNekNUYvwAAAAAAAAAA
+0pOjBdY84r7UBju+JkwAvxDJrGXmJhC/qtnTXpDVGL8AAAAAAAAAAAZgTO0UAvG+
+yjPaW8NlDr94HL94SCAev0MbXV72KCe/AAAAAAAAAAAGYEztFALxvsoz2lvDZQ6/
+eBy/eEggHr9DG11e9ignvwAAAAAAAAAAtGJLO6BV4r7rqfHSTWIAv0Tv6tfaPBC/
+qHB8BFL3GL8AAAAAAAAAAMtiSzugVeK+/Knx0k1iAL9S7+rX2jwQv7twfARS9xi/
+AAAAAAAAAADWrPLljqUVv25p090HWDO/x6pq8NArQ787xSmb83lNvwAAAAAAAAAA
+1qzy5Y6lFb9uadPdB1gzv8eqavDQK0O/PMUpm/N5Tb8AAAAAAAAAAGJSF9UvlBG/
+8xXNGuNqL78I+NhcEyM/v1T4Cfzp70e/AAAAAAAAAABiUhfVL5QRv/MVzRrjai+/
+CPjYXBMjP79U+An86e9HvwAAAAAAAAAAMDDGQuLV1r5ORjk2+2f0vvjn4a5WOQS/
+DuU+OloYD78AAAAAAAAAADAwxkLi1da+TkY5Nvtn9L745+GuVjkEvw7lPjpaGA+/
+AAAAAAAAAAAQI8bJXvj4vhQET7RUUBa/vOGy8lMdJr8gxmCJQAAxvwAAAAAAAAAA
++yLGyV74+L4BBE+0VFAWv6rhsvJTHSa/E8ZgiUAAMb8AAAAAAAAAAIxKmoDhmfG+
+wh1VTRB1D784W6RMKS0fvxIvluWq9ye/AAAAAAAAAACBSpqA4ZnxvrAdVU0QdQ+/
+KFukTCktH78HL5blqvcnvwAAAAAAAAAAVzkDamBdKL+vOBNv08VFvwifp0IPlFW/
+XzczebmWYL8AAAAAAAAAAFc5A2pgXSi/rzgTb9PFRb8In6dCD5RVv183M3m5lmC/
+AAAAAAAAAAD9L30S163qvtj5ZOpC1we/K1yWmsSgF7+TjTSaGioivwAAAAAAAAAA
+/S99Etet6r7Y+WTqQtcHvytclprEoBe/k400mhoqIr8AAAAAAAAAAERcD1HeifK+
+jRZPIv2QEL/vqgByH2sgvzUWnYl1Pim/AAAAAAAAAABmXA9R3onyvqgWTyL9kBC/
+BqsAch9rIL9WFp2JdT4pvw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="rotx">
+        <maxandmin>
+          <component name="E_Circ" max="3.07889026814678E-05" min="0" />
+          <component name="E_Cp" max="0.00736798106802446" min="0" />
+          <component name="E_Gen" max="0.000123809523809524" min="0" />
+          <component name="E_Ip" max="0.00262682518145468" min="0" />
+          <component name="E_La" max="0.0172503546482053" min="0" />
+          <component name="E_Lb" max="0.00201309317147134" min="0" />
+          <component name="E_Lc" max="0.00201309292217076" min="0" />
+          <component name="E_Rect" max="4.32748728117939E-05" min="0" />
+          <component name="E_Tp" max="0.00975435665529478" min="0" />
+          <component name="E_Tube" max="4.50397662083186E-05" min="0" />
+          <component name="E_Tube4" max="5.92640457242245E-05" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAADZswmkaiTgPtmzCaRqJPA+xo0O9p82+D7ZswmkaiQAPwAAAAAAAAAA
+2bMJpGok4D7ZswmkaiTwPsaNDvafNvg+2bMJpGokAD8AAAAAAAAAANhrmFvjLV4/
+2GuYW+Mtbj/iULKEaqJ2P9hrmFvjLX4/AAAAAAAAAADYa5hb4y1eP9hrmFvjLW4/
+4lCyhGqidj/Ya5hb4y1+PwAAAAAAAAAArq8dtls6AD+urx22WzoQP4WHLJGJVxg/
+rq8dtls6ID8AAAAAAAAAAK6vHbZbOgA/rq8dtls6ED+FhyyRiVcYP66vHbZbOiA/
+AAAAAAAAAAB6neQH2oRFP3ud5AfahFU/HXbrhaMjYD98neQH2oRlPwAAAAAAAAAA
+ep3kB9qERT97neQH2oRVPx1264WjI2A/fJ3kB9qEZT8AAAAAAAAAAJLYO7QTqnE/
+ktg7tBOqgT/bxFmOHX+KP5LYO7QTqpE/AAAAAAAAAACS2Du0E6pxP5LYO7QTqoE/
+28RZjh1/ij+S2Du0E6qRPwAAAAAAAAAA0Ii6KsN9QD/QiLoqw31QPzjNF8CkvFg/
+0Ii6KsN9YD8AAAAAAAAAANCIuirDfUA/0Ii6KsN9UD84zRfApLxYP9CIuirDfWA/
+AAAAAAAAAADfDHcIw31AP98MdwjDfVA/TpOyjKS8WD/fDHcIw31gPwAAAAAAAAAA
+3wx3CMN9QD/fDHcIw31QP06TsoykvFg/3wx3CMN9YD8AAAAAAAAAAK7Zxk5BsOY+
+r9nGTkGw9j5EIxX7MAQBP7HZxk5BsAY/AAAAAAAAAACu2cZOQbDmPq/Zxk5BsPY+
+RCMV+zAEAT+x2cZOQbAGPwAAAAAAAAAAQcSflhf6Yz9BxJ+WF/pzP2Km72Ej930/
+QcSflhf6gz8AAAAAAAAAAEHEn5YX+mM/QcSflhf6cz9ipu9hI/d9P0HEn5YX+oM/
+AAAAAAAAAACqUUSVIp3nPqtRRJUinfc+QT3z79m1AT+tUUSVIp0HPwAAAAAAAAAA
+qVFElSKd5z6qUUSVIp33PkA98+/ZtQE/q1FElSKdBz8AAAAAAAAAAPUKEBtJEu8+
+9QoQG0kS/z44CEzUtk0HP/UKEBtJEg8/AAAAAAAAAAD1ChAbSRLvPvUKEBtJEv8+
+OAhM1LZNBz/1ChAbSRIPPw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="roty">
+        <maxandmin>
+          <component name="E_Circ" max="0.000131000859966823" min="0" />
+          <component name="E_Cp" max="0.000244338610394743" min="0" />
+          <component name="E_Gen" max="0.000131696428571429" min="0" />
+          <component name="E_Ip" max="0.00124390556550055" min="0" />
+          <component name="E_La" max="0.00101015044223933" min="0" />
+          <component name="E_Lb" max="8.20135688335152E-05" min="0" />
+          <component name="E_Lc" max="0.000358721530545197" min="0" />
+          <component name="E_Rect" max="0.000252857142857146" min="0" />
+          <component name="E_Tp" max="0.00280018984337922" min="0" />
+          <component name="E_Tube" max="0.000191635543722894" min="0" />
+          <component name="E_Tube4" max="0.000266324557875958" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAIBTTe9hfkQRP6vzpO3uthw/gHmQ0agrIT+npTFB0xIhPwAAAAAAAACA
+U03vYX5EET+r86Tt7rYcP4B5kNGoKyE/p6UxQdMSIT8AAAAAAAAAgPa8nE17GiA/
+h6cb3VzHKj/aXz5XUgMwP3sFwMFS2C8/AAAAAAAAAID2vJxNexogP4enG91cxyo/
+2l8+V1IDMD97BcDBUtgvPwAAAAAAAACAToYeB/dbET9D4i/V9t0cP+YJGrX/QiE/
+dI0VYwgqIT8AAAAAAAAAgGSGHgf3WxE/WuIv1fbdHD/yCRq1/0IhP4GNFWMIKiE/
+AAAAAAAAAIAhC+Nhy35EPwYmtNWAClE/XuFHblFhVD+Xt6x610NUPwAAAAAAAACA
+IQvjYct+RD8GJrTVgApRP1/hR25RYVQ/mLesetdDVD8AAAAAAAAAgK7uPrHQpEA/
+Iodri2atSz+x5ELH4IxQP7naRt3wdFA/AAAAAAAAAICu7j6x0KRAPyKHa4tmrUs/
+seRCx+CMUD+52kbd8HRQPwAAAAAAAACAP7t/vO6eBT9sXKwpFPoRP2J8RWLWfxU/
+fj0LCL5gFT8AAAAAAAAAgD+7f7zungU/bFysKRT6ET9ifEVi1n8VP349Cwi+YBU/
+AAAAAAAAAICSkwq/WaQnPxjl155KqDM/89H3PVmCNz9kEOW8WGA3PwAAAAAAAACA
+fpMKv1mkJz8H5deeSqgzP+LR9z1Zgjc/VBDlvFhgNz8AAAAAAAAAgLdsotM0qiA/
+baZ1mV22Kz+O1rwoPZIwP2JA131FejA/AAAAAAAAAICubKLTNKogP16mdZldtis/
+h9a8KD2SMD9bQNd9RXowPwAAAAAAAACAAjmL7JkRVz8HOCN0Ri5jP5HSmHls8GY/
+ImymBj/PZj8AAAAAAAAAgAI5i+yZEVc/BzgjdEYuYz+R0ph5bPBmPyJspgY/z2Y/
+AAAAAAAAAIDqFHH+jEIZP7PDTMKuACU/wKs8yTgeKT+jQgiU5PkoPwAAAAAAAACA
+6hRx/oxCGT+zw0zCrgAlP8CrPMk4Hik/o0IIlOT5KD8AAAAAAAAAgGo5r7ltjSE/
+q6Ed5zcwLT9enCVEL3QxP0v/m87wWjE/AAAAAAAAAICJOa+5bY0hP9OhHec3MC0/
+cpwlRC90MT9f/5vO8FoxPw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="rotz">
+        <maxandmin>
+          <component name="E_Circ" max="0.000307889026814679" min="0" />
+          <component name="E_Cp" max="0.000101908391411314" min="0" />
+          <component name="E_Gen" max="7.73809523809522E-05" min="0" />
+          <component name="E_Ip" max="0.000260688216892598" min="0" />
+          <component name="E_La" max="0.000533724337761858" min="0" />
+          <component name="E_Lb" max="0.00107692870870709" min="0" />
+          <component name="E_Lc" max="0.000216009637353053" min="0" />
+          <component name="E_Rect" max="0.000148571428571428" min="0" />
+          <component name="E_Tp" max="0.0108479950766792" min="0" />
+          <component name="E_Tube" max="0.000450397662083185" min="0" />
+          <component name="E_Tube4" max="0.000272215097166552" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAADcbn/5oNEfP+FUrmpC8Cs/Kezl5CoLMj/eIAxNhS00PwAAAAAAAAAA
+3G5/+aDRHz/hVK5qQvArPyns5eQqCzI/3iAMTYUtND8AAAAAAAAAAImvowpBEAU/
+5N75f6l+Ej9UFfjvmuMXPwV7TNX0tho/AAAAAAAAAABMr6MKQRAFP6ve+X+pfhI/
+BRX475rjFz+0ekzV9LYaPwAAAAAAAAAAOnC/FeH8/z6w/gtFPBYMP9dpQpexIxI/
+hxulo/JIFD8AAAAAAAAAAExwvxXh/P8+wP4LRTwWDD/eaUKXsSMSP40bpaPySBQ/
+AAAAAAAAAAAUFPzE3fAaP8SU4/fIpyc/K6AwQA6OLj8dlrJdnxUxPwAAAAAAAAAA
+DBT8xN3wGj+8lOP3yKcnPyKgMEAOji4/GZayXZ8VMT8AAAAAAAAAAAO+Xuo0lCs/
++hDQtDQ3OD/wFeK+Tkc/P+62skk0fUE/AAAAAAAAAADuvV7qNJQrP+4Q0LQ0Nzg/
+3RXivk5HPz/jtrJJNH1BPwAAAAAAAAAA7J8ElujSOz/DRyPbQm5IP2LnYrBrjk8/
+ZpdgZfekUT8AAAAAAAAAAOyfBJbo0js/w0cj20JuSD9i52Kwa45PP2aXYGX3pFE/
+AAAAAAAAAACjtKk11VIWP+SLb+rmmSM/sBTQ7nRRKT+2dPanFFAsPwAAAAAAAAAA
+orSpNdVSFj/ki2/q5pkjP7AU0O50USk/tnT2pxRQLD8AAAAAAAAAAMFrKPZStQ4/
+cvRIQqD2Gj/eHc8q8mkhP+AFito6eSM/AAAAAAAAAADBayj2UrUOP3L0SEKg9ho/
+3h3PKvJpIT/hBYraOnkjPwAAAAAAAAAAyHUNrlqEcT+mlkmo9sJ+P0sxWvfp3YM/
+zOymQHk3hj8AAAAAAAAAAMl1Da5ahHE/ppZJqPbCfj9LMVr36d2DP8zspkB5N4Y/
+AAAAAAAAAABqVZMV8kUnP0Mfe+1dbzQ/sV0UqC5lOj8FZpU6a4Q9PwAAAAAAAAAA
+alWTFfJFJz9DH3vtXW80P7FdFKguZTo/BWaVOmuEPT8AAAAAAAAAAFxss2fTIRw/
+vQeq6o2zKD+q9HCk7OcvP3o+l/AC1zE/AAAAAAAAAABcbLNn0yEcP70HquqNsyg/
+qvRwpOznLz96PpfwAtcxPw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="stresspt1">
+        <maxandmin>
+          <component name="E_Circ" max="2606162.19312979" min="-377992.989843259" />
+          <component name="E_Cp" max="5832988.28317322" min="-760971.085155176" />
+          <component name="E_Ip" max="20252290.2515962" min="-2932004.25264768" />
+          <component name="E_La" max="19178768.3285707" min="-2751527.46628172" />
+          <component name="E_Lb" max="14838437.565345" min="-12433125.4595774" />
+          <component name="E_Lc" max="7234785.39729519" min="-1052315.16233689" />
+          <component name="E_Rect" max="5900000.00000002" min="-820000.000000007" />
+          <component name="E_Tp" max="123023820.439727" min="-115780188.103071" />
+          <component name="E_Tube" max="3828813.20238217" min="-536579.522424111" />
+          <component name="E_Tube4" max="9056634.27353351" min="-1209970.12864141" />
+        </maxandmin>
+        <valuesdouble>EXq4GCniQ0GqH7tlG2I8QShLBZrk/zBBLNo9Obd2FkFzeJn1IxIXwRN6uBgp4kNB
+ph+7ZRtiPEEwSwWa5P8wQRbaPTm3dhZBq3iZ9SMSF8GUgh8SR0BWQb7JD1ZIq1BB
+qiEANJMsRkGYX8F3KwU2QRD3YB/es9PAcgD26Jm+AkF07sF5RVTywLH2W7FviRLB
+SbkjAuc+IMGQdZkrFjknwbaJBiRoUHNBlRqoTeosbEG9IUNTBLlhQQKjeGN5FE1B
+ln82DD12OcGzBBsLiCdkQcauncx5b1tBOqgKBscfTUF4mM+W0wQbQVPCViCSXkbB
+TtNBBVFKckF48sTG+npqQWQ+BoNTYWBBUSge/bAeSUHBTLkj2I8+wc7qWloromlB
+Ej4JSL/pYUHkIm9rpmJUQYYkLxs5xzNBmB6vuxP+RMF4TheyVE1sQUR6Cu3vA2ZB
+Ikz7TxZ1X0Fmo+HFTOJSQX7tH+8MPjlBnNu0rty2Z8HcsbZebrFiwUUQcR0AWFvB
+erx0fSNNUcHMpeF1Gwk9wc5IbVk4mVtB+Ad5kACyU0E7jgmPkZVHQXgyhPSHHC9B
+EOmOKZsOMMG6SG1ZOJlbQeQHeZAAslNBMI4Jj5GVR0GiMoT0hxwvQQPpjimbDjDB
+EgAAALiBVkELAAAA4MhQQRAAAAAQIEZB9v///79cNUFQ/////2n4wHACAACAMRdB
+wAoAAACI80Ac/f///9oKwaf+////vB/BOwAAAEAGKcG8R8Ixx1SdQTiG/qSo55ZB
+rMQ6GIp6kEFxBu4W1xqEQf4MmvVnAm1Be4tpcKmam8H4E5MRNaeVwdg4eWWBZ4/B
+2EnMp5iAg8Hdan2ov2Zuwauo55kmNk1BuAu2gpziREFy3QjXJB45QYxHS1Eh7iBB
+3St7CwdgIMGvqOeZJjZNQbwLtoKc4kRBZt0I1yQeOUGQR0tRIe4gQU0sewsHYCDB
+WsnASC9GYUFsxumO8QNaQRj6UYyEe1FBh1t0Ey/mQUGwUpjIoar6QK6jPZGzITDB
+/OMpNeO2MMFwJBbZEkwxwcJkAn1C4THBzqTuIHJ2MsE=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="stresspt2">
+        <maxandmin>
+          <component name="E_Circ" max="4595598.98177848" min="-4555810.24600551" />
+          <component name="E_Cp" max="1464078.05417333" min="-9494092.67270028" />
+          <component name="E_Ip" max="3053955.47215987" min="-20130339.032084" />
+          <component name="E_La" max="4285333.8935048" min="-28729723.55275" />
+          <component name="E_Lb" max="2474554.69410866" min="-8959989.68212774" />
+          <component name="E_Lc" max="1613949.43655747" min="-10959513.5827483" />
+          <component name="E_Rect" max="860000.000000008" min="-5860000.00000001" />
+          <component name="E_Tp" max="116113521.436405" min="-122690487.106393" />
+          <component name="E_Tube" max="6739075.01891968" min="-6648129.33715288" />
+          <component name="E_Tube4" max="1322582.741254" min="-8944021.66092093" />
+        </maxandmin>
+        <valuesdouble>bXXVvuOHUUF8sjFL+HhLQTx6uBgp4kNBaoN+zLOWOEGuJRjPKtIiQeWNvo8IYVHB
+buMD7UErS8Eqq4q6cpRDwTblIhBH+zfB8OhgVlGbIcHUZWvQgRpNwYbClJr/CEPB
+jj58yfruMcE4QYgRTaABQbFN3g0OVzZBvcKGlckbYsG8MkE5GXlawevfdEefulDB
+RDSiVpXwO8FkLR7hpBImQTnGFCT862PB1zGR/mH4WsForvFplzFMwcjJB7ZWkxPB
+GbxvvMFMR0F5aoMwojJzwRvcoWZe8WvBTOM8bHh9YcFoqV/HSSZMwc5zaEScUjtB
+XiHqaPG/VsFRmsdgd/NJwVLJ674vnCnBv22jAr9KOkG9Li955VhQQV8Q2LgXZnvB
+2g8wj0E8dMGoHhDL1iRqwTQ7gO9UolfBUhp/3A4UNEGN/dO1/hZhwZ6jeL3uz1nB
+H0xJD+BxUcEE6TPCoidCwe+kU11WuAbBdo3YWB3hQkEKKxhzNaZAQWKRrxqb1jxB
+9MsuT8tgOEEJCK6D++ozQSZiFvi70xdBEYPpNKU/JUHV1MdtbJUuQeISU9OZ9TNB
+5DrCb32gOEGy36UyU+dkwT9RqkljOl/BEeMILiCmVMGu6c4kuiNEwSQlPyfBTABB
+yAIAAIDAFMHAFQAAAIjjwET9////vA9Bb/////8WIUFEAAAAwD4qQQgAAACoWlbB
+CAAAANChUMEGAAAA8NFFwfz///9/wDTBaP////8WAUHU4L7FAa+bQVBp6GaNu5VB
+fuMjEDKQj0GZ9HZSSamDQWQVKFOCCW9BZPJs3G5AncHiMKlPUNOWwVhv5cIxZpDB
+rltDbCbyg8FzYu9KpV9sweT6NcEgtVlBlucUBxooVEF0qOeZJjZNQSqCpSUZHEJB
+R22NxS4ILEGu6ZNVUFxZwV7WcptJz1PBCoajwoWETMHHX2FOeGpBwaXjfGirQSnB
+VNIRLpjZMUFgEv7Rx24yQX5S6nX3AzNBEJPWGSeZM0GG0sK9Vi40QaRDJrUyD2HB
+8bq0Z/iVWcGM7hxliw1RwYhECsU8CkHBgF1SlQB1qkA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="stresspt3">
+        <maxandmin>
+          <component name="E_Circ" max="417781.725616233" min="-2566373.45735681" />
+          <component name="E_Cp" max="1464078.05417331" min="-9494092.67270031" />
+          <component name="E_Ip" max="3053955.47215987" min="-20130339.032084" />
+          <component name="E_La" max="3801420.74288758" min="-25880699.9565815" />
+          <component name="E_Lb" max="19408696.8319915" min="-15133787.0646461" />
+          <component name="E_Lc" max="1732533.7672075" min="-11643953.8232505" />
+          <component name="E_Rect" max="860000.000000007" min="-5860000.00000002" />
+          <component name="E_Tp" max="10410817.5093479" min="-72170272.7396279" />
+          <component name="E_Tube" max="627525.204190908" min="-3737867.52061537" />
+          <component name="E_Tube4" max="1322582.74125403" min="-8944021.6609209" />
+        </maxandmin>
+        <valuesdouble>BKuKunKUQ8GQgV+prsY7wQytqd13ZDDBwGHPRwQJFMHi8Afn1n8ZQQSrirpylEPB
+iIFfqa7GO8EUrandd2QwwaJhz0cECRTBHPEH59Z/GUHNwoaVyRtiwdcyQTkZeVrB
+/N90R5+6UMFMNKJWlfA7wfosHuGkEiZBEGZr0IEaTcG8wpSa/whDwfY+fMn67jHB
+AD+IEU2gAUFiTd4NDlc2QX1qgzCiMnPBI9yhZl7xa8FM4zxseH1hwUCpX8dJJkzB
+GHNoRJxSO0FBxhQk/OtjweMxkf5h+FrBcq7xaZcxTMFcyge2VpMTwRS8b7zBTEdB
+aShOv4eueMHo6kJTIm9ywdNab855X2jBZb+x7F3BV8HQXLM3fMMTQa5DIPqZ1SdB
+C5NX7WxwN0Fugc9uBntBQe4682bWPUdBqPAWX6YATUG/lBFii91swVZnzhLi2WbB
+9TmLwzjWYMGoGJDoHqVVwcB8E5SYO0PBUtZPjXOCckF6Ubz18bVsQVb22ND8ZmRB
+AjbrVw8wWEH7AJI4lEg+QXsRWDqGNWbBcPPs1kt3YMHAqgPnInJVwTPdWkBc60PB
+otSMampsGEFLBN7nNs41wXsqmXl3fSPBJMwmcvuFAkHCj6wydcAsQeS1Z8S1bzpB
+EgAAAKhaVsEKAAAA0KFQwRAAAADw0UXB9v///3/ANMGi/////xYBQVgCAACAwBTB
+4BQAAACI48A0/f///7wPQVX/////FiFBOgAAAMA+KkEFYfWC7DSRwdJqUaJ8vonB
+nhO4PiATgcG3eD22h89wwZWsph4i5iBBlSYWBdTxSUH5mA6aY6hTQSMekjHdV1pB
+RNKKZKuDYEELlEwwaNtjQUOGo8KFhEzBT+lxq/swRMGimIAo47o3wdR7deg7TxzB
+gLWLaIomI0FDhqPChYRMwVDpcav7METBkpiAKOO6N8HUe3XoO08cwfK1i2iKJiNB
+lkMmtTIPYcHjurRn+JVZwZHuHGWLDVHBeEQKxTwKQcHw51GVAHWqQNTRES6Y2TFB
+HxL+0cduMkGUUup19wMzQeSS1hknmTNB7tLCvVYuNEE=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="stresspt4">
+        <maxandmin>
+          <component name="E_Circ" max="4595598.98177848" min="-4555810.24600551" />
+          <component name="E_Cp" max="5832988.28317319" min="-760971.085155193" />
+          <component name="E_Ip" max="20252290.2515962" min="-2932004.25264768" />
+          <component name="E_La" max="3547209.34741282" min="-24309294.5835902" />
+          <component name="E_Lb" max="18166390.1525177" min="-13150584.7940234" />
+          <component name="E_Lc" max="1613949.43655747" min="-10959513.5827483" />
+          <component name="E_Rect" max="5900000.00000001" min="-820000.000000008" />
+          <component name="E_Tp" max="72503606.0729613" min="-10077484.1760145" />
+          <component name="E_Tube" max="6739075.01891968" min="-6648129.33715288" />
+          <component name="E_Tube4" max="9056634.27353354" min="-1209970.12864139" />
+        </maxandmin>
+        <valuesdouble>5o2+jwhhUcFs4wPtQStLwS6rirpylEPBTuUiEEf7N8F36WBWUZshwWx11b7jh1FB
+fbIxS/h4S0E4ergYKeJDQVKDfsyzljhBJyUYzyrSIkFi/PXomb4CQbT1wXlFVPLA
+PfhbsW+JEsG3uSMC5z4gwR52mSsWOSfBdIIfEkdAVkGiyQ9WSKtQQYIhADSTLEZB
+fl/BdysFNkHABWEf3rPTwKwEGwuIJ2RBu66dzHlvW0EuqAoGxx9NQeKXz5bTBBtB
+WMJWIJJeRsGyiQYkaFBzQYwaqE3qLGxBvCFDUwS5YUEqo3hjeRRNQU6ANgw9djnB
+rmJW6eIud8EgNEuOY2dxwSQLgGbIP2fB2lvTYJNhV8FOlKgpfeXwwMfTijH9EEpB
+8yBGEMdQSkFvbQHvkJBKQXa7vM1a0EpB7AV4rCQQS0HBo2gZLxVpwasr0yHk8GPB
+PGd7VDKZXcGudlBlnFBTwQEOS+wMEELBXrZwYidTcUFu7HH7XM5qQSZsAjJr9mJB
+Zdcl0fI8VkErXRv5PDQ6QcDfpTJT52TBU1GqSWM6X8Ea4wguIKZUwa/pziS6I0TB
+HCY/J8FMAEE2Yhb4u9MXQTmD6TSlPyVBxdTHbWyVLkHAElPTmfUzQe46wm99oDhB
+4AIAAIAxF0EACwAAAIjzQDD9////2grB3P7///+8H8FEAAAAQAYpwQgAAAC4gVZB
+CAAAAODIUEEGAAAAECBGQfz///+/XDVB3P7///9p+MArfGtayWZHwalDuUTeYlLB
+qsg83FcSWcE0T8Bz0cFfwT/poYWlOGPBW7ZK2ERJkUF8FfxMLeeJQUe+YunQO4FB
+8M2SC+kgcUHrCvDP3ecKwa/pk1VQXFnBYNZym0nPU8EJhqPChYRMwcBfYU54akHB
+pON8aKtBKcHj+jXBILVZQZPnFAcaKFRBdajnmSY2TUExgqUlGRxCQUhtjcUuCCxB
+MKQ9kbMhMME+5Ck147YwwVwkFtkSTDHB8GQCfULhMcFnpO4gcnYywWjJwEgvRmFB
+esbpjvEDWkEV+lGMhHtRQZhbdBMv5kFBFE+YyKGq+kA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="stressptu">
+        <maxandmin>
+          <component name="E_Circ" max="1487103.9995149" min="-800748.3074311" />
+          <component name="E_Cp" max="1042212.92469991" min="-81546.1589956805" />
+          <component name="E_Gen" max="662499.999999999" min="-37500" />
+          <component name="E_Ip" max="4099238.53812411" min="-537620.362724658" />
+          <component name="E_La" max="4590122.74478188" min="-527880.055109546" />
+          <component name="E_Lb" max="4256228.74229896" min="-3746179.97009372" />
+          <component name="E_Lc" max="1740442.23941796" min="-188242.595627454" />
+          <component name="E_Rect" max="1196000" min="-148000.000000002" />
+          <component name="E_Tp" max="47381439.685651" min="-33227508.3456732" />
+          <component name="E_Tube" max="2191790.93057982" min="-1155010.15843833" />
+          <component name="E_Tube4" max="1724924.93152552" min="-297842.636650554" />
+        </maxandmin>
+        <valuesdouble>8JtnndhvKMGw2Nsdl7EjwSQroDyr5h3BZqSIPShqFMFOPOJ8StsFwVo14P//sDZB
+nN4sjVF5MUHWD/M0RoMoQTjEGJ/SJxxBg6QtUWMk/UCz6eS9bGQRQYZ8b8uOmQdB
+pEsqNojU+ECI76yrlq/DQPwNP4ui6PPAZERy2UnOL0Gjz42uXPwnQdFaqYNvKiBB
+9MuJsQSxEEHEJQ68pdLQQCQAAADAXPVATgAAAEB360DE/////2nYQDT+////abjA
+AAAAAIBP4sD0////xzckQff///8n5h5B+P///79cFUHy////r6YHQf4AAACAT+JA
+Cs5SR+Z+QEGXU8VTVLE2QSYWyjG4yShByxQm8B7DAEHeC7e5KGggwThA4URTRk9B
+8UVdSZvpRkFjl7Kbxhk9QVhFVUmtwChBa0d1SWVkEcFmf0+3GAwjQeyV2wQdhBRB
+mmzB2ESA50BmeFadF0gNwYRRNxwQHCDBoIGqr4qCUUF3jlnHpT5KQa0ZXi82eEFB
+z0nFLo1jMUHw1M+YAKnEwPUHLPzBlEzBsE8DvedjRsFyl9p9DTNAwfu9Y31mBDTB
+vTdJ/MeKHsF/04EveTxQQcYMe5UJZElBlHLyyyBPQkFksNMEcHQ2Qfn4hOM8lSBB
+zMLvx+OEAEGn8vaTFpTqQGVKou/D1tnAjp3MQW01+sCWU9jDlPoGwdh+Sj2ajjpB
+7nnQ05P/M0EE6qzUGuEqQUDAcQMchhtBTNCa2CWg1EBYAgAAAHb2QM8IAAAAQN9A
+gfv///9X28AW/////3v1wDYAAAAAEQLBBgAAAOA/MkENAAAAAFgrQQUAAABAMCJB
+/P////8QEkHI+P///z+vwJLgh0UvsH/BVL1m2rg7ecEEmkVvQsdywcvtSAiYpWjB
+vE0NZFZ5V8GbNnz93ZeGQQF9NhD6doFBx4bhRSyseEETJ6zWyNRsQYKBKkNyolBB
+AmqPKMKfMcHhe3XoO08swaojzH/zXiXBmJdFLlbdHMGEzeW5ivkNwUk9HXfXuEBB
+BABNrsXPOUFohV9u3C0yQSYW5FzmFyVBLoMkdE9QB0FqH+6Lyi0Swf8ot0euVBDB
+NmUAByT3DMEZeZJ+60QJwUSLJPaykgXB0HR47vxROkH4zgjrjxI0QSxSMs9FpitB
+Ig2mkNdOHkFX1J0LjkT1QA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionforcemag">
+        <maxandmin>
+          <component name="E_Circ" max="269.258240356725" min="269.258240356725" />
+          <component name="E_Cp" max="269.258240356713" min="269.258240356712" />
+          <component name="E_Gen" max="269.258240356724" min="269.258240356723" />
+          <component name="E_Ip" max="269.258240356725" min="269.258240356724" />
+          <component name="E_La" max="269.258240356726" min="269.258240356725" />
+          <component name="E_Lb" max="269.258240356724" min="269.258240356724" />
+          <component name="E_Lc" max="269.258240356726" min="269.258240356725" />
+          <component name="E_Rect" max="269.258240356726" min="269.258240356726" />
+          <component name="E_Tp" max="269.258240356727" min="269.258240356726" />
+          <component name="E_Tube" max="269.258240356727" min="269.258240356727" />
+          <component name="E_Tube4" max="269.258240356725" min="269.258240356724" />
+        </maxandmin>
+        <valuesdouble>QuqjwCHUcEBC6qPAIdRwQHDpo8Ah1HBAYOmjwCHUcEAj6qPAIdRwQDTqo8Ah1HBA
+POqjwCHUcEA46qPAIdRwQFHqo8Ah1HBAQeqjwCHUcEA16qPAIdRwQDXqo8Ah1HBA
+SOqjwCHUcEBR6qPAIdRwQFjqo8Ah1HBATOqjwCHUcEBl6qPAIdRwQFjqo8Ah1HBA
+XuqjwCHUcEBe6qPAIdRwQDXqo8Ah1HBAROqjwCHUcEA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionforcex">
+        <maxandmin>
+          <component name="E_Circ" max="-100" min="-100" />
+          <component name="E_Cp" max="-100" min="-100" />
+          <component name="E_Gen" max="-100" min="-100" />
+          <component name="E_Ip" max="-100" min="-100" />
+          <component name="E_La" max="-100" min="-100" />
+          <component name="E_Lb" max="-99.9999999999999" min="-99.9999999999999" />
+          <component name="E_Lc" max="-100" min="-100" />
+          <component name="E_Rect" max="-100" min="-100" />
+          <component name="E_Tp" max="-100" min="-100" />
+          <component name="E_Tube" max="-100" min="-100" />
+          <component name="E_Tube4" max="-99.9999999999999" min="-100" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAWcAAAAAAAABZwAAAAAAAAFnAAAAAAAAAWcAAAAAAAABZwAAAAAAAAFnA
+AQAAAAAAWcABAAAAAABZwAEAAAAAAFnAAQAAAAAAWcD6//////9YwPr//////1jA
+AQAAAAAAWcABAAAAAABZwAAAAAAAAFnAAAAAAAAAWcAAAAAAAABZwAAAAAAAAFnA
+AAAAAAAAWcAAAAAAAABZwPn//////1jAAAAAAAAAWcA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionforcey">
+        <maxandmin>
+          <component name="E_Circ" max="-200" min="-200" />
+          <component name="E_Cp" max="-199.999999999983" min="-199.999999999984" />
+          <component name="E_Gen" max="-199.999999999998" min="-199.999999999999" />
+          <component name="E_Ip" max="-199.999999999999" min="-200" />
+          <component name="E_La" max="-199.999999999999" min="-200" />
+          <component name="E_Lb" max="-199.999999999999" min="-199.999999999999" />
+          <component name="E_Lc" max="-199.999999999999" min="-200" />
+          <component name="E_Rect" max="-200.000000000001" min="-200.000000000001" />
+          <component name="E_Tp" max="-200.000000000001" min="-200.000000000002" />
+          <component name="E_Tube" max="-200.000000000001" min="-200.000000000001" />
+          <component name="E_Tube4" max="-200" min="-200" />
+        </maxandmin>
+        <valuesdouble>CwAAAAAAacALAAAAAABpwN79/////2jAs/3/////aMCz//////9owNn//////2jA
+8///////aMDq//////9owAkAAAAAAGnA3v//////aMDS//////9owNL//////2jA
+4v//////aMD9//////9owCAAAAAAAGnAIAAAAAAAacA1AAAAAABpwBIAAAAAAGnA
+KQAAAAAAacApAAAAAABpwPv//////2jA+///////aMA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionforcez">
+        <maxandmin>
+          <component name="E_Circ" max="149.999999999999" min="149.999999999999" />
+          <component name="E_Cp" max="149.999999999999" min="149.999999999999" />
+          <component name="E_Gen" max="150" min="149.999999999999" />
+          <component name="E_Ip" max="149.999999999999" min="149.999999999999" />
+          <component name="E_La" max="150.000000000001" min="150.000000000001" />
+          <component name="E_Lb" max="150" min="150" />
+          <component name="E_Lc" max="150.000000000001" min="150.000000000001" />
+          <component name="E_Rect" max="150.000000000001" min="149.999999999999" />
+          <component name="E_Tp" max="150.000000000001" min="150.000000000001" />
+          <component name="E_Tube" max="150.000000000001" min="150.000000000001" />
+          <component name="E_Tube4" max="150" min="149.999999999999" />
+        </maxandmin>
+        <valuesdouble>5P////+/YkDk/////79iQNj/////v2JA2P////+/YkDp/////79iQPL/////v2JA
+7P////+/YkDs/////79iQBsAAAAAwGJAGwAAAADAYkADAAAAAMBiQAMAAAAAwGJA
+LQAAAADAYkAoAAAAAMBiQBYAAAAAwGJA6v////+/YkAnAAAAAMBiQCcAAAAAwGJA
+HgAAAADAYkAeAAAAAMBiQMz/////v2JA//////+/YkA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionmommag">
+        <maxandmin>
+          <component name="E_Circ" max="264.386081328046" min="264.386081328046" />
+          <component name="E_Cp" max="264.386081328036" min="264.386081328034" />
+          <component name="E_Gen" max="264.386081328045" min="264.386081328044" />
+          <component name="E_Ip" max="264.386081328046" min="264.386081328046" />
+          <component name="E_La" max="264.386081328048" min="264.386081328047" />
+          <component name="E_Lb" max="264.386081328046" min="264.386081328046" />
+          <component name="E_Lc" max="264.386081328048" min="264.386081328048" />
+          <component name="E_Rect" max="264.386081328045" min="264.386081328045" />
+          <component name="E_Tp" max="264.386081328048" min="264.386081328047" />
+          <component name="E_Tube" max="264.386081328046" min="264.386081328046" />
+          <component name="E_Tube4" max="264.386081328047" min="264.386081328046" />
+        </maxandmin>
+        <valuesdouble>3FidYy2GcEDcWJ1jLYZwQDVYnWMthnBAElidYy2GcEC7WJ1jLYZwQMhYnWMthnBA
+3lidYy2GcEDaWJ1jLYZwQPdYnWMthnBA7VidYy2GcEDWWJ1jLYZwQNZYnWMthnBA
++1idYy2GcED5WJ1jLYZwQNJYnWMthnBAz1idYy2GcED3WJ1jLYZwQPVYnWMthnBA
+1lidYy2GcEDWWJ1jLYZwQOJYnWMthnBA6VidYy2GcEA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionmomx">
+        <maxandmin>
+          <component name="E_Circ" max="-10" min="-10" />
+          <component name="E_Cp" max="-10" min="-10" />
+          <component name="E_Gen" max="-10" min="-10" />
+          <component name="E_Ip" max="-9.99999999999999" min="-9.99999999999999" />
+          <component name="E_La" max="-10" min="-10" />
+          <component name="E_Lb" max="-10" min="-10" />
+          <component name="E_Lc" max="-10" min="-10" />
+          <component name="E_Rect" max="-9.99999999999999" min="-9.99999999999999" />
+          <component name="E_Tp" max="-10" min="-10" />
+          <component name="E_Tube" max="-9.99999999999999" min="-9.99999999999999" />
+          <component name="E_Tube4" max="-10" min="-10" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAJMAAAAAAAAAkwAAAAAAAACTAAAAAAAAAJMAAAAAAAAAkwAAAAAAAACTA
++f//////I8D5//////8jwAEAAAAAACTAAQAAAAAAJMAAAAAAAAAkwAAAAAAAACTA
+AAAAAAAAJMAAAAAAAAAkwPr//////yPA+v//////I8AAAAAAAAAkwAAAAAAAACTA
++v//////I8D5//////8jwAAAAAAAACTAAAAAAAAAJMA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionmomy">
+        <maxandmin>
+          <component name="E_Circ" max="-130" min="-130" />
+          <component name="E_Cp" max="-129.999999999999" min="-129.999999999999" />
+          <component name="E_Gen" max="-129.999999999999" min="-130" />
+          <component name="E_Ip" max="-129.999999999999" min="-129.999999999999" />
+          <component name="E_La" max="-130" min="-130" />
+          <component name="E_Lb" max="-130" min="-130" />
+          <component name="E_Lc" max="-130" min="-130" />
+          <component name="E_Rect" max="-130.000000000001" min="-130.000000000001" />
+          <component name="E_Tp" max="-130" min="-130" />
+          <component name="E_Tube" max="-130" min="-130" />
+          <component name="E_Tube4" max="-130" min="-130.000000000001" />
+        </maxandmin>
+        <valuesdouble>AAAAAABAYMAAAAAAAEBgwOz/////P2DA7P////8/YMDs/////z9gwP//////P2DA
+4/////8/YMDj/////z9gwA8AAAAAQGDADwAAAABAYMANAAAAAEBgwA0AAAAAQGDA
+DQAAAABAYMABAAAAAEBgwC0AAAAAQGDAIAAAAABAYMANAAAAAEBgwA0AAAAAQGDA
+AQAAAABAYMABAAAAAEBgwAcAAAAAQGDAJgAAAABAYMA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionmomz">
+        <maxandmin>
+          <component name="E_Circ" max="-230" min="-230" />
+          <component name="E_Cp" max="-229.999999999987" min="-229.99999999999" />
+          <component name="E_Gen" max="-229.999999999998" min="-229.999999999999" />
+          <component name="E_Ip" max="-230.000000000001" min="-230.000000000001" />
+          <component name="E_La" max="-230.000000000001" min="-230.000000000002" />
+          <component name="E_Lb" max="-230" min="-230" />
+          <component name="E_Lc" max="-230.000000000002" min="-230.000000000002" />
+          <component name="E_Rect" max="-229.999999999999" min="-229.999999999999" />
+          <component name="E_Tp" max="-230.000000000002" min="-230.000000000002" />
+          <component name="E_Tube" max="-230" min="-230" />
+          <component name="E_Tube4" max="-230.000000000001" min="-230.000000000001" />
+        </maxandmin>
+        <valuesdouble>CwAAAADAbMALAAAAAMBswJX+////v2zARf7///+/bMDK/////79swN3/////v2zA
+HwAAAADAbMAWAAAAAMBswEEAAAAAwGzAKAAAAADAbMD2/////79swPb/////v2zA
+SgAAAADAbMBMAAAAAMBswNv/////v2zA2/////+/bMBBAAAAAMBswD4AAAAAwGzA
+/f////+/bMD9/////79swBQAAAAAwGzAFAAAAADAbMA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="bendingmomv">
+        <maxandmin>
+          <component name="E_Circ" max="130" min="-20.0000000000004" />
+          <component name="E_Cp" max="129.999999999999" min="-19.9999999999994" />
+          <component name="E_Gen" max="130" min="-20.0000000000002" />
+          <component name="E_Ip" max="129.999999999999" min="-19.9999999999999" />
+          <component name="E_La" max="130" min="-19.9999999999991" />
+          <component name="E_Lb" max="130" min="-20.0000000000001" />
+          <component name="E_Lc" max="130" min="-19.9999999999997" />
+          <component name="E_Rect" max="130.000000000001" min="-20.0000000000001" />
+          <component name="E_Tp" max="130" min="-19.9999999999993" />
+          <component name="E_Tube" max="130" min="-20.0000000000002" />
+          <component name="E_Tube4" max="130.000000000001" min="-20.0000000000004" />
+        </maxandmin>
+        <valuesdouble>AAAAAABAYEAQAAAAACBXQCwAAAAAgEtAIAAAAACAMUBAAAAAAAA0wAAAAAAAQGBA
+CgAAAAAgV0A4AAAAAIBLQAgAAAAAgDFAcAAAAAAANMDs/////z9gQOj/////H1dA
+3P////9/S0CI/////38xQGD//////zPA7P////8/YEDo/////x9XQOj/////f0tA
+sP////9/MUBQ//////8zwOz/////P2BA8P////8fV0Do/////39LQFAAAAAAgDFA
+QAAAAAAANMD//////z9gQAAAAAAAIFdA4v////9/S0AQAAAAAIAxQJD//////zPA
+4/////8/YEDa/////x9XQNj/////f0tAsP////9/MUDA//////8zwOP/////P2BA
+2P////8fV0Da/////39LQND/////fzFA8P//////M8APAAAAAEBgQA4AAAAAIFdA
+JAAAAACAS0BQ/////38xQAD//////zPADwAAAABAYEAKAAAAACBXQBoAAAAAgEtA
+aP////9/MUAQ//////8zwA0AAAAAQGBAGgAAAAAgV0AQAAAAAIBLQEgAAAAAgDFA
+IAAAAAAANMANAAAAAEBgQBgAAAAAIFdAFgAAAACAS0CAAAAAAIAxQOD//////zPA
+DQAAAABAYEAEAAAAACBXQNT/////f0tAeP////9/MUCg//////8zwAEAAAAAQGBA
+7v////8fV0DG/////39LQJD/////fzFAkP//////M8AtAAAAAEBgQEwAAAAAIFdA
+VAAAAACAS0BYAAAAAIAxQCAAAAAAADTAIAAAAABAYEBGAAAAACBXQEgAAAAAgEtA
+cAAAAACAMUAQAAAAAAA0wA0AAAAAQGBACgAAAAAgV0AkAAAAAIBLQHD/////fzFA
+AP//////M8ANAAAAAEBgQAgAAAAAIFdAFgAAAACAS0Aw/////38xQDD//////zPA
+AQAAAABAYED4/////x9XQMj/////f0tA8P////9/MUDA//////8zwAEAAAAAQGBA
++v////8fV0C2/////39LQPD/////fzFAQAAAAAAANMAHAAAAAEBgQCIAAAAAIFdA
+TAAAAACAS0AgAAAAAIAxQMD//////zPAJgAAAABAYEBAAAAAACBXQDQAAAAAgEtA
+cAAAAACAMUBwAAAAAAA0wA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="bendingmomw">
+        <maxandmin>
+          <component name="E_Circ" max="230" min="-230" />
+          <component name="E_Cp" max="229.99999999999" min="-229.999999999987" />
+          <component name="E_Gen" max="229.999999999998" min="-229.999999999999" />
+          <component name="E_Ip" max="230.000000000001" min="-230.000000000001" />
+          <component name="E_La" max="230.000000000002" min="-230.000000000001" />
+          <component name="E_Lb" max="230" min="-230" />
+          <component name="E_Lc" max="230.000000000002" min="-230.000000000002" />
+          <component name="E_Rect" max="229.999999999999" min="-229.999999999999" />
+          <component name="E_Tp" max="230.000000000002" min="-230.000000000002" />
+          <component name="E_Tube" max="230" min="-230" />
+          <component name="E_Tube4" max="230.000000000001" min="-230.000000000001" />
+        </maxandmin>
+        <valuesdouble>CgAAAADAbEAKAAAAAIBmQCIAAAAAQGBAAAAAAAAAVECAAAAAAAA+QAoAAAAAwGzA
+DAAAAACAZsAfAAAAAEBgwOz//////1PAoP//////PcCU/v///79sQB7/////f2ZA
+fv////8/YEC4//////9TQAABAAAAAD5ARv7///+/bMDY/v///39mwEX/////P2DA
+hP//////U8Cg//////89wMr/////v2xA4P////9/ZkD6/////z9gQBAAAAAAAFRA
+gP//////PUDc/////79swPD/////f2bAAgAAAABAYMDg//////9TwMAAAAAAAD7A
+HgAAAADAbEAgAAAAAIBmQCgAAAAAQGBA2P//////U0CAAQAAAAA+QBYAAAAAwGzA
+FAAAAACAZsApAAAAAEBgwOz//////1PAQAAAAAAAPsBAAAAAAMBsQDYAAAAAgGZA
+IgAAAABAYEA4AAAAAABUQAABAAAAAD5AKAAAAADAbMAsAAAAAIBmwBAAAAAAQGDA
+dAAAAAAAVMCA/v////89wPb/////v2xAAAAAAACAZkAQAAAAAEBgQNj//////1NA
+gAEAAAAAPkD2/////79swAAAAAAAgGbAEQAAAABAYMDo//////9TwAACAAAAAD7A
+SgAAAADAbEBKAAAAAIBmQDoAAAAAQGBAKAAAAAAAVEAAAAAAAAA+QEwAAAAAwGzA
+TAAAAACAZsA6AAAAAEBgwCAAAAAAAFTAIAAAAAAAPsDa/////79sQNL/////f2ZA
+7P////8/YEDI//////9TQIAAAAAAAD5A2v////+/bMDU/////39mwOf/////P2DA
+xP//////U8CAAAAAAAA+wEAAAAAAwGxANAAAAACAZkAeAAAAAEBgQEgAAAAAAFRA
+AAAAAAAAPkA+AAAAAMBswDQAAAAAgGbAIQAAAABAYMAwAAAAAABUwCAAAAAAAD7A
+/v////+/bED2/////39mQOD/////P2BAEAAAAAAAVEAA//////89QP7/////v2zA
+9P////9/ZsDh/////z9gwBgAAAAAAFTAAP//////PcAUAAAAAMBsQBQAAAAAgGZA
+EAAAAABAYEBAAAAAAABUQAD//////z1AFAAAAADAbMAUAAAAAIBmwBIAAAAAQGDA
+PAAAAAAAVMBA//////89wA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="tensileforce">
+        <maxandmin>
+          <component name="E_Circ" max="100" min="100" />
+          <component name="E_Cp" max="100" min="100" />
+          <component name="E_Gen" max="100" min="100" />
+          <component name="E_Ip" max="100" min="100" />
+          <component name="E_La" max="100" min="100" />
+          <component name="E_Lb" max="99.9999999999999" min="99.9999999999999" />
+          <component name="E_Lc" max="100" min="100" />
+          <component name="E_Rect" max="100" min="100" />
+          <component name="E_Tp" max="100" min="100" />
+          <component name="E_Tube" max="100" min="100" />
+          <component name="E_Tube4" max="100" min="99.9999999999999" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AQAAAAAAWUABAAAAAABZQAAAAAAAAFlAAQAAAAAAWUAEAAAAAABZQAEAAAAAAFlA
+AQAAAAAAWUAAAAAAAABZQAEAAAAAAFlABAAAAAAAWUABAAAAAABZQAEAAAAAAFlA
+AAAAAAAAWUABAAAAAABZQAQAAAAAAFlAAQAAAAAAWUABAAAAAABZQAAAAAAAAFlA
+AQAAAAAAWUAEAAAAAABZQPr//////1hA+///////WED7//////9YQPv//////1hA
+/P//////WED6//////9YQPv//////1hA+///////WED7//////9YQPz//////1hA
+AQAAAAAAWUABAAAAAABZQAAAAAAAAFlAAQAAAAAAWUAEAAAAAABZQAEAAAAAAFlA
+AQAAAAAAWUAAAAAAAABZQAEAAAAAAFlABAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUD5//////9YQPn//////1hA
++P//////WED5//////9YQPz//////1hAAAAAAAAAWUAAAAAAAABZQP7//////1hA
+AAAAAAAAWUAEAAAAAABZQA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="sheary">
+        <maxandmin>
+          <component name="E_Circ" max="200.000000000001" min="199.999999999993" />
+          <component name="E_Cp" max="199.999999999996" min="199.999999999984" />
+          <component name="E_Gen" max="200.000000000004" min="199.999999999995" />
+          <component name="E_Ip" max="200.000000000004" min="199.999999999987" />
+          <component name="E_La" max="200.000000000016" min="199.999999999995" />
+          <component name="E_Lb" max="200.000000000001" min="199.999999999989" />
+          <component name="E_Lc" max="200.000000000002" min="199.999999999999" />
+          <component name="E_Rect" max="200.000000000002" min="200" />
+          <component name="E_Tp" max="200.000000000004" min="199.999999999998" />
+          <component name="E_Tube" max="200.000000000009" min="199.999999999999" />
+          <component name="E_Tube4" max="200.000000000009" min="199.999999999999" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAaUDg//////9oQCAAAAAAAGlAAAAAAAAAaUCA//////9oQAAAAAAAAGlA
+4P//////aEAgAAAAAABpQMD//////2hAAP//////aEDg/f////9oQPD9/////2hA
+AP7/////aEAg/v////9oQED+/////2hAwP3/////aEAA/v////9oQCD+/////2hA
+wP7/////aECA//////9oQMD//////2hAwP//////aECg//////9oQAAAAAAAAGlA
+gAAAAAAAaUDg//////9oQOD//////2hA8P//////aECg//////9oQED//////2hA
+AAAAAAAAaUAAAAAAAABpQIAAAAAAAGlAoP//////aEBA/v////9oQOD//////2hA
+4P//////aEBQAAAAAABpQCAAAAAAAGlAgP//////aEAAAAAAAABpQAAAAAAAAGlA
+4P//////aECg//////9oQID//////2hA4P//////aEDg//////9oQFD//////2hA
+gAAAAAAAaUBAAgAAAABpQOD//////2hA0P//////aEAgAAAAAABpQOD//////2hA
+QP//////aEDg//////9oQOD//////2hAEAAAAAAAaUBg//////9oQID+/////2hA
+4P//////aEAQAAAAAABpQCAAAAAAAGlAAAAAAAAAaUAAAAAAAABpQAAAAAAAAGlA
+IAAAAAAAaUBAAAAAAABpQCAAAAAAAGlAAAAAAAAAaUAgAAAAAABpQBAAAAAAAGlA
+QAAAAAAAaUBAAAAAAABpQAAAAAAAAGlAIAAAAAAAaUAAAAAAAABpQDAAAAAAAGlA
+QAAAAAAAaUAAAAAAAABpQEAAAAAAAGlAQAAAAAAAaUAAAAAAAABpQCAAAAAAAGlA
+gAAAAAAAaUAgAAAAAABpQCAAAAAAAGlAEAAAAAAAaUDg//////9oQMD//////2hA
+IAAAAAAAaUAwAAAAAABpQOD//////2hAYAAAAAAAaUBAAQAAAABpQCAAAAAAAGlA
+QAAAAAAAaUAQAAAAAABpQCAAAAAAAGlAgAAAAAAAaUAAAAAAAABpQAAAAAAAAGlA
+IAAAAAAAaUCAAAAAAABpQMAAAAAAAGlAAAAAAAAAaUAAAAAAAABpQOD//////2hA
+gAAAAAAAaUBAAQAAAABpQA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="shearz">
+        <maxandmin>
+          <component name="E_Circ" max="150.000000000003" min="-150.000000000003" />
+          <component name="E_Cp" max="149.999999999999" min="-149.999999999999" />
+          <component name="E_Gen" max="150" min="-150.000000000005" />
+          <component name="E_Ip" max="150.000000000001" min="-150" />
+          <component name="E_La" max="150.000000000002" min="-150.000000000003" />
+          <component name="E_Lb" max="150.000000000003" min="-150.000000000002" />
+          <component name="E_Lc" max="150.000000000001" min="-150.000000000001" />
+          <component name="E_Rect" max="150" min="-150.000000000001" />
+          <component name="E_Tp" max="150.000000000002" min="-150.000000000001" />
+          <component name="E_Tube" max="150.000000000001" min="-150.000000000001" />
+          <component name="E_Tube4" max="150.000000000001" min="-150" />
+        </maxandmin>
+        <valuesdouble>4P////+/YsDw/////79iwDAAAAAAwGLAYAAAAADAYsBgAAAAAMBiwOD/////v2JA
+8P////+/YkBAAAAAAMBiQHAAAAAAwGJAYAAAAADAYkDg/////79iwOD/////v2LA
+0P////+/YsBg/////79iwAD/////v2LA4P////+/YkDg/////79iQND/////v2JA
+gP////+/YkBA/////79iQPD/////v2LA+P////+/YsDQ/////79iwCAAAAAAwGLA
+oAAAAADAYsDw/////79iQPD/////v2JAuP////+/YkCQ/////79iQKD/////v2JA
+8P////+/YsAIAAAAAMBiwBAAAAAAwGLA4P////+/YsDA/////79iwPD/////v2JA
+AAAAAADAYkAYAAAAAMBiQAAAAAAAwGJA4P////+/YkAgAAAAAMBiwCAAAAAAwGLA
+YAAAAADAYsDQ/////79iwAD/////v2LAIAAAAADAYkAgAAAAAMBiQEAAAAAAwGJA
+wP////+/YkAg/////79iQAAAAAAAwGLA8P////+/YsCg/////79iwND/////v2LA
+QAAAAADAYsAAAAAAAMBiQPD/////v2JAwP////+/YkAAAAAAAMBiQGAAAAAAwGJA
+MAAAAADAYsAoAAAAAMBiwBAAAAAAwGLAsP////+/YsBg/////79iwCAAAAAAwGJA
+EAAAAADAYkAAAAAAAMBiQLD/////v2JAYP////+/YkAQAAAAAMBiwBgAAAAAwGLA
+AAAAAADAYsDw/////79iwAAAAAAAwGLA8P////+/YkAAAAAAAMBiQOj/////v2JA
+4P////+/YkAAAAAAAMBiQCAAAAAAwGLAEAAAAADAYsAwAAAAAMBiwOD/////v2LA
+YP////+/YsAgAAAAAMBiQBAAAAAAwGJAUAAAAADAYkAAAAAAAMBiQGD/////v2JA
+IAAAAADAYsAwAAAAAMBiwBAAAAAAwGLAAAAAAADAYsAgAAAAAMBiwCAAAAAAwGJA
+MAAAAADAYkAgAAAAAMBiQPD/////v2JA4P////+/YkDQ/////79iwNj/////v2LA
+AAAAAADAYsDg/////79iwKD/////v2LAAAAAAADAYkAQAAAAAMBiQOD/////v2JA
+4P////+/YkAgAAAAAMBiQA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="torsion">
+        <maxandmin>
+          <component name="E_Circ" max="10" min="10" />
+          <component name="E_Cp" max="10" min="10" />
+          <component name="E_Gen" max="10" min="10" />
+          <component name="E_Ip" max="9.99999999999999" min="9.99999999999999" />
+          <component name="E_La" max="10" min="10" />
+          <component name="E_Lb" max="10" min="10" />
+          <component name="E_Lc" max="10" min="10" />
+          <component name="E_Rect" max="10" min="9.99999999999999" />
+          <component name="E_Tp" max="10" min="10" />
+          <component name="E_Tube" max="10" min="9.99999999999999" />
+          <component name="E_Tube4" max="10" min="10" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
++f//////I0D6//////8jQPz//////yNA/P//////I0D8//////8jQPn//////yNA
++v//////I0D8//////8jQPz//////yNA/P//////I0ABAAAAAAAkQAEAAAAAACRA
+AAAAAAAAJEABAAAAAAAkQAIAAAAAACRAAQAAAAAAJEABAAAAAAAkQAAAAAAAACRA
+AQAAAAAAJEACAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQP///////yNAAAAAAAAAJEACAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJED///////8jQAAAAAAAACRAAgAAAAAAJED6//////8jQPv//////yNA
+/f//////I0D///////8jQAAAAAAAACRA+v//////I0D7//////8jQP3//////yNA
+////////I0AAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
++v//////I0D7//////8jQPz//////yNA/f//////I0D+//////8jQPn//////yNA
++v//////I0D8//////8jQPz//////yNA/P//////I0AAAAAAAAAkQAAAAAAAACRA
+AQAAAAAAJEAAAAAAAAAkQP7//////yNAAAAAAAAAJEAAAAAAAAAkQAEAAAAAACRA
+AAAAAAAAJED+//////8jQA==
+</valuesdouble>
+      </nodevariable>
+      <elementnodevariable name="stresspt1">
+        <maxandmin>
+          <component name="E_Circ" max="2606162.19312979" min="-377992.989843259" />
+          <component name="E_Cp" max="5832988.28317322" min="-760971.085155176" />
+          <component name="E_Ip" max="20252290.2515962" min="-2932004.25264768" />
+          <component name="E_La" max="19178768.3285707" min="-2751527.46628172" />
+          <component name="E_Lb" max="14838437.565345" min="-12433125.4595774" />
+          <component name="E_Lc" max="7234785.39729519" min="-1052315.16233689" />
+          <component name="E_Rect" max="5900000.00000002" min="-820000.000000007" />
+          <component name="E_Tp" max="123023820.439727" min="-115780188.103071" />
+          <component name="E_Tube" max="3828813.20238217" min="-536579.522424111" />
+          <component name="E_Tube4" max="9056634.27353351" min="-1209970.12864141" />
+        </maxandmin>
+        <valuesdouble>EXq4GCniQ0GlH7tlG2I8Qa8fu2UbYjxBIEsFmuT/MEEvSwWa5P8wQd/ZPTm3dhZB
+eto9Obd2FkFzeJn1IxIXwakfu2UbYjxBE3q4GCniQ0EiSwWa5P8wQaQfu2UbYjxB
+q9k9Obd2FkE/SwWa5P8wQat4mfUjEhfBgNo9Obd2FkGUgh8SR0BWQcDJD1ZIq1BB
+vMkPVkirUEGzIQA0kyxGQaIhADSTLEZB3l/BdysFNkFSX8F3KwU2QRD3YB/es9PA
+TO3BeUVU8sByAPbomb4CQYv2W7FviRLBnO/BeUVU8sCkuCMC5z4gwdf2W7FviRLB
+kHWZKxY5J8HuuSMC5z4gwbaJBiRoUHNBjxqoTeosbEGbGqhN6ixsQbQhQ1MEuWFB
+xiFDUwS5YUEWo3hjeRRNQe+ieGN5FE1Bln82DD12OcG8rp3MeW9bQbMEGwuIJ2RB
+Q6gKBscfTUHPrp3MeW9bQcaXz5bTBBtBMKgKBscfTUFTwlYgkl5GwSuZz5bTBBtB
+TtNBBVFKckF78sTG+npqQXXyxMb6empBVD4Gg1NhYEF1PgaDU2FgQaYoHv2wHklB
+/Cce/bAeSUHBTLkj2I8+wRg+CUi/6WFBzupaWiuiaUHFIm9rpmJUQQw+CUi/6WFB
+GSUvGznHM0ECI29rpmJUQZger7sT/kTB9CMvGznHM0F4TheyVE1sQUR6Cu3vA2ZB
+RHoK7e8DZkElTPtPFnVfQSBM+08WdV9BjqPhxUziUkE+o+HFTOJSQX7tH+8MPjlB
+3LG2Xm6xYsGc27Su3LZnwUUQcR0AWFvB3LG2Xm6xYsGcvHR9I01RwUUQcR0AWFvB
+zKXhdRsJPcFYvHR9I01Rwc5IbVk4mVtB+wd5kACyU0H0B3mQALJTQUWOCY+RlUdB
+MY4Jj5GVR0EnM4T0hxwvQcgxhPSHHC9BEOmOKZsOMMHmB3mQALJTQbpIbVk4mVtB
+NY4Jj5GVR0HjB3mQALJTQV8zhPSHHC9BKo4Jj5GVR0ED6Y4pmw4wweUxhPSHHC9B
+EgAAALiBVkEMAAAA4MhQQQoAAADgyFBBEgAAABAgRkEOAAAAECBGQQsAAADAXDVB
+4v///79cNUFQ/////2n4wCAKAAAAiPNAcAIAAIAxF0Hg/P///9oKwWALAAAAiPNA
+Pv7///+8H8FY/f///9oKwTsAAABABinBEP////+8H8G8R8Ixx1SdQTSG/qSo55ZB
+PIb+pKjnlkGtxDoYinqQQarEOhiKepBBeQbuFtcahEFpBu4W1xqEQf4MmvVnAm1B
++BOTETWnlcF7i2lwqZqbwds4eWWBZ4/B+BOTETWnlcHXScynmICDwdY4eWWBZ4/B
+3Wp9qL9mbsHZScynmICDwauo55kmNk1BuAu2gpziREG4C7aCnOJEQXndCNckHjlB
+a90I1yQeOUGaR0tRIe4gQX1HS1Eh7iBB3St7CwdgIMG6C7aCnOJEQa+o55kmNk1B
+ed0I1yQeOUG9C7aCnOJEQYJHS1Eh7iBBUt0I1yQeOUFNLHsLB2AgwZ9HS1Eh7iBB
+WsnASC9GYUFtxumO8QNaQWvG6Y7xA1pBEPpRjIR7UUEh+lGMhHtRQXJbdBMv5kFB
+nFt0Ey/mQUGwUpjIoar6QOzjKTXjtjDBrqM9kbMhMMFOJBbZEkwxwQzkKTXjtjDB
+i2QCfULhMcGTJBbZEkwxwc6k7iBydjLB+WQCfULhMcE=
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="stresspt2">
+        <maxandmin>
+          <component name="E_Circ" max="4595598.98177848" min="-4555810.24600551" />
+          <component name="E_Cp" max="1464078.05417333" min="-9494092.67270028" />
+          <component name="E_Ip" max="3053955.47215987" min="-20130339.032084" />
+          <component name="E_La" max="4285333.8935048" min="-28729723.55275" />
+          <component name="E_Lb" max="2474554.69410866" min="-8959989.68212774" />
+          <component name="E_Lc" max="1613949.43655747" min="-10959513.5827483" />
+          <component name="E_Rect" max="860000.000000008" min="-5860000.00000001" />
+          <component name="E_Tp" max="116113521.436405" min="-122690487.106393" />
+          <component name="E_Tube" max="6739075.01891968" min="-6648129.33715288" />
+          <component name="E_Tube4" max="1322582.741254" min="-8944021.66092093" />
+        </maxandmin>
+        <valuesdouble>bXXVvuOHUUF5sjFL+HhLQX6yMUv4eEtBMHq4GCniQ0FHergYKeJDQVeDfsyzljhB
+foN+zLOWOEGuJRjPKtIiQWnjA+1BK0vB5Y2+jwhhUcEfq4q6cpRDwXPjA+1BK0vB
+MeUiEEf7N8E1q4q6cpRDwfDoYFZRmyHBO+UiEEf7N8HUZWvQgRpNwZTClJr/CEPB
+d8KUmv8IQ8GqPnzJ+u4xwXI+fMn67jHBCj6IEU2gAUFmRIgRTaABQbFN3g0OVzZB
+wTJBORl5WsG9woaVyRtiwe3fdEefulDBtjJBORl5WsGUNKJWlfA7wenfdEefulDB
+ZC0e4aQSJkH0M6JWlfA7wTnGFCT862PBzTGR/mH4WsHhMZH+YfhawW6u8WmXMUzB
+Ya7xaZcxTMESyge2VpMTwX3JB7ZWkxPBGbxvvMFMR0EZ3KFmXvFrwXlqgzCiMnPB
+ROM8bHh9YcEd3KFmXvFrwWGpX8dJJkzBVOM8bHh9YcHOc2hEnFI7QW+pX8dJJkzB
+XiHqaPG/VsFFmsdgd/NJwV2ax2B380nB4sfrvi+cKcHDyuu+L5wpwWNtowK/SjpB
+G26jAr9KOkG9Li955VhQQd0PMI9BPHTBXxDYuBdme8GvHhDL1iRqwdcPMI9BPHTB
+UDuA71SiV8GhHhDL1iRqwVIaf9wOFDRBGTuA71SiV8GN/dO1/hZhwZyjeL3uz1nB
+oaN4ve7PWcElTEkP4HFRwRlMSQ/gcVHBOukzwqInQsHP6DPCoidCwe+kU11WuAbB
+DSsYczWmQEF2jdhYHeFCQVWRrxqb1jxBBysYczWmQEEYzC5Py2A4QW+Rrxqb1jxB
+CQiug/vqM0HPyy5Py2A4QSZiFvi70xdBB4PpNKU/JUEbg+k0pT8lQavUx21slS5B
+/9THbWyVLkF9ElPTmfUzQUgTU9OZ9TNB5DrCb32gOEE9UapJYzpfwbLfpTJT52TB
+DuMILiCmVMFBUapJYzpfwcXpziS6I0TBFOMILiCmVMEkJT8nwUwAQZfpziS6I0TB
+yAIAAIDAFMHAEwAAAIjjwMAXAAAAiOPA0Pz///+8D0G4/f///7wPQS7/////FiFB
+sP////8WIUFEAAAAwD4qQQgAAADQoVDBCAAAAKhaVsEIAAAA8NFFwQcAAADQoVDB
+HAAAAIDANMEEAAAA8NFFwWj/////FgFB2////3/ANMHU4L7FAa+bQUxp6GaNu5VB
+U2noZo27lUGD4yMQMpCPQXrjIxAykI9BoPR2Ukmpg0GS9HZSSamDQWQVKFOCCW9B
+4jCpT1DTlsFk8mzcbkCdwVlv5cIxZpDB4zCpT1DTlsGvW0NsJvKDwVhv5cIxZpDB
+c2LvSqVfbMGtW0NsJvKDweT6NcEgtVlBlOcUBxooVEGX5xQHGihUQXSo55kmNk1B
+dKjnmSY2TUEcgqUlGRxCQTiCpSUZHEJBR22NxS4ILEFe1nKbSc9Twa7pk1VQXFnB
+DIajwoWETMFe1nKbSc9TwaNfYU54akHBCIajwoWETMGl43xoq0EpwetfYU54akHB
+VNIRLpjZMUFcEv7Rx24yQWQS/tHHbjJBc1LqdfcDM0GJUup19wMzQeSS1hknmTNB
+PJPWGSeZM0GG0sK9Vi40QfS6tGf4lVnBpEMmtTIPYcGN7hxliw1Rwe66tGf4lVnB
+c0QKxTwKQcGM7hxliw1RwYBdUpUAdapAnUQKxTwKQcE=
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="stresspt3">
+        <maxandmin>
+          <component name="E_Circ" max="417781.725616233" min="-2566373.45735681" />
+          <component name="E_Cp" max="1464078.05417331" min="-9494092.67270031" />
+          <component name="E_Ip" max="3053955.47215987" min="-20130339.032084" />
+          <component name="E_La" max="3801420.74288758" min="-25880699.9565815" />
+          <component name="E_Lb" max="19408696.8319915" min="-15133787.0646461" />
+          <component name="E_Lc" max="1732533.7672075" min="-11643953.8232505" />
+          <component name="E_Rect" max="860000.000000007" min="-5860000.00000002" />
+          <component name="E_Tp" max="10410817.5093479" min="-72170272.7396279" />
+          <component name="E_Tube" max="627525.204190908" min="-3737867.52061537" />
+          <component name="E_Tube4" max="1322582.74125403" min="-8944021.6609209" />
+        </maxandmin>
+        <valuesdouble>BKuKunKUQ8GLgV+prsY7wZWBX6muxjvBBa2p3XdkMMEUrandd2QwwXJhz0cECRTB
+DWLPRwQJFMHi8Afn1n8ZQYuBX6muxjvBBKuKunKUQ8EFrandd2QwwYaBX6muxjvB
+OGHPRwQJFMEirandd2QwwRzxB+fWfxlBDWLPRwQJFMHNwoaVyRtiwdwyQTkZeVrB
+0jJBORl5WsEE4HRHn7pQwfTfdEefulDB1jSiVpXwO8HDM6JWlfA7wfosHuGkEiZB
+ysKUmv8IQ8EQZmvQgRpNwQc/fMn67jHBrcKUmv8IQ8FqOogRTaABQeY+fMn67jHB
+Yk3eDQ5XNkGWQ4gRTaABQX1qgzCiMnPBHtyhZl7xa8Eo3KFmXvFrwUTjPGx4fWHB
+VeM8bHh9YcFTqV/HSSZMwS2pX8dJJkzBGHNoRJxSO0HaMZH+YfhawUHGFCT862PB
+eq7xaZcxTMHsMZH+YfhawarJB7ZWkxPBaq7xaZcxTMEUvG+8wUxHQQ3LB7ZWkxPB
+aShOv4eueMHr6kJTIm9yweTqQlMib3LBy1pvznlfaMHbWm/OeV9owZi/sexdwVfB
+Mr+x7F3BV8HQXLM3fMMTQeeSV+1scDdBrkMg+pnVJ0Hjgc9uBntBQS+TV+1scDdB
+ozrzZtY9R0H5gM9uBntBQajwFl+mAE1BODvzZtY9R0G/lBFii91swVZnzhLi2WbB
+VWfOEuLZZsHzOYvDONZgwfc5i8M41mDBzxiQ6B6lVcGCGJDoHqVVwcB8E5SYO0PB
+elG89fG1bEFS1k+Nc4JyQVj22ND8ZmRBe1G89fG1bEEzNutXDzBYQVT22ND8ZmRB
++wCSOJRIPkHQNetXDzBYQXsRWDqGNWbBc/Ps1kt3YMFu8+zWS3dgwcSqA+ciclXB
+vaoD5yJyVcFL3VpAXOtDwRvdWkBc60PBotSMampsGEGdKpl5d30jwUsE3uc2zjXB
+XMsmcvuFAkFZKpl5d30jweqOrDJ1wCxB68wmcvuFAkHktWfEtW86QZuQrDJ1wCxB
+EgAAAKhaVsELAAAA0KFQwQoAAADQoVDBEQAAAPDRRcEOAAAA8NFFwQsAAACAwDTB
+4v///3/ANMGi/////xYBQcATAAAAiOPAWAIAAIDAFMH4/P///7wPQQAWAAAAiOPA
+IP////8WIUFw/f///7wPQToAAADAPipBiv////8WIUEFYfWC7DSRwcxqUaJ8vonB
+12pRony+icGaE7g+IBOBwaETuD4gE4HByHg9tofPcMGmeD22h89wwZWsph4i5iBB
+C5kOmmOoU0GVJhYF1PFJQT0ekjHdV1pB55gOmmOoU0Eb0opkq4NgQQkekjHdV1pB
+C5RMMGjbY0Fs0opkq4NgQUOGo8KFhEzBT+lxq/swRMFP6XGr+zBEwamYgCjjujfB
+m5iAKOO6N8Hwe3XoO08cwbd7deg7TxzBgLWLaIomI0FP6XGr+zBEwUOGo8KFhEzB
+pZiAKOO6N8FS6XGr+zBEwbd7deg7TxzBfpiAKOO6N8HytYtoiiYjQfB7deg7TxzB
+lkMmtTIPYcHkurRn+JVZweK6tGf4lVnBie4cZYsNUcGZ7hxliw1RwWJECsU8CkHB
+jUQKxTwKQcHw51GVAHWqQBAS/tHHbjJB1NERLpjZMUFyUup19wMzQS4S/tHHbjJB
+rJLWGSeZM0G3Uup19wMzQe7Swr1WLjRBHJPWGSeZM0E=
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="stresspt4">
+        <maxandmin>
+          <component name="E_Circ" max="4595598.98177848" min="-4555810.24600551" />
+          <component name="E_Cp" max="5832988.28317319" min="-760971.085155193" />
+          <component name="E_Ip" max="20252290.2515962" min="-2932004.25264768" />
+          <component name="E_La" max="3547209.34741282" min="-24309294.5835902" />
+          <component name="E_Lb" max="18166390.1525177" min="-13150584.7940234" />
+          <component name="E_Lc" max="1613949.43655747" min="-10959513.5827483" />
+          <component name="E_Rect" max="5900000.00000001" min="-820000.000000008" />
+          <component name="E_Tp" max="72503606.0729613" min="-10077484.1760145" />
+          <component name="E_Tube" max="6739075.01891968" min="-6648129.33715288" />
+          <component name="E_Tube4" max="9056634.27353354" min="-1209970.12864139" />
+        </maxandmin>
+        <valuesdouble>5o2+jwhhUcFq4wPtQStLwW/jA+1BK0vBIquKunKUQ8E5q4q6cpRDwTvlIhBH+zfB
+YuUiEEf7N8F36WBWUZshwXiyMUv4eEtBbHXVvuOHUUEtergYKeJDQYKyMUv4eEtB
+TYN+zLOWOEFDergYKeJDQSclGM8q0iJBV4N+zLOWOEFi/PXomb4CQdz0wXlFVPLA
+jPbBeUVU8sAT+Fuxb4kSwWf4W7FviRLBcrkjAuc+IMH8uSMC5z4gwR52mSsWOSfB
+pMkPVkirUEF0gh8SR0BWQYMhADSTLEZBockPVkirUEGOX8F3KwU2QYIhADSTLEZB
+wAVhH96z08BuX8F3KwU2QawEGwuIJ2RBsK6dzHlvW0HGrp3MeW9bQTWoCgbHH01B
+KKgKBscfTUEumM+W0wQbQZeXz5bTBBtBWMJWIJJeRsGJGqhN6ixsQbKJBiRoUHNB
+tSFDUwS5YUGOGqhN6ixsQSSjeGN5FE1BxCFDUwS5YUFOgDYMPXY5wTGjeGN5FE1B
+rmJW6eIud8EjNEuOY2dxwRw0S45jZ3HBHguAZsg/Z8EpC4BmyD9nwQhc02CTYVfB
+q1vTYJNhV8FOlKgpfeXwwOMgRhDHUEpBx9OKMf0QSkHjbQHvkJBKQQMhRhDHUEpB
+M7u8zVrQSkH7bAHvkJBKQewFeKwkEEtBuru8zVrQSkHBo2gZLxVpwawr0yHk8GPB
+qivTIeTwY8E3Z3tUMpldwUFne1QymV3BznZQZZxQU8GNdlBlnFBTwQEOS+wMEELB
+buxx+1zOakFetnBiJ1NxQShsAjJr9mJBb+xx+1zOakGT1yXR8jxWQSNsAjJr9mJB
+K10b+Tw0OkE31yXR8jxWQcDfpTJT52TBV1GqSWM6X8FPUapJYzpfwR3jCC4gplTB
+GOMILiCmVMG+6c4kuiNEwaDpziS6I0TBHCY/J8FMAEEXg+k0pT8lQTZiFvi70xdB
+k9THbWyVLkFbg+k0pT8lQWESU9OZ9TNB99THbWyVLkHuOsJvfaA4QR4TU9OZ9TNB
+4AIAAIAxF0EgCgAAAIjzQOALAAAAiPNAwPz////aCsGg/f///9oKwVz+////vB/B
+XP////+8H8FEAAAAQAYpwQkAAADgyFBBCAAAALiBVkEIAAAAECBGQQgAAADgyFBB
+HAAAAMBcNUEEAAAAECBGQdz+////afjA3P///79cNUErfGtayWZHwa1DuUTeYlLB
+pUO5RN5iUsHfyDzcVxJZwXXIPNxXElnBF0/Ac9HBX8FRT8Bz0cFfwT/poYWlOGPB
+exX8TC3niUFbtkrYREmRQUW+YunQO4FBfhX8TC3niUEEzpIL6SBxQUm+YunQO4FB
+6wrwz93nCsHbzZIL6SBxQa/pk1VQXFnBX9Zym0nPU8Fi1nKbSc9TwQmGo8KFhEzB
+CYajwoWETMGyX2FOeGpBwc5fYU54akHBpON8aKtBKcGT5xQHGihUQeP6NcEgtVlB
+d6jnmSY2TUGT5xQHGihUQQ2CpSUZHEJBc6jnmSY2TUFIbY3FLggsQVWCpSUZHEJB
+MKQ9kbMhMME65Ck147YwwULkKTXjtjDBUSQW2RJMMcFnJBbZEkwxwcRkAn1C4THB
+HGUCfULhMcFnpO4gcnYywX7G6Y7xA1pBaMnASC9GYUEW+lGMhHtRQXbG6Y7xA1pB
+g1t0Ey/mQUEU+lGMhHtRQRRPmMihqvpArVt0Ey/mQUE=
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="stressptu">
+        <maxandmin>
+          <component name="E_Circ" max="1487103.9995149" min="-800748.3074311" />
+          <component name="E_Cp" max="1042212.92469991" min="-81546.1589956805" />
+          <component name="E_Gen" max="662499.999999999" min="-37500" />
+          <component name="E_Ip" max="4099238.53812411" min="-537620.362724658" />
+          <component name="E_La" max="4590122.74478188" min="-527880.055109546" />
+          <component name="E_Lb" max="4256228.74229896" min="-3746179.97009372" />
+          <component name="E_Lc" max="1740442.23941796" min="-188242.595627454" />
+          <component name="E_Rect" max="1196000" min="-148000.000000002" />
+          <component name="E_Tp" max="47381439.685651" min="-33227508.3456732" />
+          <component name="E_Tube" max="2191790.93057982" min="-1155010.15843833" />
+          <component name="E_Tube4" max="1724924.93152552" min="-297842.636650554" />
+        </maxandmin>
+        <valuesdouble>8JtnndhvKMGv2Nsdl7EjwbHY2x2XsSPBECugPKvmHcE3K6A8q+YdwVykiD0oahTB
+b6SIPShqFMFOPOJ8StsFwZreLI1ReTFBWjXg//+wNkHHD/M0RoMoQZ7eLI1ReTFB
+JcQYn9InHEHkD/M0RoMoQYOkLVFjJP1ASsQYn9InHEGz6eS9bGQRQZp8b8uOmQdB
+cnxvy46ZB0HKSyo2iNT4QH5LKjaI1PhAsPOsq5avw0Bg66yrlq/DQPwNP4ui6PPA
+ps+Nrlz8J0FkRHLZSc4vQdJaqYNvKiBBoM+Nrlz8J0EMzImxBLEQQdBaqYNvKiBB
+xCUOvKXS0EDdy4mxBLEQQSQAAADAXPVAJAAAAEB360B4AAAAQHfrQLD/////adhA
+2P////9p2EBAAQAAAGq4wCj7////abjAAAAAAIBP4sD0////J+YeQfT////HNyRB
+BAAAAMBcFUH6////J+YeQRQAAACwpgdB7P///79cFUH+AAAAgE/iQND///+vpgdB
+Cs5SR+Z+QEGOU8VTVLE2QaBTxVNUsTZBLBbKMbjJKEEhFsoxuMkoQegUJvAewwBB
+rhQm8B7DAEHeC7e5KGggwe9FXUmb6UZBOEDhRFNGT0FYl7Kbxhk9QfNFXUmb6UZB
+U0VVSa3AKEFul7Kbxhk9QWtHdUllZBHBXUVVSa3AKEFmf0+3GAwjQdiV2wQdhBRB
+AJbbBB2EFEE+acHYRIDnQPZvwdhEgOdAEHhWnRdIDcG9eFadF0gNwYRRNxwQHCDB
+e45Zx6U+SkGggaqvioJRQbMZXi82eEFBc45Zx6U+SkHeScUujWMxQacZXi82eEFB
+8NTPmACpxMDAScUujWMxQfUHLPzBlEzBsE8DvedjRsGwTwO952NGwXGX2n0NM0DB
+c5fafQ0zQMEjvmN9ZgQ0wdO9Y31mBDTBvTdJ/MeKHsHGDHuVCWRJQX/TgS95PFBB
+lnLyyyBPQkHGDHuVCWRJQZCw0wRwdDZBknLyyyBPQkH5+ITjPJUgQTiw0wRwdDZB
+zMLvx+OEAEG/8vaTFpTqQI/y9pMWlOpAkkmi78PW2cA4S6Lvw9bZwI6czEFtNfrA
+j57MQW01+sCWU9jDlPoGwe550NOT/zNB2H5KPZqOOkEB6qzUGuEqQe950NOT/zNB
+YMBxAxyGG0EI6qzUGuEqQUzQmtgloNRAH8BxAxyGG0FYAgAAAHb2QA8IAAAAQN9A
+jwkAAABA30DB+v///1fbwEH8////V9vAr/7///979cB8/////3v1wDYAAAAAEQLB
+DgAAAABYK0EGAAAA4D8yQQcAAABAMCJBDAAAAABYK0EWAAAAABESQQMAAABAMCJB
+yPj///8/r8Dj/////xASQZLgh0UvsH/BUL1m2rg7ecFZvWbauDt5wQmaRW9Cx3LB
+/5lFb0LHcsHR7UgImKVowcXtSAiYpWjBvE0NZFZ5V8EBfTYQ+naBQZs2fP3dl4ZB
+x4bhRSyseEEBfTYQ+naBQRsnrNbI1GxBx4bhRSyseEGCgSpDcqJQQQsnrNbI1GxB
+AmqPKMKfMcHee3XoO08sweR7deg7TyzBqCPMf/NeJcGrI8x/814lwXiXRS5W3RzB
+t5dFLlbdHMGEzeW5ivkNwQMATa7FzzlBST0dd9e4QEFshV9u3C0yQQQATa7FzzlB
+ABbkXOYXJUFlhV9u3C0yQS6DJHRPUAdBSxbkXOYXJUFqH+6Lyi0Swfwot0euVBDB
+Aim3R65UEMEfZQAHJPcMwUxlAAck9wzB1niSfutECcFceZJ+60QJwUSLJPaykgXB
++s4I648SNEHQdHju/FE6QSxSMs9FpitB9c4I648SNEH/DKaQ104eQSxSMs9FpitB
+V9SdC45E9UBEDaaQ104eQQ==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="bendingmomv">
+        <maxandmin>
+          <component name="E_Circ" max="130" min="-20.0000000000004" />
+          <component name="E_Cp" max="129.999999999999" min="-19.9999999999994" />
+          <component name="E_Gen" max="130" min="-20.0000000000002" />
+          <component name="E_Ip" max="129.999999999999" min="-19.9999999999999" />
+          <component name="E_La" max="130" min="-19.9999999999991" />
+          <component name="E_Lb" max="130" min="-20.0000000000001" />
+          <component name="E_Lc" max="130" min="-19.9999999999997" />
+          <component name="E_Rect" max="130.000000000001" min="-20.0000000000001" />
+          <component name="E_Tp" max="130" min="-19.9999999999993" />
+          <component name="E_Tube" max="130" min="-20.0000000000002" />
+          <component name="E_Tube4" max="130.000000000001" min="-20.0000000000004" />
+        </maxandmin>
+        <valuesdouble>AAAAAABAYEAMAAAAACBXQBQAAAAAIFdAIAAAAACAS0A4AAAAAIBLQOD/////fzFA
+YAAAAACAMUBAAAAAAAA0wAwAAAAAIFdAAAAAAABAYEAgAAAAAIBLQAgAAAAAIFdA
+sP////9/MUBQAAAAAIBLQHAAAAAAADTAYAAAAACAMUDs/////z9gQPD/////H1dA
+4P////8fV0Dw/////39LQMj/////f0tAIAAAAACAMUDw/v///38xQGD//////zPA
+8P////8fV0Ds/////z9gQPD/////f0tA4P////8fV0BAAAAAAIAxQOD/////f0tA
+UP//////M8Ag/////38xQOz/////P2BA5P////8fV0D8/////x9XQPD/////f0tA
+4P////9/S0BAAAAAAIAxQGAAAAAAgDFAQAAAAAAANMAEAAAAACBXQP//////P2BA
+BAAAAACAS0D8/////x9XQIAAAAAAgDFAwP////9/S0CQ//////8zwKD/////fzFA
+4/////8/YEDU/////x9XQOD/////H1dA0P////9/S0Dg/////39LQMD/////fzFA
+oP////9/MUDA//////8zwNT/////H1dA4/////8/YEDU/////39LQNz/////H1dA
+wP////9/MUDg/////39LQPD//////zPA4P////9/MUAPAAAAAEBgQBAAAAAAIFdA
+DAAAAAAgV0AAAAAAAIBLQEgAAAAAgEtAoP////9/MUAA/////38xQAD//////zPA
+EAAAAAAgV0APAAAAAEBgQAQAAAAAgEtABAAAAAAgV0Cw/////38xQDAAAAAAgEtA
+EP//////M8Ag/////38xQA0AAAAAQGBAFAAAAAAgV0AgAAAAACBXQDAAAAAAgEtA
+8P////9/S0DAAAAAAIAxQND/////fzFAIAAAAAAANMAUAAAAACBXQA0AAAAAQGBA
+LAAAAACAS0AcAAAAACBXQMAAAAAAgDFAAAAAAACAS0Dg//////8zwEAAAAAAgDFA
+DQAAAABAYEAIAAAAACBXQAAAAAAAIFdA4P////9/S0DI/////39LQOD/////fzFA
+EP////9/MUCg//////8zwPD/////H1dAAQAAAABAYEDM/////39LQOz/////H1dA
+AAAAAACAMUDA/////39LQJD//////zPAIP////9/MUAtAAAAAEBgQEgAAAAAIFdA
+UAAAAAAgV0BgAAAAAIBLQEgAAAAAgEtAoAAAAACAMUAQAAAAAIAxQCAAAAAAADTA
+RAAAAAAgV0AgAAAAAEBgQFAAAAAAgEtASAAAAAAgV0DAAAAAAIAxQEAAAAAAgEtA
+EAAAAAAANMAgAAAAAIAxQA0AAAAAQGBABAAAAAAgV0AQAAAAACBXQBAAAAAAgEtA
+OAAAAACAS0Cg/////38xQED/////fzFAAP//////M8AEAAAAACBXQA0AAAAAQGBA
+DAAAAACAS0AMAAAAACBXQID/////fzFAIAAAAACAS0Aw//////8zwOD+////fzFA
+AQAAAABAYED4/////x9XQPj/////H1dA0P////9/S0DA/////39LQAAAAAAAgDFA
+4P////9/MUDA//////8zwPj/////H1dAAQAAAABAYEDM/////39LQPz/////H1dA
+4P////9/MUCg/////39LQEAAAAAAADTAAAAAAACAMUAHAAAAAEBgQCQAAAAAIFdA
+IAAAAAAgV0BAAAAAAIBLQFgAAAAAgEtAIAAAAACAMUAgAAAAAIAxQMD//////zPA
+SAAAAAAgV0AmAAAAAEBgQEgAAAAAgEtAOAAAAAAgV0CAAAAAAIAxQCAAAAAAgEtA
+cAAAAAAANMBgAAAAAIAxQA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="bendingmomw">
+        <maxandmin>
+          <component name="E_Circ" max="230" min="-230" />
+          <component name="E_Cp" max="229.99999999999" min="-229.999999999987" />
+          <component name="E_Gen" max="229.999999999998" min="-229.999999999999" />
+          <component name="E_Ip" max="230.000000000001" min="-230.000000000001" />
+          <component name="E_La" max="230.000000000002" min="-230.000000000001" />
+          <component name="E_Lb" max="230" min="-230" />
+          <component name="E_Lc" max="230.000000000002" min="-230.000000000002" />
+          <component name="E_Rect" max="229.999999999999" min="-229.999999999999" />
+          <component name="E_Tp" max="230.000000000002" min="-230.000000000002" />
+          <component name="E_Tube" max="230" min="-230" />
+          <component name="E_Tube4" max="230.000000000001" min="-230.000000000001" />
+        </maxandmin>
+        <valuesdouble>CgAAAADAbEAIAAAAAIBmQAwAAAAAgGZAGAAAAABAYEAsAAAAAEBgQPD//////1NA
+EAAAAAAAVECAAAAAAAA+QAgAAAAAgGbACgAAAADAbMAWAAAAAEBgwBAAAAAAgGbA
+6P//////U8AoAAAAAEBgwKD//////z3A8P//////U8CU/v///79sQBz/////f2ZA
+IP////9/ZkCA/////z9gQHz/////P2BA0P//////U0Cg//////9TQAABAAAAAD5A
+1P7///9/ZsBG/v///79swEL/////P2DA3P7///9/ZsBY//////9TwEj/////P2DA
+oP//////PcCw//////9TwMr/////v2xA3P////9/ZkDk/////39mQAAAAAAAQGBA
+9P////8/YEAwAAAAAABUQPD//////1NAgP//////PUDo/////39mwNz/////v2zA
+BAAAAABAYMD4/////39mwOD//////1PAAAAAAABAYMDAAAAAAAA+wOD//////1PA
+HgAAAADAbEAgAAAAAIBmQCAAAAAAgGZAGAAAAABAYEA4AAAAAEBgQOD//////1NA
+0P//////U0CAAQAAAAA+QBgAAAAAgGbAFgAAAADAbMAaAAAAAEBgwBAAAAAAgGbA
++P//////U8A4AAAAAEBgwEAAAAAAAD7A4P//////U8BAAAAAAMBsQDwAAAAAgGZA
+MAAAAACAZkAoAAAAAEBgQBwAAAAAQGBAUAAAAAAAVEAgAAAAAABUQAABAAAAAD5A
+LAAAAACAZsAoAAAAAMBswCgAAAAAQGDALAAAAACAZsBoAAAAAABUwPj/////P2DA
+gP7/////PcCAAAAAAABUwPb/////v2xAAAAAAACAZkAAAAAAAIBmQBAAAAAAQGBA
+EAAAAABAYEAAAAAAAABUQLD//////1NAgAEAAAAAPkAAAAAAAIBmwPb/////v2zA
+EgAAAABAYMAAAAAAAIBmwBAAAAAAAFTAEAAAAABAYMAAAgAAAAA+wMD//////1PA
+SgAAAADAbEBMAAAAAIBmQEgAAAAAgGZAOAAAAABAYEA8AAAAAEBgQBAAAAAAAFRA
+QAAAAAAAVEAAAAAAAAA+QEgAAAAAgGbATAAAAADAbMA0AAAAAEBgwFAAAAAAgGbA
+EAAAAAAAVMBAAAAAAEBgwCAAAAAAAD7AMAAAAAAAVMDa/////79sQNj/////f2ZA
+zP////9/ZkDo/////z9gQPD/////P2BAwP//////U0DQ//////9TQIAAAAAAAD5A
+2P////9/ZsDa/////79swOb/////P2DA0P////9/ZsDI//////9TwOj/////P2DA
+gAAAAAAAPsDA//////9TwEAAAAAAwGxAMAAAAACAZkA4AAAAAIBmQCAAAAAAQGBA
+HAAAAABAYEBQAAAAAABUQEAAAAAAAFRAAAAAAAAAPkA0AAAAAIBmwD4AAAAAwGzA
+IgAAAABAYMA0AAAAAIBmwDAAAAAAAFTAIAAAAABAYMAgAAAAAAA+wDAAAAAAAFTA
+/v////+/bED0/////39mQPj/////f2ZA4P////8/YEDg/////z9gQAAAAAAAAFRA
+IAAAAAAAVEAA//////89QPT/////f2bA/v////+/bMDi/////z9gwPT/////f2bA
+8P//////U8Dg/////z9gwAD//////z3AQAAAAAAAVMAUAAAAAMBsQBQAAAAAgGZA
+FAAAAACAZkAIAAAAAEBgQBgAAAAAQGBAIAAAAAAAVEBgAAAAAABUQAD//////z1A
+FAAAAACAZsAUAAAAAMBswAwAAAAAQGDAFAAAAACAZsAYAAAAAABUwBgAAAAAQGDA
+QP//////PcBgAAAAAABUwA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="tensileforce">
+        <maxandmin>
+          <component name="E_Circ" max="100" min="100" />
+          <component name="E_Cp" max="100" min="100" />
+          <component name="E_Gen" max="100" min="100" />
+          <component name="E_Ip" max="100" min="100" />
+          <component name="E_La" max="100" min="100" />
+          <component name="E_Lb" max="99.9999999999999" min="99.9999999999999" />
+          <component name="E_Lc" max="100" min="100" />
+          <component name="E_Rect" max="100" min="100" />
+          <component name="E_Tp" max="100" min="100" />
+          <component name="E_Tube" max="100" min="100" />
+          <component name="E_Tube4" max="100" min="99.9999999999999" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AQAAAAAAWUABAAAAAABZQAEAAAAAAFlAAQAAAAAAWUD+//////9YQP7//////1hA
+BAAAAAAAWUAEAAAAAABZQAEAAAAAAFlAAQAAAAAAWUABAAAAAABZQAEAAAAAAFlA
+/v//////WED+//////9YQAQAAAAAAFlABAAAAAAAWUABAAAAAABZQAEAAAAAAFlA
+AQAAAAAAWUABAAAAAABZQP7//////1hA/v//////WEAEAAAAAABZQAQAAAAAAFlA
+AQAAAAAAWUABAAAAAABZQAEAAAAAAFlAAQAAAAAAWUD+//////9YQP7//////1hA
+BAAAAAAAWUAEAAAAAABZQPr//////1hA+v//////WED8//////9YQPz//////1hA
++v//////WED6//////9YQPz//////1hA/P//////WED6//////9YQPr//////1hA
+/P//////WED8//////9YQPr//////1hA+v//////WED8//////9YQPz//////1hA
+AQAAAAAAWUABAAAAAABZQAEAAAAAAFlAAQAAAAAAWUD+//////9YQP7//////1hA
+BAAAAAAAWUAEAAAAAABZQAEAAAAAAFlAAQAAAAAAWUABAAAAAABZQAEAAAAAAFlA
+/v//////WED+//////9YQAQAAAAAAFlABAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUD5//////9YQPn//////1hA
++f//////WED5//////9YQPb//////1hA9v//////WED8//////9YQPz//////1hA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUD8//////9YQPz//////1hA
+BAAAAAAAWUAEAAAAAABZQA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="sheary">
+        <maxandmin>
+          <component name="E_Circ" max="200.000000000004" min="199.999999999993" />
+          <component name="E_Cp" max="199.999999999996" min="199.999999999984" />
+          <component name="E_Gen" max="200.000000000004" min="199.999999999995" />
+          <component name="E_Ip" max="200.000000000007" min="199.999999999987" />
+          <component name="E_La" max="200.000000000016" min="199.999999999991" />
+          <component name="E_Lb" max="200.000000000004" min="199.999999999989" />
+          <component name="E_Lc" max="200.000000000002" min="199.999999999999" />
+          <component name="E_Rect" max="200.000000000004" min="199.999999999999" />
+          <component name="E_Tp" max="200.000000000004" min="199.999999999998" />
+          <component name="E_Tube" max="200.000000000009" min="199.999999999996" />
+          <component name="E_Tube4" max="200.000000000009" min="199.999999999998" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAaUAAAAAAAABpQMD//////2hAwP//////aECAAAAAAABpQIAAAAAAAGlA
+gP//////aECA//////9oQAAAAAAAAGlAAAAAAAAAaUDA//////9oQMD//////2hA
+gAAAAAAAaUCAAAAAAABpQAD//////2hAAP//////aEDg/f////9oQOD9/////2hA
+AP7/////aEAA/v////9oQAD+/////2hAAP7/////aEBA/v////9oQED+/////2hA
+wP3/////aEDA/f////9oQED+/////2hAQP7/////aEAA/v////9oQAD+/////2hA
+gP//////aECA//////9oQMD//////2hAwP//////aEDA//////9oQMD//////2hA
+gP//////aECA//////9oQIAAAAAAAGlAgAAAAAAAaUDg//////9oQOD//////2hA
+4P//////aEDg//////9oQAAAAAAAAGlAAAAAAAAAaUBA//////9oQED//////2hA
+AAAAAAAAaUAAAAAAAABpQAAAAAAAAGlAAAAAAAAAaUAAAQAAAABpQAABAAAAAGlA
+QP7/////aEBA/v////9oQOD//////2hA4P//////aEDg//////9oQOD//////2hA
+wAAAAAAAaUDAAAAAAABpQID//////2hAgP//////aEAAAAAAAABpQAAAAAAAAGlA
+AAAAAAAAaUAAAAAAAABpQMD//////2hAwP//////aECA//////9oQID//////2hA
+4P//////aEDg//////9oQOD//////2hA4P//////aEDA/v////9oQMD+/////2hA
+QAIAAAAAaUBAAgAAAABpQOD//////2hA4P//////aEDA//////9oQMD//////2hA
+gAAAAAAAaUCAAAAAAABpQED//////2hAQP//////aEDg//////9oQOD//////2hA
+4P//////aEDg//////9oQEAAAAAAAGlAQAAAAAAAaUCA/v////9oQID+/////2hA
+4P//////aEDg//////9oQEAAAAAAAGlAQAAAAAAAaUAAAAAAAABpQAAAAAAAAGlA
+AAAAAAAAaUAAAAAAAABpQAAAAAAAAGlAAAAAAAAAaUBAAAAAAABpQEAAAAAAAGlA
+QAAAAAAAaUBAAAAAAABpQAAAAAAAAGlAAAAAAAAAaUAgAAAAAABpQCAAAAAAAGlA
+AAAAAAAAaUAAAAAAAABpQIAAAAAAAGlAgAAAAAAAaUAAAAAAAABpQAAAAAAAAGlA
+IAAAAAAAaUAgAAAAAABpQOD//////2hA4P//////aECAAAAAAABpQIAAAAAAAGlA
+AAAAAAAAaUAAAAAAAABpQEAAAAAAAGlAQAAAAAAAaUBAAAAAAABpQEAAAAAAAGlA
+wP//////aEDA//////9oQIAAAAAAAGlAgAAAAAAAaUAgAAAAAABpQCAAAAAAAGlA
+IAAAAAAAaUAgAAAAAABpQAAAAAAAAGlAAAAAAAAAaUDA//////9oQMD//////2hA
+IAAAAAAAaUAgAAAAAABpQEAAAAAAAGlAQAAAAAAAaUCA//////9oQID//////2hA
+QAEAAAAAaUBAAQAAAABpQCAAAAAAAGlAIAAAAAAAaUBgAAAAAABpQGAAAAAAAGlA
+wP//////aEDA//////9oQIAAAAAAAGlAgAAAAAAAaUAAAAAAAABpQAAAAAAAAGlA
+AAAAAAAAaUAAAAAAAABpQEAAAAAAAGlAQAAAAAAAaUDAAAAAAABpQMAAAAAAAGlA
+AAAAAAAAaUAAAAAAAABpQAAAAAAAAGlAAAAAAAAAaUDA//////9oQMD//////2hA
+QAEAAAAAaUBAAQAAAABpQA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="shearz">
+        <maxandmin>
+          <component name="E_Circ" max="150.000000000004" min="-150.000000000003" />
+          <component name="E_Cp" max="149.999999999999" min="-149.999999999999" />
+          <component name="E_Gen" max="150" min="-150.000000000005" />
+          <component name="E_Ip" max="150.000000000001" min="-150.000000000001" />
+          <component name="E_La" max="150.000000000003" min="-150.000000000005" />
+          <component name="E_Lb" max="150.000000000003" min="-150.000000000002" />
+          <component name="E_Lc" max="150.000000000001" min="-150.000000000001" />
+          <component name="E_Rect" max="150" min="-150.000000000001" />
+          <component name="E_Tp" max="150.000000000005" min="-150.000000000003" />
+          <component name="E_Tube" max="150.000000000002" min="-150.000000000002" />
+          <component name="E_Tube4" max="150.000000000001" min="-150.000000000001" />
+        </maxandmin>
+        <valuesdouble>4P////+/YsDg/////79iwAAAAAAAwGLAAAAAAADAYsBgAAAAAMBiwGAAAAAAwGLA
+YAAAAADAYsBgAAAAAMBiwOD/////v2JA4P////+/YkAAAAAAAMBiQAAAAAAAwGJA
+gAAAAADAYkCAAAAAAMBiQGAAAAAAwGJAYAAAAADAYkDg/////79iwOD/////v2LA
+4P////+/YsDg/////79iwMD/////v2LAwP////+/YsAA/////79iwAD/////v2LA
+4P////+/YkDg/////79iQOD/////v2JA4P////+/YkDA/////79iQMD/////v2JA
+QP////+/YkBA/////79iQPD/////v2LA8P////+/YsAAAAAAAMBiwAAAAAAAwGLA
+oP////+/YsCg/////79iwKAAAAAAwGLAoAAAAADAYsDw/////79iQPD/////v2JA
+8P////+/YkDw/////79iQID/////v2JAgP////+/YkCg/////79iQKD/////v2JA
+8P////+/YsDw/////79iwCAAAAAAwGLAIAAAAADAYsAAAAAAAMBiwAAAAAAAwGLA
+wP////+/YsDA/////79iwPD/////v2JA8P////+/YkAQAAAAAMBiQBAAAAAAwGJA
+IAAAAADAYkAgAAAAAMBiQOD/////v2JA4P////+/YkAgAAAAAMBiwCAAAAAAwGLA
+IAAAAADAYsAgAAAAAMBiwKAAAAAAwGLAoAAAAADAYsAA/////79iwAD/////v2LA
+IAAAAADAYkAgAAAAAMBiQCAAAAAAwGJAIAAAAADAYkBgAAAAAMBiQGAAAAAAwGJA
+IP////+/YkAg/////79iQAAAAAAAwGLAAAAAAADAYsDg/////79iwOD/////v2LA
+YP////+/YsBg/////79iwEAAAAAAwGLAQAAAAADAYsAAAAAAAMBiQAAAAAAAwGJA
+4P////+/YkDg/////79iQKD/////v2JAoP////+/YkBgAAAAAMBiQGAAAAAAwGJA
+MAAAAADAYsAwAAAAAMBiwCAAAAAAwGLAIAAAAADAYsAAAAAAAMBiwAAAAAAAwGLA
+YP////+/YsBg/////79iwCAAAAAAwGJAIAAAAADAYkAAAAAAAMBiQAAAAAAAwGJA
+AAAAAADAYkAAAAAAAMBiQGD/////v2JAYP////+/YkAQAAAAAMBiwBAAAAAAwGLA
+IAAAAADAYsAgAAAAAMBiwOD/////v2LA4P////+/YsAAAAAAAMBiwAAAAAAAwGLA
+8P////+/YkDw/////79iQBAAAAAAwGJAEAAAAADAYkDA/////79iQMD/////v2JA
+AAAAAADAYkAAAAAAAMBiQCAAAAAAwGLAIAAAAADAYsAAAAAAAMBiwAAAAAAAwGLA
+YAAAAADAYsBgAAAAAMBiwGD/////v2LAYP////+/YsAgAAAAAMBiQCAAAAAAwGJA
+AAAAAADAYkAAAAAAAMBiQKAAAAAAwGJAoAAAAADAYkBg/////79iQGD/////v2JA
+IAAAAADAYsAgAAAAAMBiwEAAAAAAwGLAQAAAAADAYsDg/////79iwOD/////v2LA
+IAAAAADAYsAgAAAAAMBiwCAAAAAAwGJAIAAAAADAYkBAAAAAAMBiQEAAAAAAwGJA
+AAAAAADAYkAAAAAAAMBiQOD/////v2JA4P////+/YkDQ/////79iwND/////v2LA
+4P////+/YsDg/////79iwCAAAAAAwGLAIAAAAADAYsCg/////79iwKD/////v2LA
+AAAAAADAYkAAAAAAAMBiQCAAAAAAwGJAIAAAAADAYkCg/////79iQKD/////v2JA
+IAAAAADAYkAgAAAAAMBiQA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="torsion">
+        <maxandmin>
+          <component name="E_Circ" max="10" min="10" />
+          <component name="E_Cp" max="10" min="10" />
+          <component name="E_Gen" max="10" min="10" />
+          <component name="E_Ip" max="9.99999999999999" min="9.99999999999999" />
+          <component name="E_La" max="10" min="10" />
+          <component name="E_Lb" max="10" min="10" />
+          <component name="E_Lc" max="10" min="10" />
+          <component name="E_Rect" max="10" min="9.99999999999999" />
+          <component name="E_Tp" max="10" min="10" />
+          <component name="E_Tube" max="10" min="9.99999999999999" />
+          <component name="E_Tube4" max="10" min="10" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
++f//////I0D5//////8jQPv//////yNA+///////I0D8//////8jQPz//////yNA
+/P//////I0D8//////8jQPn//////yNA+f//////I0D7//////8jQPv//////yNA
+/P//////I0D8//////8jQPz//////yNA/P//////I0ABAAAAAAAkQAEAAAAAACRA
+AQAAAAAAJEABAAAAAAAkQAAAAAAAACRAAAAAAAAAJEACAAAAAAAkQAIAAAAAACRA
+AQAAAAAAJEABAAAAAAAkQAEAAAAAACRAAQAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AgAAAAAAJEACAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJED+//////8jQP7//////yNA
+AgAAAAAAJEACAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+/v//////I0D+//////8jQAIAAAAAACRAAgAAAAAAJED6//////8jQPr//////yNA
+/P//////I0D8//////8jQP7//////yNA/v//////I0AAAAAAAAAkQAAAAAAAACRA
++v//////I0D6//////8jQPz//////yNA/P//////I0D+//////8jQP7//////yNA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
++v//////I0D6//////8jQPz//////yNA/P//////I0D8//////8jQPz//////yNA
+/v//////I0D+//////8jQPn//////yNA+f//////I0D7//////8jQPv//////yNA
+/P//////I0D8//////8jQPz//////yNA/P//////I0AAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAIAAAAAACRAAgAAAAAAJED+//////8jQP7//////yNA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEACAAAAAAAkQAIAAAAAACRA
+/v//////I0D+//////8jQA==
+</valuesdouble>
+      </elementnodevariable>
+    </results>
+  </solution>
+</liml>

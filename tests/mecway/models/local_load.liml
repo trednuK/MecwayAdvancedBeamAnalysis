@@ -1,0 +1,43 @@
+<liml version="33">
+  <analysis type="S30" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.15" y="0.1" z="0.125" />
+  <node nid="3" x="0.3" y="0.2" z="0.25" />
+  <node nid="4" x="0.45" y="0.3" z="0.375" />
+  <node nid="5" x="0.6" y="0.4" z="0.5" />
+  <node nid="6" x="0" y="1" z="0" />
+  <node nid="7" x="0.15" y="1.1" z="0.125" />
+  <node nid="8" x="0.3" y="1.2" z="0.25" />
+  <node nid="9" x="0.45" y="1.3" z="0.375" />
+  <node nid="10" x="0.6" y="1.4" z="0.5" />
+  <elset name="E_Rect" colorrgb="DADADA" material="Rect">
+    <elem eid="1" shape="line2" nodes="1 2" />
+    <elem eid="2" shape="line2" nodes="2 3" />
+    <elem eid="3" shape="line2" nodes="3 4" />
+    <elem eid="4" shape="line2" nodes="4 5" />
+    <elem eid="5" shape="line2" nodes="7 6" />
+    <elem eid="6" shape="line2" nodes="8 7" />
+    <elem eid="7" shape="line2" nodes="9 8" />
+    <elem eid="8" shape="line2" nodes="10 9" />
+  </elset>
+  <linepressure selection="q0_loc"><u>120.0 N/m</u><v>-1000.0 N/m</v><w>700.0 N/m</w></linepressure>
+  <linepressure selection="q1_loc_rev"><u>120.0 N/m</u><v>-1000.0 N/m</v><w>700.0 N/m</w></linepressure>
+  <fixed selection="clamp" />
+  <mat name="Rect">
+    <geometric type="RectBar" recta="100 mm" rectb="50 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <elementselection name="q0_loc" direct="true"><element eid="1" /><element eid="2" /><element eid="3" /><element eid="4" /></elementselection>
+  <elementselection name="q1_loc_rev" direct="true"><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /><node nid="6" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

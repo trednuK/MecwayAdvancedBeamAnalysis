@@ -1,0 +1,839 @@
+<liml version="35">
+  <analysis type="S30" />
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.25" y="0" z="0" />
+  <node nid="3" x="0.5" y="0" z="0" />
+  <node nid="4" x="0.75" y="0" z="0" />
+  <node nid="5" x="1" y="0" z="0" />
+  <node nid="6" x="0" y="0.25" z="0" />
+  <node nid="7" x="0.25" y="0.25" z="0" />
+  <node nid="8" x="0.5" y="0.25" z="0" />
+  <node nid="9" x="0.75" y="0.25" z="0" />
+  <node nid="10" x="1" y="0.25" z="0" />
+  <node nid="11" x="0" y="0.5" z="0" />
+  <node nid="12" x="0.25" y="0.5" z="0" />
+  <node nid="13" x="0.5" y="0.5" z="0" />
+  <node nid="14" x="0.75" y="0.5" z="0" />
+  <node nid="15" x="1" y="0.5" z="0" />
+  <node nid="16" x="0" y="0.75" z="0" />
+  <node nid="17" x="0.25" y="0.75" z="0" />
+  <node nid="18" x="0.5" y="0.75" z="0" />
+  <node nid="19" x="0.75" y="0.75" z="0" />
+  <node nid="20" x="1" y="0.75" z="0" />
+  <node nid="21" x="0" y="1" z="0" />
+  <node nid="22" x="0.25" y="1" z="0" />
+  <node nid="23" x="0.5" y="1" z="0" />
+  <node nid="24" x="0.75" y="1" z="0" />
+  <node nid="25" x="1" y="1" z="0" />
+  <node nid="26" x="0" y="1.25" z="0" />
+  <node nid="27" x="0.15" y="1.35" z="0.125" />
+  <node nid="28" x="0.3" y="1.45" z="0.25" />
+  <node nid="29" x="0.45" y="1.55" z="0.375" />
+  <node nid="30" x="0.6" y="1.65" z="0.5" />
+  <node nid="31" x="0" y="2" z="0" />
+  <node nid="32" x="0.25" y="2" z="0" />
+  <node nid="33" x="0.5" y="2" z="0" />
+  <node nid="34" x="0.75" y="2" z="0" />
+  <node nid="35" x="1" y="2" z="0" />
+  <elset name="E_Flat" colorrgb="DADADA" material="Flat">
+    <elem eid="1" shape="line2" nodes="1 2" />
+    <elem eid="2" shape="line2" nodes="2 3" />
+    <elem eid="3" shape="line2" nodes="3 4" />
+    <elem eid="4" shape="line2" nodes="4 5" />
+    <elem eid="5" shape="line2" nodes="6 7" orientationvz="1" angle="0 rad" />
+    <elem eid="6" shape="line2" nodes="7 8" orientationvz="1" angle="0 rad" />
+    <elem eid="7" shape="line2" nodes="8 9" orientationvz="1" angle="0 rad" />
+    <elem eid="8" shape="line2" nodes="9 10" orientationvz="1" angle="0 rad" />
+    <elem eid="9" shape="line2" nodes="11 12" orientationvy="-1" angle="0 rad" />
+    <elem eid="10" shape="line2" nodes="12 13" orientationvy="-1" angle="0 rad" />
+    <elem eid="11" shape="line2" nodes="13 14" orientationvy="-1" angle="0 rad" />
+    <elem eid="12" shape="line2" nodes="14 15" orientationvy="-1" angle="0 rad" />
+    <elem eid="13" shape="line2" nodes="17 16" />
+    <elem eid="14" shape="line2" nodes="18 17" />
+    <elem eid="15" shape="line2" nodes="19 18" />
+    <elem eid="16" shape="line2" nodes="20 19" />
+    <elem eid="17" shape="line2" nodes="22 21" orientationvy="1" angle="0 rad" />
+    <elem eid="18" shape="line2" nodes="23 22" orientationvy="1" angle="0 rad" />
+    <elem eid="19" shape="line2" nodes="24 23" orientationvy="1" angle="0 rad" />
+    <elem eid="20" shape="line2" nodes="25 24" orientationvy="1" angle="0 rad" />
+    <elem eid="21" shape="line2" nodes="26 27" />
+    <elem eid="22" shape="line2" nodes="27 28" />
+    <elem eid="23" shape="line2" nodes="28 29" />
+    <elem eid="24" shape="line2" nodes="29 30" />
+    <elem eid="25" shape="line2" nodes="31 32" />
+    <elem eid="26" shape="line2" nodes="32 33" />
+    <elem eid="27" shape="line2" nodes="33 34" />
+    <elem eid="28" shape="line2" nodes="34 35" />
+  </elset>
+  <orientation selection="or_card">
+    <ux>0</ux>
+    <uy>0</uy>
+    <uz>0</uz>
+    <vx>0</vx>
+    <vy>0</vy>
+    <vz>1</vz>
+    <angleu>0 °</angleu>
+  </orientation>
+  <force selection="tip_card">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_card">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_flip">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_flip">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_ok">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_ok">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_rev_default">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_rev_default">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_rev_vec">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_rev_vec">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_skew">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_skew">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <force selection="tip_vz">
+    <x>100 N</x>
+    <y>200 N</y>
+    <z>-150 N</z>
+  </force>
+  <moment selection="tip_vz">
+    <x>10 N.m</x>
+    <y>-20 N.m</y>
+    <z>30 N.m</z>
+  </moment>
+  <fixed selection="clamp" />
+  <ccxmodeldefinition>** SECTIE-VORM Flat: N=4, A=0.002
+** SECTIE-VORM Flat: P=-0.05 -0.01 0.05 -0.01 0.05
+** SECTIE-VORM Flat: P=0.01 -0.05 0.01
+** SECTIE-RICHTING Flat: V=0 1 0, U=1 0 0</ccxmodeldefinition>
+  <mat name="Flat">
+    <geometric type="UniformGeneralSection" iyy="66666.6666666667 mm⁴" izz="1666666.66666667 mm⁴" torsionconstant="200000 mm⁴" perimeter="240 mm" area="2000 mm²" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <nodeselection name="tip_card" direct="true">
+    <node nid="35" />
+  </nodeselection>
+  <nodeselection name="tip_flip" direct="true">
+    <node nid="15" />
+  </nodeselection>
+  <nodeselection name="tip_ok" direct="true">
+    <node nid="5" />
+  </nodeselection>
+  <nodeselection name="tip_rev_default" direct="true">
+    <node nid="20" />
+  </nodeselection>
+  <nodeselection name="tip_rev_vec" direct="true">
+    <node nid="25" />
+  </nodeselection>
+  <nodeselection name="tip_skew" direct="true">
+    <node nid="30" />
+  </nodeselection>
+  <nodeselection name="tip_vz" direct="true">
+    <node nid="10" />
+  </nodeselection>
+  <nodeselection name="clamp" direct="true">
+    <node nid="1" />
+    <node nid="6" />
+    <node nid="11" />
+    <node nid="16" />
+    <node nid="21" />
+    <node nid="26" />
+    <node nid="31" />
+  </nodeselection>
+  <elementselection name="or_card" direct="true">
+    <element eid="25" />
+    <element eid="26" />
+    <element eid="27" />
+    <element eid="28" />
+  </elementselection>
+  <fieldvariable name="displacement" displayunit="mm" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+  <solution>
+    <analysis type="S30" />
+    <node nid="1" x="0" y="0" z="0" />
+    <node nid="2" x="0.25" y="0" z="0" />
+    <node nid="3" x="0.5" y="0" z="0" />
+    <node nid="4" x="0.75" y="0" z="0" />
+    <node nid="5" x="1" y="0" z="0" />
+    <node nid="6" x="0" y="0.25" z="0" />
+    <node nid="7" x="0.25" y="0.25" z="0" />
+    <node nid="8" x="0.5" y="0.25" z="0" />
+    <node nid="9" x="0.75" y="0.25" z="0" />
+    <node nid="10" x="1" y="0.25" z="0" />
+    <node nid="11" x="0" y="0.5" z="0" />
+    <node nid="12" x="0.25" y="0.5" z="0" />
+    <node nid="13" x="0.5" y="0.5" z="0" />
+    <node nid="14" x="0.75" y="0.5" z="0" />
+    <node nid="15" x="1" y="0.5" z="0" />
+    <node nid="16" x="0" y="0.75" z="0" />
+    <node nid="17" x="0.25" y="0.75" z="0" />
+    <node nid="18" x="0.5" y="0.75" z="0" />
+    <node nid="19" x="0.75" y="0.75" z="0" />
+    <node nid="20" x="1" y="0.75" z="0" />
+    <node nid="21" x="0" y="1" z="0" />
+    <node nid="22" x="0.25" y="1" z="0" />
+    <node nid="23" x="0.5" y="1" z="0" />
+    <node nid="24" x="0.75" y="1" z="0" />
+    <node nid="25" x="1" y="1" z="0" />
+    <node nid="26" x="0" y="1.25" z="0" />
+    <node nid="27" x="0.15" y="1.35" z="0.125" />
+    <node nid="28" x="0.3" y="1.45" z="0.25" />
+    <node nid="29" x="0.45" y="1.55" z="0.375" />
+    <node nid="30" x="0.6" y="1.65" z="0.5" />
+    <node nid="31" x="0" y="2" z="0" />
+    <node nid="32" x="0.25" y="2" z="0" />
+    <node nid="33" x="0.5" y="2" z="0" />
+    <node nid="34" x="0.75" y="2" z="0" />
+    <node nid="35" x="1" y="2" z="0" />
+    <elset name="E_Flat" colorrgb="DADADA" material="Flat">
+      <elem eid="1" shape="line2" nodes="1 2" />
+      <elem eid="2" shape="line2" nodes="2 3" />
+      <elem eid="3" shape="line2" nodes="3 4" />
+      <elem eid="4" shape="line2" nodes="4 5" />
+      <elem eid="5" shape="line2" nodes="6 7" orientationvz="1" angle="0 rad" />
+      <elem eid="6" shape="line2" nodes="7 8" orientationvz="1" angle="0 rad" />
+      <elem eid="7" shape="line2" nodes="8 9" orientationvz="1" angle="0 rad" />
+      <elem eid="8" shape="line2" nodes="9 10" orientationvz="1" angle="0 rad" />
+      <elem eid="9" shape="line2" nodes="11 12" orientationvy="-1" angle="0 rad" />
+      <elem eid="10" shape="line2" nodes="12 13" orientationvy="-1" angle="0 rad" />
+      <elem eid="11" shape="line2" nodes="13 14" orientationvy="-1" angle="0 rad" />
+      <elem eid="12" shape="line2" nodes="14 15" orientationvy="-1" angle="0 rad" />
+      <elem eid="13" shape="line2" nodes="17 16" />
+      <elem eid="14" shape="line2" nodes="18 17" />
+      <elem eid="15" shape="line2" nodes="19 18" />
+      <elem eid="16" shape="line2" nodes="20 19" />
+      <elem eid="17" shape="line2" nodes="22 21" orientationvy="1" angle="0 rad" />
+      <elem eid="18" shape="line2" nodes="23 22" orientationvy="1" angle="0 rad" />
+      <elem eid="19" shape="line2" nodes="24 23" orientationvy="1" angle="0 rad" />
+      <elem eid="20" shape="line2" nodes="25 24" orientationvy="1" angle="0 rad" />
+      <elem eid="21" shape="line2" nodes="26 27" />
+      <elem eid="22" shape="line2" nodes="27 28" />
+      <elem eid="23" shape="line2" nodes="28 29" />
+      <elem eid="24" shape="line2" nodes="29 30" />
+      <elem eid="25" shape="line2" nodes="31 32" />
+      <elem eid="26" shape="line2" nodes="32 33" />
+      <elem eid="27" shape="line2" nodes="33 34" />
+      <elem eid="28" shape="line2" nodes="34 35" />
+    </elset>
+    <orientation selection="or_card">
+      <ux>0</ux>
+      <uy>0</uy>
+      <uz>0</uz>
+      <vx>0</vx>
+      <vy>0</vy>
+      <vz>1</vz>
+      <angleu>0 °</angleu>
+    </orientation>
+    <force selection="tip_card">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_card">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_flip">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_flip">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_ok">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_ok">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_rev_default">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_rev_default">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_rev_vec">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_rev_vec">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_skew">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_skew">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <force selection="tip_vz">
+      <x>100 N</x>
+      <y>200 N</y>
+      <z>-150 N</z>
+    </force>
+    <moment selection="tip_vz">
+      <x>10 N.m</x>
+      <y>-20 N.m</y>
+      <z>30 N.m</z>
+    </moment>
+    <fixed selection="clamp" />
+    <ccxmodeldefinition>** SECTIE-VORM Flat: N=4, A=0.002
+** SECTIE-VORM Flat: P=-0.05 -0.01 0.05 -0.01 0.05
+** SECTIE-VORM Flat: P=0.01 -0.05 0.01
+** SECTIE-RICHTING Flat: V=0 1 0, U=1 0 0</ccxmodeldefinition>
+    <mat name="Flat">
+      <geometric type="UniformGeneralSection" iyy="6.66666666666667E-08 m⁴" izz="1.66666666666667E-06 m⁴" torsionconstant="200000 mm⁴" perimeter="240 mm" area="0.002 m²" pointy="0.01 m" pointz="0.005 m" />
+      <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    </mat>
+    <nodeselection name="tip_card" direct="true">
+      <node nid="35" />
+    </nodeselection>
+    <nodeselection name="tip_flip" direct="true">
+      <node nid="15" />
+    </nodeselection>
+    <nodeselection name="tip_ok" direct="true">
+      <node nid="5" />
+    </nodeselection>
+    <nodeselection name="tip_rev_default" direct="true">
+      <node nid="20" />
+    </nodeselection>
+    <nodeselection name="tip_rev_vec" direct="true">
+      <node nid="25" />
+    </nodeselection>
+    <nodeselection name="tip_skew" direct="true">
+      <node nid="30" />
+    </nodeselection>
+    <nodeselection name="tip_vz" direct="true">
+      <node nid="10" />
+    </nodeselection>
+    <nodeselection name="clamp" direct="true">
+      <node nid="1" />
+      <node nid="6" />
+      <node nid="11" />
+      <node nid="16" />
+      <node nid="21" />
+      <node nid="26" />
+      <node nid="31" />
+    </nodeselection>
+    <elementselection name="or_card" direct="true">
+      <element eid="25" />
+      <element eid="26" />
+      <element eid="27" />
+      <element eid="28" />
+    </elementselection>
+    <results precision="double">
+      <nodeids name="displmag">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="displx">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="disply">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="displz">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="rotx">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="roty">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="rotz">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="stressptu">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="reactionforcemag">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAAA==
+</nodeids>
+      <nodeids name="reactionforcex">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAAA==
+</nodeids>
+      <nodeids name="reactionforcey">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAAA==
+</nodeids>
+      <nodeids name="reactionforcez">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAAA==
+</nodeids>
+      <nodeids name="reactionmommag">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAAA==
+</nodeids>
+      <nodeids name="reactionmomx">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAAA==
+</nodeids>
+      <nodeids name="reactionmomy">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAAA==
+</nodeids>
+      <nodeids name="reactionmomz">AQAAAAYAAAALAAAAEAAAABUAAAAaAAAAHwAAAA==
+</nodeids>
+      <nodeids name="bendingmomv">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="bendingmomw">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="tensileforce">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="sheary">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="shearz">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <nodeids name="torsion">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAA=
+</nodeids>
+      <elementnodeids name="stressptu">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAA==
+</elementnodeids>
+      <elementnodeids name="bendingmomv">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAA==
+</elementnodeids>
+      <elementnodeids name="bendingmomw">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAA==
+</elementnodeids>
+      <elementnodeids name="tensileforce">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAA==
+</elementnodeids>
+      <elementnodeids name="sheary">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAA==
+</elementnodeids>
+      <elementnodeids name="shearz">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAA==
+</elementnodeids>
+      <elementnodeids name="torsion">AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA
+DQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAA
+GQAAABoAAAAbAAAAHAAAAA==
+</elementnodeids>
+      <nodevariable name="displmag">
+        <maxandmin>
+          <component name="E_Flat" max="0.00583445276430933" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAACyxSP93DsxP/l5xlxczk4/RSWsrK2JXj/HrDuVz3tnPwAAAAAAAAAA
+oWQf1BY3Pz8bOl5rrcZcPxiC86oNoW0/QxYB/d3ldz8AAAAAAAAAACXGI/3cOzE/
+yHrGXFzOTj8TJqysrYleP2atO5XPe2c/AAAAAAAAAACyxSP93DsxP/l5xlxczk4/
+RSWsrK2JXj/HrDuVz3tnPwAAAAAAAAAAssUj/dw7MT/5ecZcXM5OP0UlrKytiV4/
+x6w7lc97Zz8AAAAAAAAAADKsHwAZszI/e4oS+9fFUD/A505zq7NgPxMrKcq11mk/
+AAAAAAAAAAChZB/UFjc/Pxs6Xmutxlw/GILzqg2hbT9DFgH93eV3Pw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="displx">
+        <maxandmin>
+          <component name="E_Flat" max="0.00143913569461484" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAABiPsjc4/RvPmI+yNzj9H8+yi6W5ar3hz5iPsjc4/SPPgAAAAAAAAAA
+Yj7I3OP0bz5iPsjc4/R/PsouluWq94c+Yj7I3OP0jz4AAAAAAAAAAGI+yNzj9G8+
+Yj7I3OP0fz7KLpblqveHPmI+yNzj9I8+AAAAAAAAAABiPsjc4/RvPmI+yNzj9H8+
+yi6W5ar3hz5iPsjc4/SPPgAAAAAAAAAAYj7I3OP0bz5iPsjc4/R/PsouluWq94c+
+Yj7I3OP0jz4AAAAAAAAAAOophNSKJiE/J9B5i6u5Pj8a+D8LtItOP+dLiy8slFc/
+AAAAAAAAAABiPsjc4/RvPmI+yNzj9H8+yi6W5ar3hz5iPsjc4/SPPg==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="disply">
+        <maxandmin>
+          <component name="E_Flat" max="0.00583333333333332" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAADvJv1pDvnzPuRftUmZaRI/9Eubrmj1Ij+eo0sSXpUuPwAAAAAAAAAA
+5YybhSY1Pz/gZSuD/8RcP7em0pBzn20/2RdLfrHkdz8AAAAAAAAAABEn/WkO+fM+
+AmC1SZlpEj8QTJuuaPUiP8ejSxJelS4/AAAAAAAAAADvJv1pDvnzPuRftUmZaRI/
+9Eubrmj1Ij+eo0sSXpUuPwAAAAAAAAAA7yb9aQ758z7kX7VJmWkSP/RLm65o9SI/
+nqNLEl6VLj8AAAAAAAAAANMiTCJYXhk//LlWjhXPNj9ep2f5PshGP8Y/4KVzsVE/
+AAAAAAAAAADljJuFJjU/P+BlK4P/xFw/t6bSkHOfbT/ZF0t+seR3Pw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="displz">
+        <maxandmin>
+          <component name="E_Flat" max="0" min="-0.00285714285714292" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAACcrJY3RjAxv7EehetRuE6/sIDYVBpyXr+mqTTk3GdnvwAAAAAAAAAA
+5dzA4FkA5r5UMlUwKqkDv7y45s85fBO/Z7r7npX1Hb8AAAAAAAAAAA+tljdGMDG/
+gB+F61G4Tr9+gdhUGnJev0aqNOTcZ2e/AAAAAAAAAACcrJY3RjAxv7EehetRuE6/
+sIDYVBpyXr+mqTTk3GdnvwAAAAAAAAAAnKyWN0YwMb+xHoXrUbhOv7CA2FQacl6/
+pqk05NxnZ78AAAAAAAAAAOp6Iy4cuC6/0Je4g+WNS7/QDaOw3W9bv7cVOifqOGW/
+AAAAAAAAAADl3MDgWQDmvlQyVTAqqQO/vLjmzzl8E79nuvuelfUdvw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="rotx">
+        <maxandmin>
+          <component name="E_Flat" max="0.000619047619047619" min="-0.0024312111442248" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAACZG6Wj8kgkP5kbpaPySDQ/Zql39WttPj+ZG6Wj8khEPwAAAAAAAAAA
+mRulo/JIJD+ZG6Wj8kg0P2apd/VrbT4/mRulo/JIRD8AAAAAAAAAAJsbpaPySCQ/
+mxulo/JIND9oqXf1a20+P5obpaPySEQ/AAAAAAAAAACZG6Wj8kgkP5kbpaPySDQ/
+Zql39WttPj+ZG6Wj8khEPwAAAAAAAAAAmRulo/JIJD+ZG6Wj8kg0P2apd/VrbT4/
+mRulo/JIRD8AAAAAAAAAALLajIX9s1S/RhI48Yj9YL+a61SLnupjv4b4HJE/IWO/
+AAAAAAAAAACZG6Wj8kgkP5kbpaPySDQ/Zql39WttPj+ZG6Wj8khEPw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="roty">
+        <maxandmin>
+          <component name="E_Flat" max="0.00450211067097219" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAID6nayWN0ZgPyrk3GcXEGs/SmnIuc8ucD+fNOTcZxdwPwAAAAAAAACA
+nAeLCMLUFD/Dh+l/+lEhP+EL7HLMtiQ/JxBN3daYJD8AAAAAAAAAgGierJY3RmA/
+4uTcZxcQaz+4aci5zy5wPxI15NxnF3A/AAAAAAAAAID6nayWN0ZgPyrk3GcXEGs/
+SmnIuc8ucD+fNOTcZxdwPwAAAAAAAACA+p2sljdGYD8q5NxnFxBrP0ppyLnPLnA/
+nzTk3GcXcD8AAAAAAAAAgGgDpI6iYWE/MyBcyXJSbT+qKBRYOOlxPxFLhCHOcHI/
+AAAAAAAAAICcB4sIwtQUP8OH6X/6USE/4Qvscsy2JD8nEE3d1pgkPw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="rotz">
+        <maxandmin>
+          <component name="E_Flat" max="0.00928571428571427" min="0" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAAABqQ9nZUzEjP9mYbSkk2jA/buWCtW7ENT9zhyyRiVc4PwAAAAAAAAAA
+YnljBBP9bT/bPruA2FR6P0BDzn12AYE/1MlqeWMEgz8AAAAAAAAAAIpD2dlTMSM/
+85htKSTaMD+J5YK1bsQ1P4qHLJGJVzg/AAAAAAAAAABqQ9nZUzEjP9mYbSkk2jA/
+buWCtW7ENT9zhyyRiVc4PwAAAAAAAAAAakPZ2VMxIz/ZmG0pJNowP27lgrVuxDU/
+c4cskYlXOD8AAAAAAAAAAAzWFtY9jCY/VEtoku25NT/Inxb2a1s/P+I1CwtNFUQ/
+AAAAAAAAAABieWMEE/1tP9s+u4DYVHo/QEPOfXYBgT/UyWp5YwSDPw==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="stressptu">
+        <maxandmin>
+          <component name="E_Flat" max="18080000" min="-11080000" />
+        </maxandmin>
+        <valuesdouble>AgAAAFQPYEH0////ColWQez////b5klBzv7//4fuKkG0////L984wf3///8PPnFB
++P///zTnakHt////SVJjQeP///+9eldB+f///8+hQEHsAAAAAL1fwacAAABjJ1bB
+tgAAAIwjScGFAAAASOEnwbT////PZTpB/v////tSZUHx////asZeQfb////d5lJB
+wP///0MdPEHW////72Azwf7///8nImXB8f///8JkXsH2////NYVSwcD///+jljrB
+1v///4/nNEFW6pXrjddoQck1g9/Vx2FBsPjgpjtwVUH80u06LkM9QYsIqCWSOjvB
+/f///w8+cUH4////NOdqQe3///9JUmNB4////716V0H5////z6FAQQ==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionforcemag">
+        <maxandmin>
+          <component name="E_Flat" max="269.258240356728" min="269.258240356644" />
+        </maxandmin>
+        <valuesdouble>TOqjwCHUcEBS6qPAIdRwQH7qo8Ah1HBATOqjwCHUcEBM6qPAIdRwQLLko8Ah1HBA
+UuqjwCHUcEA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionforcex">
+        <maxandmin>
+          <component name="E_Flat" max="-99.9999999997662" min="-100" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAWcAAAAAAAABZwAAAAAAAAFnAAAAAAAAAWcAAAAAAAABZwL+//////1jA
+AAAAAAAAWcA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionforcey">
+        <maxandmin>
+          <component name="E_Flat" max="-200" min="-200.000000000033" />
+        </maxandmin>
+        <valuesdouble>+f//////aMAYAAAAAABpwDcAAAAAAGnA+f//////aMD5//////9owIkEAAAAAGnA
+GAAAAAAAacA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionforcez">
+        <maxandmin>
+          <component name="E_Flat" max="150.000000000004" min="149.999999999966" />
+        </maxandmin>
+        <valuesdouble>HgAAAADAYkAKAAAAAMBiQH8AAAAAwGJAHgAAAADAYkAeAAAAAMBiQFf7////v2JA
+CgAAAADAYkA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionmommag">
+        <maxandmin>
+          <component name="E_Flat" max="264.386081328048" min="221.359436211864" />
+        </maxandmin>
+        <valuesdouble>1VidYy2GcEDWWJ1jLYZwQAZZnWMthnBA1VidYy2GcEDVWJ1jLYZwQJTeXoCAq2tA
+1lidYy2GcEA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionmomx">
+        <maxandmin>
+          <component name="E_Flat" max="150.000000000062" min="-10" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAJMAAAAAAAAAkwAIAAAAAACTAAAAAAAAAJMAAAAAAAAAkwHcIAAAAwGJA
+AAAAAAAAJMA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionmomy">
+        <maxandmin>
+          <component name="E_Flat" max="-120.000000000002" min="-130.000000000003" />
+        </maxandmin>
+        <valuesdouble>AgAAAABAYMAAAAAAAEBgwGwAAAAAQGDAAgAAAABAYMACAAAAAEBgwIkAAAAAAF7A
+AAAAAABAYMA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="reactionmomz">
+        <maxandmin>
+          <component name="E_Flat" max="-110.00000000007" min="-230.000000000001" />
+        </maxandmin>
+        <valuesdouble>+/////+/bMD9/////79swC4AAAAAwGzA+/////+/bMD7/////79swFwTAAAAgFvA
+/f////+/bMA=
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="bendingmomv">
+        <maxandmin>
+          <component name="E_Flat" max="230" min="-130.000000000003" />
+        </maxandmin>
+        <valuesdouble>AgAAAABAYED2/////x9XQOz/////f0tAiP////9/MUDg//////8zwP7/////v2xA
+/P////9/ZkDy/////z9gQOj//////1NAAAAAAAAAPkBsAAAAAEBgwJgAAAAAIFfA
+nAAAAACAS8BIAAAAAIAxwOD//////zNAAgAAAABAYED4/////x9XQPz/////f0tA
+uP////9/MUDQ//////8zwAIAAAAAQGDA+P////8fV8D8/////39LwLj/////fzHA
+0P//////M0DGPo1SouFmQEqdp7O4d2BAuO+DKZ4bVEDAVOKuKx89QADjSkghMDbA
+/v////+/bED8/////39mQPL/////P2BA6P//////U0AAAAAAAAA+QA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="bendingmomw">
+        <maxandmin>
+          <component name="E_Flat" max="230" min="-230.000000000001" />
+        </maxandmin>
+        <valuesdouble>/P////+/bEAAAAAAAIBmQPb/////P2BAMAAAAAAAVECA/v////89QAAAAAAAQGDA
+AAAAAAAgV8Dg/////39LwEAAAAAAgDHAgAAAAAAANEAuAAAAAMBswCAAAAAAgGbA
+9v////8/YMAwAAAAAABUwID+/////z3A/P////+/bMD8/////39mwO7/////P2DA
+RAAAAAAAVMBg//////89wPz/////v2xA/P////9/ZkDu/////z9gQEQAAAAAAFRA
+YP//////PUDQ3fJ2VOVeQOR9zfS8z1hA/CGociW6UkAwgAXhG0lJQIDEdbnZOzpA
+AAAAAABAYMAAAAAAACBXwOD/////f0vAQAAAAACAMcCAAAAAAAA0QA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="tensileforce">
+        <maxandmin>
+          <component name="E_Flat" max="100" min="74.0743746986435" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUC5lBiOwoRSQEKxGI7ChFJA25sYjsKEUkBBsRiOwoRSQJb4GI7ChFJA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="sheary">
+        <maxandmin>
+          <component name="E_Flat" max="200.000000000007" min="-200.000000000009" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAaUAAAAAAAABpQID//////2hAAAAAAAAAaUAAAQAAAABpQBAAAAAAwGLA
+GAAAAADAYsAAAAAAAMBiwCAAAAAAwGLAYAAAAADAYsBAAAAAAABpwEAAAAAAAGnA
+wP//////aMBAAAAAAABpwEABAAAAAGnAAAAAAAAAaUAAAAAAAABpQKD//////2hA
+IAAAAAAAaUAAAQAAAABpQAAAAAAAAGnAAAAAAAAAacCg//////9owCAAAAAAAGnA
+AAEAAAAAacAgy12aKbxbQFDBXZopvFtAIMhdmim8W0CgrF2aKbxbQICAXZopvFtA
+EAAAAADAYsAYAAAAAMBiwAAAAAAAwGLAIAAAAADAYsBgAAAAAMBiwA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="shearz">
+        <maxandmin>
+          <component name="E_Flat" max="150.000000000004" min="-233.891630259331" />
+        </maxandmin>
+        <valuesdouble>IAAAAADAYsAQAAAAAMBiwCAAAAAAwGLAIAAAAADAYsAAAAAAAMBiwCAAAAAAAGnA
+UAAAAAAAacBgAAAAAABpwEAAAAAAAGnAQAAAAAAAacCAAAAAAMBiQIAAAAAAwGJA
+kAAAAADAYkBQAAAAAMBiQAAAAAAAwGJAIAAAAADAYkAQAAAAAMBiQBAAAAAAwGJA
+8P////+/YkDA/////79iQCAAAAAAwGLAEAAAAADAYsAQAAAAAMBiwPD/////v2LA
+wP////+/YsCgVi48iDxtwLBfLjyIPG3A4HouPIg8bcBgfi48iDxtwMBvLjyIPG3A
+IAAAAAAAacBQAAAAAABpwGAAAAAAAGnAQAAAAAAAacBAAAAAAABpwA==
+</valuesdouble>
+      </nodevariable>
+      <nodevariable name="torsion">
+        <maxandmin>
+          <component name="E_Flat" max="14.8148749397561" min="10" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEACAAAAAAAkQAIAAAAAACRA
+AQAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJECKIMFJN6EtQNIhwUk3oS1AqCLBSTehLUArJsFJN6EtQCAqwUk3oS1A
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQA==
+</valuesdouble>
+      </nodevariable>
+      <elementnodevariable name="stressptu">
+        <maxandmin>
+          <component name="E_Flat" max="18080000" min="-11080000" />
+        </maxandmin>
+        <valuesdouble>AgAAAFQPYEH3////ColWQfD///8KiVZB7////9vmSUHo////2+ZJQQX///+H7ipB
+l/7//4fuKkG0////L984wf3///8PPnFB8////zTnakH9////NOdqQeH///9JUmNB
++f///0lSY0HH////vXpXQf////+9eldB+f///8+hQEHsAAAAAL1fwawAAABjJ1bB
+ogAAAGMnVsHGAAAAjCNJwacAAACMI0nBuwAAAEjhJ8FPAAAASOEnwbT////PZTpB
+8f///2rGXkH+////+1JlQez////d5lJB8f///2rGXkHX////Qx08QQEAAADe5lJB
+1v///+9gM8Gp////Qx08QfH////CZF7B/v///yciZcHs////NYVSwfH////CZF7B
+1////6OWOsEBAAAANoVSwdb///+P5zRBqf///6OWOsFW6pXrjddoQas1g9/Vx2FB
+5zWD39XHYUHw+OCmO3BVQXH44KY7cFVBHNLtOi5DPUHc0+06LkM9QYsIqCWSOjvB
+/f///w8+cUHz////NOdqQf3///8052pB4f///0lSY0H5////SVJjQcf///+9eldB
+/////716V0H5////z6FAQQ==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="bendingmomv">
+        <maxandmin>
+          <component name="E_Flat" max="230" min="-130.000000000003" />
+        </maxandmin>
+        <valuesdouble>AgAAAABAYED4/////x9XQPT/////H1dA8P////9/S0Do/////39LQKD/////fzFA
+cP////9/MUDg//////8zwP7/////v2xA+P////9/ZkAAAAAAAIBmQOj/////P2BA
+/P////8/YEDQ//////9TQAAAAAAAAFRAAAAAAAAAPkBsAAAAAEBgwJwAAAAAIFfA
+lAAAAAAgV8CwAAAAAIBLwIgAAAAAgEvAYAAAAACAMcAwAAAAAIAxwOD//////zNA
++P////8fV0ACAAAAAEBgQOj/////f0tA+P////8fV0DQ/////38xQBAAAAAAgEtA
+0P//////M8Cg/////38xQPj/////H1fAAgAAAABAYMDo/////39LwPj/////H1fA
+0P////9/McAQAAAAAIBLwND//////zNAoP////9/McDGPo1SouFmQEidp7O4d2BA
+TJ2ns7h3YECg74MpnhtUQNDvgymeG1RAgFXirisfPUAAVOKuKx89QADjSkghMDbA
+/v////+/bED4/////39mQAAAAAAAgGZA6P////8/YED8/////z9gQND//////1NA
+AAAAAAAAVEAAAAAAAAA+QA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="bendingmomw">
+        <maxandmin>
+          <component name="E_Flat" max="230" min="-230.000000000001" />
+        </maxandmin>
+        <valuesdouble>/P////+/bED8/////39mQAQAAAAAgGZA+P////8/YED0/////z9gQDAAAAAAAFRA
+MAAAAAAAVECA/v////89QAAAAAAAQGDA+P////8fV8AIAAAAACBXwOD/////f0vA
+4P////9/S8BAAAAAAIAxwEAAAAAAgDHAgAAAAAAANEAuAAAAAMBswCAAAAAAgGbA
+IAAAAACAZsAIAAAAAEBgwOT/////P2DAMAAAAAAAVMAwAAAAAABUwID+/////z3A
+/P////9/ZsD8/////79swPT/////P2DA/P////9/ZsA4AAAAAABUwOj/////P2DA
+YP//////PcBQAAAAAABUwPz/////f2ZA/P////+/bED0/////z9gQPz/////f2ZA
+OAAAAAAAVEDo/////z9gQGD//////z1AUAAAAAAAVEDQ3fJ2VOVeQNx9zfS8z1hA
+7H3N9LzPWEBAIqhyJbpSQLghqHIlulJAwH0F4RtJSUCgggXhG0lJQIDEdbnZOzpA
+AAAAAABAYMD4/////x9XwAgAAAAAIFfA4P////9/S8Dg/////39LwEAAAAAAgDHA
+QAAAAACAMcCAAAAAAAA0QA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="tensileforce">
+        <maxandmin>
+          <component name="E_Flat" max="100" min="74.0743746984878" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUC5lBiOwoRSQLmUGI7ChFJA
+ys0YjsKEUkDKzRiOwoRSQOxpGI7ChFJA7GkYjsKEUkCW+BiOwoRSQJb4GI7ChFJA
+AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlA
+AAAAAAAAWUAAAAAAAABZQA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="sheary">
+        <maxandmin>
+          <component name="E_Flat" max="200.000000000007" min="-200.000000000009" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAaUAAAAAAAABpQAAAAAAAAGlAAAAAAAAAaUAA//////9oQAD//////2hA
+AAEAAAAAaUAAAQAAAABpQBAAAAAAwGLAEAAAAADAYsAgAAAAAMBiwCAAAAAAwGLA
+4P////+/YsDg/////79iwGAAAAAAwGLAYAAAAADAYsBAAAAAAABpwEAAAAAAAGnA
+QAAAAAAAacBAAAAAAABpwED//////2jAQP//////aMBAAQAAAABpwEABAAAAAGnA
+AAAAAAAAaUAAAAAAAABpQAAAAAAAAGlAAAAAAAAAaUBA//////9oQED//////2hA
+AAEAAAAAaUAAAQAAAABpQAAAAAAAAGnAAAAAAAAAacAAAAAAAABpwAAAAAAAAGnA
+QP//////aMBA//////9owAABAAAAAGnAAAEAAAAAacAgy12aKbxbQCDLXZopvFtA
+gLddmim8W0CAt12aKbxbQMDYXZopvFtAwNhdmim8W0CAgF2aKbxbQICAXZopvFtA
+EAAAAADAYsAQAAAAAMBiwCAAAAAAwGLAIAAAAADAYsDg/////79iwOD/////v2LA
+YAAAAADAYsBgAAAAAMBiwA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="shearz">
+        <maxandmin>
+          <component name="E_Flat" max="150.000000000005" min="-233.891630259437" />
+        </maxandmin>
+        <valuesdouble>IAAAAADAYsAgAAAAAMBiwAAAAAAAwGLAAAAAAADAYsBAAAAAAMBiwEAAAAAAwGLA
+AAAAAADAYsAAAAAAAMBiwCAAAAAAAGnAIAAAAAAAacCAAAAAAABpwIAAAAAAAGnA
+QAAAAAAAacBAAAAAAABpwEAAAAAAAGnAQAAAAAAAacCAAAAAAMBiQIAAAAAAwGJA
+gAAAAADAYkCAAAAAAMBiQKAAAAAAwGJAoAAAAADAYkAAAAAAAMBiQAAAAAAAwGJA
+IAAAAADAYkAgAAAAAMBiQAAAAAAAwGJAAAAAAADAYkAgAAAAAMBiQCAAAAAAwGJA
+wP////+/YkDA/////79iQCAAAAAAwGLAIAAAAADAYsAAAAAAAMBiwAAAAAAAwGLA
+IAAAAADAYsAgAAAAAMBiwMD/////v2LAwP////+/YsCgVi48iDxtwKBWLjyIPG3A
+wGguPIg8bcDAaC48iDxtwACNLjyIPG3AAI0uPIg8bcDAby48iDxtwMBvLjyIPG3A
+IAAAAAAAacAgAAAAAABpwIAAAAAAAGnAgAAAAAAAacBAAAAAAABpwEAAAAAAAGnA
+QAAAAAAAacBAAAAAAABpwA==
+</valuesdouble>
+      </elementnodevariable>
+      <elementnodevariable name="torsion">
+        <maxandmin>
+          <component name="E_Flat" max="14.8148749397561" min="10" />
+        </maxandmin>
+        <valuesdouble>AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEACAAAAAAAkQAIAAAAAACRA
+AgAAAAAAJEACAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJECKIMFJN6EtQIogwUk3oS1A
+GiPBSTehLUAaI8FJN6EtQDYiwUk3oS1ANiLBSTehLUAgKsFJN6EtQCAqwUk3oS1A
+AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRA
+AAAAAAAAJEAAAAAAAAAkQA==
+</valuesdouble>
+      </elementnodevariable>
+    </results>
+  </solution>
+</liml>

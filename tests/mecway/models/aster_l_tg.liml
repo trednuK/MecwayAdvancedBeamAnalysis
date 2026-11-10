@@ -1,0 +1,47 @@
+<liml version="33">
+  <analysis type="S30" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.08" y="0" z="0" />
+  <node nid="3" x="0.16" y="0" z="0" />
+  <node nid="4" x="0.24" y="0" z="0" />
+  <node nid="5" x="0.32" y="0" z="0" />
+  <node nid="6" x="0.4" y="0" z="0" />
+  <node nid="7" x="0.48" y="0" z="0" />
+  <node nid="8" x="0.56" y="0" z="0" />
+  <node nid="9" x="0.64" y="0" z="0" />
+  <elset name="E_l" colorrgb="DADADA" material="l">
+    <elem eid="1" shape="line2" nodes="1 2" orientationvx="0" orientationvy="0.9331134271688393" orientationvz="0.35958216312440083" />
+    <elem eid="2" shape="line2" nodes="2 3" orientationvx="0" orientationvy="0.9331134271688393" orientationvz="0.35958216312440083" />
+    <elem eid="3" shape="line2" nodes="3 4" orientationvx="0" orientationvy="0.9331134271688393" orientationvz="0.35958216312440083" />
+    <elem eid="4" shape="line2" nodes="4 5" orientationvx="0" orientationvy="0.9331134271688393" orientationvz="0.35958216312440083" />
+    <elem eid="5" shape="line2" nodes="5 6" orientationvx="0" orientationvy="0.9331134271688393" orientationvz="0.35958216312440083" />
+    <elem eid="6" shape="line2" nodes="6 7" orientationvx="0" orientationvy="0.9331134271688393" orientationvz="0.35958216312440083" />
+    <elem eid="7" shape="line2" nodes="7 8" orientationvx="0" orientationvy="0.9331134271688393" orientationvz="0.35958216312440083" />
+    <elem eid="8" shape="line2" nodes="8 9" orientationvx="0" orientationvy="0.9331134271688393" orientationvz="0.35958216312440083" />
+  </elset>
+  <force selection="tip_b"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_b"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <fixed selection="clamp" />
+  <ccxmodeldefinition>** SECTIE-VORM l: N=6, A=0.0009760000000000001
+** SECTIE-VORM l: P=-0.02169017358 -0.0212269562 0.02496549778 -0.03920606435 0.02784215509 -0.03174115693
+** SECTIE-VORM l: P=-0.01134860885 -0.01663870608 0.01454130689 0.05054546067 0.007076399473 0.05342211798
+** ASTER-SECTIE l: A=0.0009760000000000001, IY=7.050847283574571e-07, IZ=1.140957743747833e-07, JX=2.0259140800168892e-08, AY=2.0, AZ=1.5, EY=0.016209213657633354, EZ=0.017872465575782516, JG=7.283646429124652e-12, IYR2=0, IZR2=0</ccxmodeldefinition>
+  <mat name="l">
+    <geometric type="UniformGeneralSection" area="0.0009760000000000001 m²" iyy="7.050847283574571e-07 m⁴" izz="1.140957743747833e-07 m⁴" torsionconstant="2.0259140800168892e-08 m⁴" perimeter="0.3 m" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+    <density type="Simple" density="7850.0 kg/m³" />
+  </mat>
+  <nodeselection name="tip_b" direct="true"><node nid="9" /></nodeselection>
+  <elementselection name="sel_b"><element eid="1" /><element eid="2" /><element eid="3" /><element eid="4" /><element eid="5" /><element eid="6" /><element eid="7" /><element eid="8" /></elementselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

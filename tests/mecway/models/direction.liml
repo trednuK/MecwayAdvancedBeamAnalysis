@@ -1,0 +1,111 @@
+<liml version="33">
+  <analysis type="S30" />
+  <incompatiblehex8>true</incompatiblehex8>
+  <node nid="1" x="0" y="0" z="0" />
+  <node nid="2" x="0.25" y="0" z="0" />
+  <node nid="3" x="0.5" y="0" z="0" />
+  <node nid="4" x="0.75" y="0" z="0" />
+  <node nid="5" x="1" y="0" z="0" />
+  <node nid="6" x="0" y="0.25" z="0" />
+  <node nid="7" x="0.25" y="0.25" z="0" />
+  <node nid="8" x="0.5" y="0.25" z="0" />
+  <node nid="9" x="0.75" y="0.25" z="0" />
+  <node nid="10" x="1" y="0.25" z="0" />
+  <node nid="11" x="0" y="0.5" z="0" />
+  <node nid="12" x="0.25" y="0.5" z="0" />
+  <node nid="13" x="0.5" y="0.5" z="0" />
+  <node nid="14" x="0.75" y="0.5" z="0" />
+  <node nid="15" x="1" y="0.5" z="0" />
+  <node nid="16" x="0" y="0.75" z="0" />
+  <node nid="17" x="0.25" y="0.75" z="0" />
+  <node nid="18" x="0.5" y="0.75" z="0" />
+  <node nid="19" x="0.75" y="0.75" z="0" />
+  <node nid="20" x="1" y="0.75" z="0" />
+  <node nid="21" x="0" y="1" z="0" />
+  <node nid="22" x="0.25" y="1" z="0" />
+  <node nid="23" x="0.5" y="1" z="0" />
+  <node nid="24" x="0.75" y="1" z="0" />
+  <node nid="25" x="1" y="1" z="0" />
+  <node nid="26" x="0" y="1.25" z="0" />
+  <node nid="27" x="0.15" y="1.35" z="0.125" />
+  <node nid="28" x="0.3" y="1.45" z="0.25" />
+  <node nid="29" x="0.45" y="1.55" z="0.375" />
+  <node nid="30" x="0.6" y="1.65" z="0.5" />
+  <node nid="31" x="0" y="2" z="0" />
+  <node nid="32" x="0.25" y="2" z="0" />
+  <node nid="33" x="0.5" y="2" z="0" />
+  <node nid="34" x="0.75" y="2" z="0" />
+  <node nid="35" x="1" y="2" z="0" />
+  <elset name="E_Flat" colorrgb="DADADA" material="Flat">
+    <elem eid="1" shape="line2" nodes="1 2" />
+    <elem eid="2" shape="line2" nodes="2 3" />
+    <elem eid="3" shape="line2" nodes="3 4" />
+    <elem eid="4" shape="line2" nodes="4 5" />
+    <elem eid="5" shape="line2" nodes="6 7" orientationvz="1" />
+    <elem eid="6" shape="line2" nodes="7 8" orientationvz="1" />
+    <elem eid="7" shape="line2" nodes="8 9" orientationvz="1" />
+    <elem eid="8" shape="line2" nodes="9 10" orientationvz="1" />
+    <elem eid="9" shape="line2" nodes="11 12" orientationvy="-1" />
+    <elem eid="10" shape="line2" nodes="12 13" orientationvy="-1" />
+    <elem eid="11" shape="line2" nodes="13 14" orientationvy="-1" />
+    <elem eid="12" shape="line2" nodes="14 15" orientationvy="-1" />
+    <elem eid="13" shape="line2" nodes="17 16" />
+    <elem eid="14" shape="line2" nodes="18 17" />
+    <elem eid="15" shape="line2" nodes="19 18" />
+    <elem eid="16" shape="line2" nodes="20 19" />
+    <elem eid="17" shape="line2" nodes="22 21" orientationvy="1" />
+    <elem eid="18" shape="line2" nodes="23 22" orientationvy="1" />
+    <elem eid="19" shape="line2" nodes="24 23" orientationvy="1" />
+    <elem eid="20" shape="line2" nodes="25 24" orientationvy="1" />
+    <elem eid="21" shape="line2" nodes="26 27" />
+    <elem eid="22" shape="line2" nodes="27 28" />
+    <elem eid="23" shape="line2" nodes="28 29" />
+    <elem eid="24" shape="line2" nodes="29 30" />
+    <elem eid="25" shape="line2" nodes="31 32" />
+    <elem eid="26" shape="line2" nodes="32 33" />
+    <elem eid="27" shape="line2" nodes="33 34" />
+    <elem eid="28" shape="line2" nodes="34 35" />
+  </elset>
+  <orientation selection="or_card"><ux>0</ux><uy>0</uy><uz>0</uz><vx>0.0</vx><vy>0.0</vy><vz>1.0</vz><angleu>0.0 °</angleu></orientation>
+  <force selection="tip_card"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_card"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <force selection="tip_flip"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_flip"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <force selection="tip_ok"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_ok"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <force selection="tip_rev_default"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_rev_default"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <force selection="tip_rev_vec"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_rev_vec"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <force selection="tip_skew"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_skew"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <force selection="tip_vz"><x>100.0 N</x><y>200.0 N</y><z>-150.0 N</z></force>
+  <moment selection="tip_vz"><x>10.0 N.m</x><y>-20.0 N.m</y><z>30.0 N.m</z></moment>
+  <fixed selection="clamp" />
+  <ccxmodeldefinition>** SECTIE-VORM Flat: N=4, A=0.002
+** SECTIE-VORM Flat: P=-0.05 -0.01 0.05 -0.01 0.05
+** SECTIE-VORM Flat: P=0.01 -0.05 0.01
+** SECTIE-RICHTING Flat: V=0 1 0, U=1 0 0</ccxmodeldefinition>
+  <mat name="Flat">
+    <geometric type="UniformGeneralSection" area="2000 mm²" iyy="66666.6666666667 mm⁴" izz="1666666.66666667 mm⁴" torsionconstant="200000 mm⁴" perimeter="240 mm" pointy="10 mm" pointz="5 mm" />
+    <mechanical type="Isotropic" youngsmodulus="210 GPa" poissonratio="0.3" />
+  </mat>
+  <elementselection name="or_card" direct="true"><element eid="25" /><element eid="26" /><element eid="27" /><element eid="28" /></elementselection>
+  <nodeselection name="tip_card" direct="true"><node nid="35" /></nodeselection>
+  <nodeselection name="tip_flip" direct="true"><node nid="15" /></nodeselection>
+  <nodeselection name="tip_ok" direct="true"><node nid="5" /></nodeselection>
+  <nodeselection name="tip_rev_default" direct="true"><node nid="20" /></nodeselection>
+  <nodeselection name="tip_rev_vec" direct="true"><node nid="25" /></nodeselection>
+  <nodeselection name="tip_skew" direct="true"><node nid="30" /></nodeselection>
+  <nodeselection name="tip_vz" direct="true"><node nid="10" /></nodeselection>
+  <nodeselection name="clamp" direct="true"><node nid="1" /><node nid="6" /><node nid="11" /><node nid="16" /><node nid="21" /><node nid="26" /><node nid="31" /></nodeselection>
+  <fieldvariable name="displacement" displayunit="m" />
+  <fieldvariable name="rotation" displayunit="rad" />
+  <fieldvariable name="reaction force" displayunit="N" />
+  <fieldvariable name="reaction moment" displayunit="N.m" />
+  <fieldvariable name="stress in element coordinates" displayunit="Pa" />
+  <fieldvariable name="tensile force" displayunit="N" />
+  <fieldvariable name="shear force" displayunit="N" />
+  <fieldvariable name="torsion moment" displayunit="N.m" />
+  <fieldvariable name="bending moment 2" displayunit="N.m" />
+</liml>

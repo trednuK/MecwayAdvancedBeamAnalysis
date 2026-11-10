@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380"><style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;fill:#1f2933}
+.b{font-weight:600}.h{font-weight:600;font-size:15px}.s{font-size:12px}.i{font-style:italic}
+.m{fill:#5b6672}.bg{fill:#ffffff}.panel{fill:#f4f6f8;stroke:#d0d7de}
+.sec{fill:#dfe5ec;stroke:#1f2933;stroke-width:1.5}.grid{stroke:#d0d7de;stroke-width:1;fill:none}
+.zone{fill:#f3d9b1;opacity:.45}
+.sfg{stroke:#1f2933}.ffg{fill:#1f2933}.sm{stroke:#5b6672}.fm{fill:#5b6672}
+.sf{stroke:#0b5cad}.ff{fill:#0b5cad}.tf{fill:#0b5cad}
+.so{stroke:#c2410c}.fo{fill:#c2410c}.to{fill:#c2410c}
+.sr{stroke:#c81e1e}.fr{fill:#c81e1e}.tr{fill:#c81e1e}
+.sg{stroke:#0f7b5f}.fg{fill:#0f7b5f}.tg{fill:#0f7b5f}
+.sp{stroke:#7e3fb2}.fp{fill:#7e3fb2}.tp{fill:#7e3fb2}
+@media (prefers-color-scheme:dark){
+text{fill:#e6edf3}.m{fill:#9aa7b4}.bg{fill:#0d1117}.panel{fill:#161b22;stroke:#30363d}
+.sec{fill:#3a4553;stroke:#e6edf3}.grid{stroke:#30363d}.zone{fill:#7a5a1e}
+.sfg{stroke:#e6edf3}.ffg{fill:#e6edf3}.sm{stroke:#9aa7b4}.fm{fill:#9aa7b4}
+.sf{stroke:#6cb6ff}.ff{fill:#6cb6ff}.tf{fill:#6cb6ff}
+.so{stroke:#ffa657}.fo{fill:#ffa657}.to{fill:#ffa657}
+.sr{stroke:#ff7b72}.fr{fill:#ff7b72}.tr{fill:#ff7b72}
+.sg{stroke:#3fb950}.fg{fill:#3fb950}.tg{fill:#3fb950}
+.sp{stroke:#d2a8ff}.fp{fill:#d2a8ff}.tp{fill:#d2a8ff}
+}
+</style>
+<rect class="bg" width="960" height="380"/>
+<text x="40.0" y="34.0" class="h">Op ware schaal: 1×</text>
+<line class="sm" x1="110.0" y1="130.0" x2="400.3" y2="210.5" stroke-width="1" stroke-dasharray="5 4"/>
+<polygon class="sec" points="102.4,131.4 117.6,123.6 117.6,132.5 116.5,133.1 116.5,126.2 103.5,132.9 103.5,139.7 102.4,140.3"/>
+<circle class="ffg" cx="110.0" cy="130.0" r="3"/>
+<polygon class="sec" points="160.5,147.5 175.7,139.7 175.7,148.6 174.5,149.2 174.5,142.3 161.6,149.0 161.6,155.8 160.5,156.4"/>
+<circle class="ffg" cx="168.1" cy="146.1" r="3"/>
+<polygon class="sec" points="218.5,163.6 233.7,155.8 233.7,164.7 232.6,165.3 232.6,158.4 219.7,165.1 219.7,172.0 218.5,172.5"/>
+<circle class="ffg" cx="226.1" cy="162.2" r="3"/>
+<polygon class="sec" points="276.6,179.7 291.8,171.9 291.8,180.8 290.6,181.4 290.6,174.5 277.7,181.2 277.7,188.1 276.6,188.6"/>
+<circle class="ffg" cx="284.2" cy="178.3" r="3"/>
+<polygon class="sec" points="334.6,195.8 349.8,188.0 349.8,196.9 348.7,197.5 348.7,190.7 335.8,197.3 335.8,204.2 334.6,204.7"/>
+<circle class="ffg" cx="342.2" cy="194.4" r="3"/>
+<polygon class="sec" points="392.7,211.9 407.9,204.1 407.9,213.0 406.8,213.6 406.8,206.8 393.8,213.4 393.8,220.3 392.7,220.9"/>
+<circle class="ffg" cx="400.3" cy="210.5" r="3"/>
+<text x="40.0" y="250.0" class="s m">gestippeld: de balk-as, op ware schaal</text>
+<text x="500.0" y="34.0" class="h">Doorsneden 3× vergroot</text>
+<line class="sm" x1="570.0" y1="130.0" x2="860.3" y2="210.5" stroke-width="1" stroke-dasharray="5 4"/>
+<polygon class="sec" points="547.2,134.2 592.8,110.7 592.8,137.5 589.4,139.2 589.4,118.7 550.6,138.7 550.6,159.2 547.2,161.0"/>
+<circle class="ffg" cx="570.0" cy="130.0" r="3"/>
+<polygon class="sec" points="605.3,150.3 650.9,126.8 650.9,153.6 647.4,155.3 647.4,134.8 608.7,154.8 608.7,175.3 605.3,177.1"/>
+<circle class="ffg" cx="628.1" cy="146.1" r="3"/>
+<polygon class="sec" points="663.3,166.4 708.9,142.9 708.9,169.7 705.5,171.4 705.5,150.9 666.7,170.9 666.7,191.4 663.3,193.2"/>
+<circle class="ffg" cx="686.1" cy="162.2" r="3"/>
+<polygon class="sec" points="721.4,182.5 767.0,159.0 767.0,185.8 763.6,187.5 763.6,167.0 724.8,187.0 724.8,207.5 721.4,209.3"/>
+<circle class="ffg" cx="744.2" cy="178.3" r="3"/>
+<polygon class="sec" points="779.4,198.6 825.1,175.1 825.1,201.9 821.6,203.7 821.6,183.1 782.9,203.1 782.9,223.7 779.4,225.4"/>
+<circle class="ffg" cx="802.2" cy="194.4" r="3"/>
+<polygon class="sec" points="837.5,214.7 883.1,191.2 883.1,218.0 879.7,219.8 879.7,199.2 840.9,219.2 840.9,239.8 837.5,241.5"/>
+<circle class="ffg" cx="860.3" cy="210.5" r="3"/>
+<line class="so" x1="536.0" y1="176.0" x2="563.7" y2="138.5" stroke-width="1.5"/>
+<polygon class="fo" points="567.0,134.0 565.6,140.9 560.9,137.3"/>
+<text x="530.0" y="192.0" text-anchor="middle" class="s to">G op zijn plaats s</text>
+<text x="480.0" y="326.0" text-anchor="middle" class="s">Elke doorsnede wordt k× vergroot om zijn zwaartepunt G; de plaatsen s blijven op ware afstand.</text>
+<text x="480.0" y="350.0" text-anchor="middle" class="s m">De muis geeft altijd de ware V, W en spanning. Het venster zegt “doorsneden k× vergroot, niet op schaal”.</text>
+</svg>
