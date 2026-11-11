@@ -14,6 +14,7 @@
 #   RequestSlot                 which request goes next: control commands in
 #                               order, of the frames only the newest
 #   scan_head(path)             analysis, solver, configurations from a .liml
+#   UpAxis(paths).z_top()       Mecway's up axis (its option) for the 3D view
 #   warning_text(code, data)    user text of a warning code
 #   fmt_*                       numbers for the window
 #
@@ -37,7 +38,7 @@ import time
 SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
 TOOL = u"MecwayAdvancedBeamAnalysis"
 # Version of the tool (window title, log, CHANGELOG.md), as in MecwayAsterBridge
-VERSION = u"V2026.1"
+VERSION = u"V2026.2"
 LOG_NAME = "beam_log.txt"
 WORKER_LOG = "beam_worker_log.txt"
 SETTINGS_NAME = "beam_settings.json"
@@ -423,6 +424,79 @@ class RequestSlot(object):
         with self._lock:
             return not (self._control or self._frame or self._refine or
                         self._probe)
+
+
+# ==========================================
+# MECWAY'S UP AXIS
+# ==========================================
+# Mecway keeps its up-axis option (Tools > Options > General) as the .NET user
+# setting ViewZTop, True for Z up, in its user.config; its own default stands in the
+# <userSettings> of mecway.exe.config (measured on Mecway 35: False, so Y up). The
+# paths come from beam_mecway.config_paths(). The setting name is no contract of
+# Mecway: without it the 3D view takes Y up and the log says so once.
+_SETTING = re.compile(r'<setting\b[^>]*\bname\s*=\s*"ViewZTop"[^>]*?(/>|>(.*?)</setting>)',
+                      re.S)
+_VALUE = re.compile(r'<value\s*>(.*?)</value\s*>|<value\s*/>', re.S)
+
+
+def parse_z_top(text):
+    """True or False from the first ViewZTop setting of a .config text, None when
+    there is none or its value is no True or False."""
+    if not text:
+        return None
+    m = _SETTING.search(text)
+    if m is None or m.group(2) is None:
+        return None
+    v = _VALUE.search(m.group(2))
+    word = (v.group(1) or u"").strip().lower() if v is not None else u""
+    return {u"true": True, u"false": False}.get(word)
+
+
+def _read_config(path):
+    """The text of a .config file (BOM or not), None when there is no such file;
+    raises IOError when it exists but cannot be read."""
+    if not path or not os.path.isfile(path):
+        return None
+    with io.open(path, "r", encoding="utf-8-sig", errors="replace") as f:
+        return f.read()
+
+
+class UpAxis(object):
+    """Mecway's up axis for the default 3D camera. paths: (user.config, default
+    .config), either may be None. z_top() reads the files (a few kB) and is called
+    only when the default camera is needed; known() gives the last answer without
+    reading. A file that exists but cannot be read keeps the last good answer;
+    with no answer at all it is False (Y up, Mecway's default)."""
+
+    def __init__(self, paths=(None, None), say=None):
+        self.paths = tuple(paths) if paths else (None, None)
+        self.value = None
+        self.said = None
+        self.say = say or log
+
+    def known(self):
+        return bool(self.value)
+
+    def z_top(self):
+        found = None
+        for path in self.paths:
+            try:
+                found = parse_z_top(_read_config(path))
+            except Exception:
+                # exists but cannot be read now (Mecway writing it): the last
+                # good answer, not the default behind it
+                found = self.value
+            if found is not None:
+                break
+        note = (u"INFO: Mecway's up axis: {0}".format(u"Z" if found else u"Y")
+                if found is not None else
+                u"INFO: Mecway's up-axis setting not found; Y up assumed")
+        if note != self.said:
+            self.said = note
+            self.say(note)
+        # what known() gives for a kept camera: the axis the default used last
+        self.value = bool(found)
+        return self.value
 
 
 # ==========================================

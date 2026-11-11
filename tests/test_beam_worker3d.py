@@ -108,15 +108,14 @@ def make_stand_in():
             return np.array([self.scale * a.dot(self.right), -self.scale * a.dot(self.screen_up),
                              a.dot(self.eye)])
 
-    def default_camera(chain_points, half_size, width, height):
+    def default_camera(chain_points, half_size, width, height, z_top=False):
         p = np.asarray(chain_points, dtype=float)
         lo, hi = p.min(axis=0), p.max(axis=0)
         span = hi - lo
-        # as beam_render3d: Y up (Z up along Y), from the front, a little from +X
-        # and from above (the azimuths in the axes of this stand-in)
-        along_y = span[1] > 0.9 * np.linalg.norm(span)
-        up = [0.0, 0.0, 1.0] if along_y else [0.0, 1.0, 0.0]
-        return Camera(120.0 if along_y else -150.0, 20.0, up, 0.5 * (lo + hi), 1.0, (0.0, 0.0),
+        # as beam_render3d: up as Mecway's (Y, or Z with z_top), from the front, a
+        # little from +X and from above (the azimuths in the axes of this stand-in)
+        up = [0.0, 0.0, 1.0] if z_top else [0.0, 1.0, 0.0]
+        return Camera(120.0 if z_top else -150.0, 20.0, up, 0.5 * (lo + hi), 1.0, (0.0, 0.0),
                       width, height, 0.5 * np.linalg.norm(span) + half_size)
 
     class Placement(object):
@@ -370,6 +369,14 @@ try:
     check("zoomed camera kept", near(zoomed["camera"]["zoom"], cam["zoom"], 1e-9))
     bad, _, _, _ = ask(session, frame=5, **three_d(camera={"nonsense": 1}))
     check("unreadable camera: the default", bad["ok"] and bad["camera"] == info["camera"])
+    # Mecway's up axis counts for the default camera only
+    check("default camera: Y up without z_top", near(info["camera"]["up"][1], 1.0, 1e-9))
+    zt, _, _, _ = ask(session, frame=5, **three_d(z_top=True))
+    check("default camera with z_top: Z up", near(zt["camera"]["up"][2], 1.0, 1e-9), zt["camera"])
+    zb, _, _, _ = ask(session, frame=5, **three_d(camera={"nonsense": 1}, z_top=True))
+    check("refused camera with z_top: the default with Z up", zb["camera"] == zt["camera"])
+    zk, _, _, _ = ask(session, frame=5, **three_d(camera=info["camera"], z_top=True))
+    check("a camera to keep ignores z_top", zk["camera"] == info["camera"])
     for asked, got in ((5.0, 5.0), (1000.0, 100.0), (0.1, 1.0), ("x", want)):
         m, _, _, _ = ask(session, frame=6, **three_d(magnify=asked))
         check("magnify {0!r} gives {1!r}".format(asked, got), near(m["magnify"], got, 1e-6) and

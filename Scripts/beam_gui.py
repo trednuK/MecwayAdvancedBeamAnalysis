@@ -39,8 +39,10 @@
 #
 # 3D AND DETAIL. With several sections a row above the picture chooses 2D or 3D
 # (kept as setting "sheet_view"). In 3D the request has "mode": "3d", "camera" (the
-# dict of the last reply; absent: the default view) and "magnify" (absent:
-# automatic). The window changes only azimuth and elevation (degrees), zoom (a
+# dict of the last reply; absent: the default view), "z_top" (Mecway's up axis for
+# the default view, read from Mecway's settings only when there is no camera to
+# send, see beam_utils.UpAxis) and "magnify" (absent: automatic). The window
+# changes only azimuth and elevation (degrees), zoom (a
 # factor) and pan (device pixels, x right, y down) and leaves the rest of the
 # dict as the worker gave it; the worker normalises. Zoom towards the mouse
 # assumes screen = canvas centre + pan + zoom * projection. The wheel works only
@@ -276,11 +278,13 @@ def run_window(mw, solution, vector=None):
     state = {"error": None, "window": None}
     caller = _MwCaller(False)
     log(u"INFO: {0} started".format(PANEL_TITLE))
+    # on the script thread, once: .NET reads the whole configuration for it
+    up_axis = bu.UpAxis(bmw.config_paths())
 
     def build_and_run():
         try:
             from System.Windows.Forms import Application as App
-            state["window"] = _Window(mw, solution, caller, vector=vector)
+            state["window"] = _Window(mw, solution, caller, vector=vector, up_axis=up_axis)
             App.Run(state["window"].form)
         except Exception:
             state["error"] = traceback.format_exc()
@@ -971,10 +975,13 @@ ACCENT = (0, 120, 212)
 class _Window(object):
     """Builds the window and follows it. scale: layout factor for offscreen
     tests (fonts follow it too, as Windows does for a real display); worker: other
-    worker script for tests."""
+    worker script for tests; up_axis: Mecway's up axis (beam_utils.UpAxis), read
+    only for a default 3D camera."""
 
-    def __init__(self, mw, solution, caller, scale=None, worker=None, vector=None):
+    def __init__(self, mw, solution, caller, scale=None, worker=None, vector=None,
+                 up_axis=None):
         self.mw = mw
+        self.up_axis = up_axis if up_axis is not None else bu.UpAxis()
         self.vector = vector
         self.solution = solution
         self.caller = caller
@@ -2259,6 +2266,10 @@ class _Window(object):
         if three:
             if self.camera is not None:
                 request["camera"] = dict(self.camera)
+                request["z_top"] = self.up_axis.known()
+            else:
+                # the default view: Mecway's up axis as it is now saved
+                request["z_top"] = self.up_axis.z_top()
             if self.magnify is not None:
                 request["magnify"] = self.magnify
         return request

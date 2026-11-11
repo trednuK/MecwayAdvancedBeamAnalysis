@@ -1,5 +1,14 @@
 # Changelog
 
+## V2026.2 (2026-11-11)
+
+- **3D view follows Mecway's up axis**: the default view (the first time 3D opens for a beam, for another beam and at
+  *Fit*) has Y or Z up as chosen in Mecway's *Tools* > *Options* > *General*, read from Mecway's saved settings (measured
+  on Mecway 35, both axes); without that setting Y is up. With Y up you look from +Z, with Z up from −Y (NOT verified
+  against Mecway's own front view). A beam along the up axis now stays standing; before, a beam along Y was laid down
+  with Z up.
+- NOT verified: whether Mecway saves a changed option already at OK. If *Fit* still shows the old axis, restart Mecway.
+
 ## V2026.1 (2026-11-10)
 
 First release.

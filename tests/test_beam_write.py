@@ -7,13 +7,14 @@
 # as measured on Mecway 35: set_variable raises a null reference on a solution of the
 # bridge with shells of "Section in results", any other error stays an error. The real
 # errors are in tests/test_mecway_e2e.py. Also the head of a file: what the list of
-# beams leaves out and which components only the solution has. Runs in CPython and in
-# Mecway's IronPython.
+# beams leaves out and which components only the solution has. Mecway's up axis from a
+# made-up settings file. Runs in CPython and in Mecway's IronPython.
 #
 #   python tests/test_beam_write.py
 
 from __future__ import print_function
 
+import io
 import os
 import sys
 import tempfile
@@ -192,6 +193,87 @@ marker = head(*(model + ['  <solution>', '    <elset name="{0}">'.format(bu.MARK
                          '    </elset>', '    <results precision="double">', '    </results>',
                          '  </solution>', '</liml>']))
 check("the marker in a solution is no shells", marker["shells"] == [], marker["shells"])
+
+# ---------------------------------------------------------------- Mecway's up axis
+def config(value, name="ViewZTop"):
+    """A made-up user.config in the form .NET writes, never Mecway's own file."""
+    return (u'<?xml version="1.0" encoding="utf-8"?>\n<configuration>\n  <userSettings>\n'
+            u'    <Some.Properties.Settings>\n'
+            u'      <setting name="ShowOrigin" serializeAs="String">\n        <value>True</value>\n'
+            u'      </setting>\n'
+            u'      <setting name="{0}" serializeAs="String">\n        <value>{1}</value>\n'
+            u'      </setting>\n    </Some.Properties.Settings>\n  </userSettings>\n'
+            u'</configuration>\n').format(name, value)
+
+
+for text, want, what in ((config(u"True"), True, "True"), (config(u"False"), False, "False"),
+                         (config(u"  tRUE \n"), True, "spaces and case"),
+                         (config(u"yes"), None, "another word"),
+                         (config(u"True", name="ViewZTopX"), None, "another setting only"),
+                         (config(u"").replace(u"<value></value>", u"<value />"), None, "empty value"),
+                         (u'<setting name="ViewZTop" />', None, "no value"),
+                         (config(u"False") + config(u"True"), False, "the first counts"),
+                         (u"", None, "empty text"), (None, None, "no text"),
+                         (u"<configuration><setting name=", None, "broken")):
+    check("up axis parsed: " + what, bu.parse_z_top(text) is want, bu.parse_z_top(text))
+
+folder = tempfile.mkdtemp()
+user = os.path.join(folder, "user.config")
+default = os.path.join(folder, "mecway.exe.config")
+
+
+def put(path, text, bom=False):
+    with io.open(path, "wb") as f:
+        f.write((b"\xef\xbb\xbf" if bom else b"") + text.encode("utf-8"))
+
+
+said = []
+try:
+    put(user, config(u"True"), bom=True)
+    put(default, config(u"False"))
+    axis = bu.UpAxis((user, default), say=said.append)
+    check("up axis before reading: Y", axis.known() is False)
+    check("up axis from the user's file, with BOM: Z", axis.z_top() is True and axis.known() is True)
+    axis.z_top()
+    check("the log says the up axis once", len(said) == 1 and u"Z" in said[0], said)
+    put(user, config(u"False"))
+    check("a changed file counts at the next read", axis.z_top() is False and len(said) == 2, said)
+    put(user, config(u"True", name="Other"))
+    put(default, config(u"True"))
+    check("no setting in the user's file: Mecway's default", axis.z_top() is True)
+    os.remove(user)
+    check("no user's file: Mecway's default", axis.z_top() is True)
+
+    real_read = bu._read_config
+
+    def locked(path):
+        if path == user:
+            raise IOError("in use")
+        return real_read(path)
+
+    put(user, config(u"True"))
+    put(default, config(u"False"))
+    bu._read_config = locked
+    try:
+        check("unreadable user's file: the last good answer, not the default",
+              axis.z_top() is True)
+        put(default, config(u"True"))
+        fresh = bu.UpAxis((user, default), say=said.append)
+        check("unreadable and nothing read before: Mecway's default", fresh.z_top() is True)
+    finally:
+        bu._read_config = real_read
+    os.remove(default)
+    os.remove(user)
+    del said[:]
+    gone = bu.UpAxis((user, default), say=said.append)
+    check("no files: Y up, and the log says the setting was not found",
+          gone.z_top() is False and len(said) == 1 and u"not found" in said[0], said)
+    check("no paths at all: Y up", bu.UpAxis(say=said.append).z_top() is False)
+finally:
+    for path in (user, default):
+        if os.path.exists(path):
+            os.remove(path)
+    os.rmdir(folder)
 
 print("{0} failed".format(len(FAILED)) if FAILED else "All checks OK")
 sys.exit(1 if FAILED else 0)

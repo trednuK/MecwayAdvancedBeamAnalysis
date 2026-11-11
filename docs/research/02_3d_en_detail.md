@@ -93,6 +93,6 @@ Oordeel: bouwbaar na deze wijzigingen. Waar §1 tot §3 afwijken, geldt dit.
 | Hover op de kant | Bij een slecht geconditioneerde afbeelding geen waarde, wel nummer en positie |
 | Detail en terug | Toestand bewaren (aantal, 2D/3D, camera, vergroting, vaste schaal, marker); gedeelde schaal via het schaalveld van het verzoek, niet via de eigen vaste schaal van de gebruiker |
 | Huid tussen doorsneden | Vervalt in deze versie |
-| Standaardcamera | Zo dat een doorsnede er uitziet als de tegel in 2D; omhoog is Z, of Y als de keten langs Z loopt. Later gewijzigd op verzoek van de gebruiker: als Mecway's standaardbeeld, Y omhoog (Z als de keten langs Y loopt), X naar rechts, van voren; zie de kop van `beam_render3d.py` |
+| Standaardcamera | Zo dat een doorsnede er uitziet als de tegel in 2D; omhoog is Z, of Y als de keten langs Z loopt. Later gewijzigd op verzoek van de gebruiker: als Mecway's standaardbeeld, Y omhoog (Z als de keten langs Y loopt), X naar rechts, van voren. In V2026.2: omhoog volgt Mecway's eigen keuze (*Tools* > *Options* > *General*, opgeslagen als `ViewZTop`, gemeten op Mecway 35), ook bij een balk langs die as; zie de kop van `beam_render3d.py` en `beam_utils.UpAxis` |
 | Tests | Uitgebreid met: knik met overlap tegen brute kracht, camera langs de balk, omgekeerd element, op de kant zonder NaN, probe heen en terug, grof gelijk aan fijn, contour niet over grenzen, verborgen omtrek onzichtbaar, protocol met oude en nieuwe verzoeken, toestand na *Detail* en *Terug* |
 

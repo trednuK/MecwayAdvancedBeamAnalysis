@@ -25,7 +25,8 @@
 #           with sheet {n} and band: n sections evenly along the chain, as one
 #           picture with one colour scale
 #           with sheet {n} and mode "3d", camera (dict, absent: the default
-#           camera) and magnify (absent: automatic): the same sections on their
+#           camera), z_top (Mecway's up axis is Z, for the default camera; absent:
+#           Y) and magnify (absent: automatic): the same sections on their
 #           place along the chain, drawn by beam_render3d. The reply has the tiles
 #           (number, s, eid, outside, peak, anchor), camera (normalised, to keep),
 #           magnify, magnify_auto and axes. Coarse is allowed here.
@@ -38,8 +39,8 @@
 #   Camera.from_dict(d, width, height), camera.as_dict() (finite numbers, JSON
 #   after numpy values become lists), optionally camera.pixels_per_unit (pixels
 #   per metre; without it the worker estimates it from zoom, for sharpness only);
-#   default_camera(chain_points (n, 3), half_size, width, height), half_size the
-#   largest magnified section's reach from its centroid;
+#   default_camera(chain_points (n, 3), half_size, width, height, z_top=bool),
+#   half_size the largest magnified section's reach from its centroid;
 #   Placement(number, s, origin, v_axis, w_axis, magnify): origin the centroid on
 #   the chain, V and W the drawn axes (mirrored for a reversed element);
 #   Composer3D(width, height).render(items, camera, coarse), items
@@ -948,7 +949,7 @@ class Session(object):
                 self.cameras_refused.add(text)
                 print("camera not read, default instead: {0}".format(why))
         return b3.default_camera(np.asarray(self.points, dtype=float), half_size,
-                                 width, height)
+                                 width, height, z_top=bool(rq.get("z_top", False)))
 
     def _screen_scale(self, camera, half_size, width, height):
         """Pixels per metre of the camera: its own pixels_per_unit when it has one,

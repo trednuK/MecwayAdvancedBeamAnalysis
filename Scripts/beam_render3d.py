@@ -41,10 +41,12 @@
 # Screen: pixel centres at (col + 0.5, row + 0.5), row 0 on top. Depth in
 # pixels (zoom x metres), growing away from the viewer. Angles in degrees.
 #
-# DEFAULT VIEW (default_camera, also Fit). As Mecway's default view: Y up, X to
-# the right, the viewer in front at +Z (the user's report; NOT measured here). Up
-# is Z instead when the chain runs within ALONG_Y_DEG of Y; then the viewer is in
-# front at -Y, X still to the right. From that front view the viewer stands
+# DEFAULT VIEW (default_camera, also Fit). Up as Mecway's up-axis option
+# (z_top, read by the window from Mecway's settings): Y up with the viewer in
+# front at +Z, or Z up with the viewer in front at -Y; X to the right in both.
+# Mecway's front view with Y up is the user's report, with Z up assumed; NOT
+# measured here. A chain along the up axis keeps it: it stands, as in Mecway, and
+# turning spins it about its own line. From that front view the viewer stands
 # DEFAULT_AZIMUTH to the side of +X (or of -X, whichever sees the sections
 # better) and DEFAULT_ELEVATION above. The view is fixed to the world, not to the
 # chain, so the side of U the viewer stands on varies: a section can look
@@ -69,8 +71,6 @@ DEG_PER_PX = 0.4
 # the default view (see the header): from the front, turned and lifted this much
 DEFAULT_AZIMUTH = 30.0
 DEFAULT_ELEVATION = 20.0
-# the chain counts as running along Y within this angle; up is then Z
-ALONG_Y_DEG = 20.0
 # a default view sees the sections at least this far from their edge if it can
 EDGE_GUARD_DEG = 15.0
 FIT_MARGIN = 24
@@ -253,10 +253,12 @@ class Camera(object):
                    d.get("pan", (0.0, 0.0)), width, height)
 
 
-def default_camera(chain_points, half_size, width, height, margin=FIT_MARGIN):
+def default_camera(chain_points, half_size, width, height, margin=FIT_MARGIN,
+                   z_top=False):
     """A camera that shows the whole chain with its sections, in the default view
     of the header. chain_points: world points along the chain in order;
-    half_size: the largest half size of a section as drawn (magnified), metres."""
+    half_size: the largest half size of a section as drawn (magnified), metres;
+    z_top: Mecway's up axis is Z (else Y)."""
     p = np.asarray(chain_points, dtype=float).reshape(-1, 3)
     if len(p) == 0:
         p = np.zeros((1, 3))
@@ -268,10 +270,7 @@ def default_camera(chain_points, half_size, width, height, margin=FIT_MARGIN):
         u = long_[0] if long_ else np.array([1.0, 0.0, 0.0])
     u = _unit(u, (1.0, 0.0, 0.0))
     x_axis = np.array([1.0, 0.0, 0.0])
-    if abs(u[1]) >= math.cos(math.radians(ALONG_Y_DEG)):
-        up = np.array([0.0, 0.0, 1.0])
-    else:
-        up = np.array([0.0, 1.0, 0.0])
+    up = np.array([0.0, 0.0, 1.0]) if z_top else np.array([0.0, 1.0, 0.0])
     front = np.cross(x_axis, up)            # +Z for Y up, -Y for Z up
     # the first view in this order that sees the sections well enough, else the
     # one that sees them best: from +X, from -X, then higher, then lower

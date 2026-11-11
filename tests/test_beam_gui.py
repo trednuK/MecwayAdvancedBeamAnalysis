@@ -1175,6 +1175,21 @@ check("2D Back: six sections in 2D again", h9.idle() and w.sheet_check.Checked a
       w.last.get("sheet") and w.last["n"] == 6 and w.detail is None and not w.mode3d and
       not w.slider.Enabled and w.tool_parts == (True, False, False))
 
+# Mecway's up axis: a stand-in that counts its reads, never Mecway's settings
+class CountingAxis(object):
+    def __init__(self):
+        self.value, self.reads = False, 0
+
+    def z_top(self):
+        self.reads += 1
+        return self.value
+
+    def known(self):
+        return self.value
+
+
+axis = w.up_axis = CountingAxis()
+
 # the switch to 3D: one request per switch, though both radio buttons fire
 frames = w.frame_no
 w.radio_3d.Checked = True
@@ -1184,6 +1199,8 @@ check("3D chosen: kept as a setting", w.mode3d and bu.settings().get("sheet_view
 check("3D: the worker answers in 3D with a camera", w.last.get("mode") == "3d" and "camera" in w.last,
       sorted(w.last))
 default_cam = dict(w.last["camera"])
+reads_3d = axis.reads
+check("3D: Mecway's up axis read for the default camera", reads_3d >= 1, reads_3d)
 check("3D: the camera of the reply is the one to send", w.camera == w.last["camera"] and
       peek(w)["camera"] == w.last["camera"])
 check("3D: no magnify asked, automatic", "magnify" not in peek(w) and w.last.get("magnify_auto") and
@@ -1321,10 +1338,34 @@ w.on_canvas_wheel(mx, my, 120)
 check("3D: focus gone, the wheel is off again", w.camera == cam4 and not w.wheel_armed)
 
 # Fit
+check("3D: a kept camera (turned, zoomed, panned) reads no up axis", axis.reads == reads_3d,
+      axis.reads - reads_3d)
 w.on_fit()
+check("3D: Fit reads Mecway's up axis", axis.reads > reads_3d)
 check("3D: Fit sends no camera", "camera" not in peek(w))
 check("3D: Fit gives the default view", h9.idle() and same_camera(w.camera, default_cam),
       (w.camera, default_cam))
+axis.value = True
+w.on_fit()
+check("3D: Fit sends Mecway's up axis as it is now", peek(w)["z_top"] is True)
+check("3D: Fit with Z up gives Z up", h9.idle() and near(w.camera["up"][2], 1.0, 1e-9), w.camera)
+reads = axis.reads
+w.sheet_count.Value = 5
+moved = h9.idle()
+check("3D: another count with a kept camera reads nothing and sends the known axis",
+      moved and axis.reads == reads and peek(w)["z_top"] is True, axis.reads - reads)
+w.radio_2d.Checked = True
+h9.idle()
+rq2 = peek(w)
+check("2D: no up axis read or sent", axis.reads == reads and "z_top" not in rq2, axis.reads - reads)
+w.radio_3d.Checked = True
+check("2D and back to 3D: the camera is kept, nothing read", h9.idle() and axis.reads == reads and
+      near(w.camera["up"][2], 1.0, 1e-9), axis.reads - reads)
+w.sheet_count.Value = 6
+h9.idle()
+axis.value = False
+w.on_fit()
+check("3D: Y up again after Fit", h9.idle() and same_camera(w.camera, default_cam))
 
 # magnify
 w.magnify_slider.Value = 1
@@ -1463,10 +1504,13 @@ check("another beam in the detail: one section, Back stays, no old title or scal
       not w.sheet_check.Checked and w.detail is not None and w.detail_title.Text == u"" and
       w.detail["camera"] is None and peek(w)["scale"] is None and w.camera is None,
       (w.detail_title.Text, peek(w)["scale"]))
+reads = axis.reads
 w.on_back()
 check("another beam, then Back: its sections in 3D, default view", h9.idle() and w.sheet_check.Checked and
       w.mode3d and w.last.get("mode") == "3d" and w.last["n"] == 6 and
       w.magnify_slider.Value == 11, w.last.get("n"))
+check("another beam, then Back: Mecway's up axis read for its default view", axis.reads > reads,
+      axis.reads - reads)
 w.source_box.SelectedIndex = 1
 w._apply()
 h9.pump(lambda: w.chain and near(w.chain["length"], 2.0, 1e-9))

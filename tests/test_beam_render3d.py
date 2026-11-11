@@ -202,48 +202,57 @@ x0_, _, _ = cam.to_screen(front_pt)
 x1_, _, _ = cam.rotate(10.0, 0.0).to_screen(front_pt)
 check("dragging right moves the front of the model to the right", x1_ > x0_, (x0_, x1_))
 
-# default camera: as Mecway's default view, Y up (Z up along Y), X to the right,
-# from the front, a little from the side and from above
+# default camera: up as Mecway's up-axis option, Y (front at +Z) or Z (front at
+# -Y), whatever the chain; X to the right, from the front, a little from the side
+# and from above
 Y_ = np.array([0.0, 1.0, 0.0])
 X_ = np.array([1.0, 0.0, 0.0])
-for name, chain, want_up, front in (("along X", [(0, 0, 0), (6, 0, 0)], Y_, Z_),
-                                    ("along -X", [(6, 0, 0), (0, 0, 0)], Y_, Z_),
-                                    ("along Y", [(0, 0, 0), (0, 4, 0)], Z_, -Y_),
-                                    ("along Y within 20 degrees", [(0, 0, 0), (0.3, 4, 0.2)], Z_, -Y_),
-                                    ("sloping", [(0, 0, 0), (3, 1, 1)], Y_, Z_),
-                                    ("along Z", [(0, 0, 0), (0, 0, 5)], Y_, Z_)):
-    pts = np.array(chain, dtype=float)
-    dc = b3.default_camera(pts, 0.4, 1200, 900)
-    u, v, w = section_frame(pts[-1] - pts[0])
-    R, U, E = dc.basis()
-    # the sphere around each chain point with the half size fits the window
-    ends = np.vstack([pts + 0.4 * s * e for e in (R, U) for s in (1, -1)])
-    xs, ys, _ = dc.to_screen(ends)
-    fits = xs.min() >= -1e-6 and xs.max() <= 1200 + 1e-6 and ys.min() >= -1e-6 and ys.max() <= 900 + 1e-6
-    tight = max(xs.max() - xs.min() - 1200 + 2 * b3.FIT_MARGIN,
-                ys.max() - ys.min() - 900 + 2 * b3.FIT_MARGIN) > -1e-6
-    ok = (np.allclose(dc.up, want_up) and fits and tight and X_.dot(R) > 0.8 and want_up.dot(U) > 0.9 and
-          front.dot(E) > 0.5 and abs(E.dot(u)) > math.sin(math.radians(10.0)))
-    check("default camera, chain " + name, ok, (dc.azimuth, dc.elevation, X_.dot(R), want_up.dot(U)))
+CHAINS = (("along X", [(0, 0, 0), (6, 0, 0)]), ("along -X", [(6, 0, 0), (0, 0, 0)]),
+          ("along Y", [(0, 0, 0), (0, 4, 0)]), ("along Y within 20 degrees", [(0, 0, 0), (0.3, 4, 0.2)]),
+          ("sloping", [(0, 0, 0), (3, 1, 1)]), ("along Z", [(0, 0, 0), (0, 0, 5)]),
+          ("along Z within 20 degrees", [(0, 0, 0), (0.2, -0.3, 4)]))
+for z_top, want_up, front in ((False, Y_, Z_), (True, Z_, -Y_)):
+    for name, chain in CHAINS:
+        name = "{0} up, chain {1}".format("Z" if z_top else "Y", name)
+        pts = np.array(chain, dtype=float)
+        dc = b3.default_camera(pts, 0.4, 1200, 900, z_top=z_top)
+        u, v, w = section_frame(pts[-1] - pts[0])
+        R, U, E = dc.basis()
+        # the sphere around each chain point with the half size fits the window
+        ends = np.vstack([pts + 0.4 * s * e for e in (R, U) for s in (1, -1)])
+        xs, ys, _ = dc.to_screen(ends)
+        fits = xs.min() >= -1e-6 and xs.max() <= 1200 + 1e-6 and ys.min() >= -1e-6 and ys.max() <= 900 + 1e-6
+        tight = max(xs.max() - xs.min() - 1200 + 2 * b3.FIT_MARGIN,
+                    ys.max() - ys.min() - 900 + 2 * b3.FIT_MARGIN) > -1e-6
+        ok = (np.allclose(dc.up, want_up) and fits and tight and X_.dot(R) > 0.8 and want_up.dot(U) > 0.9 and
+              front.dot(E) > 0.5 and abs(E.dot(u)) > math.sin(math.radians(10.0)))
+        check("default camera, " + name, ok, (dc.azimuth, dc.elevation, X_.dot(R), want_up.dot(U)))
+check("default camera: Y up unless asked", np.allclose(b3.default_camera(
+    [(0, 0, 0), (0, 0, 5)], 0.4, 300, 200).up, Y_))
 pts = np.array([(0, 0, 0), (6, 0, 0)], dtype=float)
 dc = b3.default_camera(pts, 0.4, 1200, 900)
 check("default camera along X: from +X, above, in front",
       abs(dc.azimuth - b3.DEFAULT_AZIMUTH) < 1e-9 and abs(dc.elevation - b3.DEFAULT_ELEVATION) < 1e-9 and
       dc.basis()[2][0] > 0 and dc.basis()[2][1] > 0 and dc.basis()[2][2] > 0, (dc.azimuth, dc.elevation))
+dc = b3.default_camera(pts, 0.4, 1200, 900, z_top=True)
+check("default camera along X with Z up: from +X, above, in front at -Y (azimuth from X)",
+      abs(dc.azimuth - (b3.DEFAULT_AZIMUTH - 90.0)) < 1e-9 and abs(dc.elevation - b3.DEFAULT_ELEVATION) < 1e-9 and
+      dc.basis()[2][0] > 0 and dc.basis()[2][1] < 0 and dc.basis()[2][2] > 0, (dc.azimuth, dc.elevation))
 # every direction: the sections are never seen near their edge
 rng = np.random.RandomState(7)
 dirs = rng.normal(size=(400, 3))
 dirs = np.vstack([dirs / np.linalg.norm(dirs, axis=1)[:, None],
                   [(0.81, 0.0, -0.47), (-0.81, 0.0, 0.47), (0.0, -0.92, 0.39), (0.0, 0.92, -0.39)]])
-worst, bad_up = 1.0, []
-for d in dirs:
-    cm = b3.default_camera([(0, 0, 0), tuple(d)], 0.1, 400, 300)
-    worst = min(worst, abs(cm.basis()[2].dot(d)))
-    want = Z_ if abs(d[1]) >= math.cos(math.radians(b3.ALONG_Y_DEG)) else Y_
-    if not np.allclose(cm.up, want):
-        bad_up.append(tuple(np.round(d, 2)))
-check("default camera, any direction: never near edge-on, up as the rule says",
-      worst >= math.sin(math.radians(10.0)) and not bad_up, (worst, bad_up[:3]))
+for z_top, want in ((False, Y_), (True, Z_)):
+    worst, bad_up = 1.0, []
+    for d in dirs:
+        cm = b3.default_camera([(0, 0, 0), tuple(d)], 0.1, 400, 300, z_top=z_top)
+        worst = min(worst, abs(cm.basis()[2].dot(d)))
+        if not np.allclose(cm.up, want):
+            bad_up.append(tuple(np.round(d, 2)))
+    check("default camera, any direction, {0} up: never near edge-on, up as Mecway's"
+          .format("Z" if z_top else "Y"),
+          worst >= math.sin(math.radians(10.0)) and not bad_up, (worst, bad_up[:3]))
 dc = b3.default_camera([], 0.4, 300, 200)
 check("default camera without points does not fail", dc.zoom > 0)
 bad_cam = b3.Camera.from_dict({"azimuth": 10, "elevation": 5, "up": [0, 0, 1],

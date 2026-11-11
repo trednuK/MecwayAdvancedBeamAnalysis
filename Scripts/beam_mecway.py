@@ -15,6 +15,7 @@
 #   read_chunk(...)                 section forces of some elements
 #   write_results(...)              node values into the solution
 #   solve_again(...)                the model solved anew, after the user said yes
+#   config_paths()                  Mecway's settings files (up axis of 3D)
 #   show_marker, move_marker, remove_marker
 #                                   the position as a temporary element
 #
@@ -615,3 +616,25 @@ def solution_view(mw):
     except Exception as e:
         log(u"WARNING: solution view: {0}".format(e))
     _display(mw)
+
+
+def config_paths():
+    """(user.config, mecway.exe.config) of the running Mecway, for
+    beam_utils.UpAxis; None where .NET gives no path. Public .NET API, no mw
+    call; measured on Mecway 35: the user file is the one of the running version.
+    Resolved once per window: it reads the whole configuration."""
+    paths = [None, None]
+    try:
+        import clr
+        clr.AddReference("System.Configuration")
+        from System.Configuration import ConfigurationManager, ConfigurationUserLevel
+        levels = (ConfigurationUserLevel.PerUserRoamingAndLocal,
+                  getattr(ConfigurationUserLevel, "None"))     # a keyword in Python
+        for i, level in enumerate(levels):
+            try:
+                paths[i] = ConfigurationManager.OpenExeConfiguration(level).FilePath
+            except Exception as e:      # a damaged user.config, among others
+                log(u"WARNING: Mecway's settings file {0}: {1}".format(i + 1, e))
+    except Exception as e:
+        log(u"WARNING: Mecway's settings: {0}".format(e))
+    return tuple(paths)
