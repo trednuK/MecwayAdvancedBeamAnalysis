@@ -58,3 +58,6 @@ at max(5h, 4/k) or more from a clamped end or load introduction. Details in the 
 
 [Mozilla Public License 2.0](LICENSE). Mecway is a product of Mecway Ltd; this project is not affiliated with Mecway Ltd or EDF
 (Code-Aster).
+
+Provided as is, without warranty (MPL-2.0, sections 6 and 7). Always check results
+independently before you rely on them.
