@@ -1,5 +1,9 @@
-# Stand van het werk (11 november 2026, V2026.2 uitgebracht)
+# Stand van het werk (18 november 2026, V2026.3 uitgebracht)
 
+- Uitgebracht als V2026.3 op 18 november 2026: een oplossing van MecwayAsterBridge wordt ook herkend als er een lege
+  oplossing van Mecway 36 (configuratie zonder resultaten) voor staat; getest met bestanden in die vorm, de vorm gemeten
+  door de bridge. Samen met MecwayAsterBridge V2026.14 (Mecway 36 daar getest); de bridge blijft optioneel, V2026.9 of
+  nieuwer volstaat. README: regel zonder garantie.
 - Uitgebracht als V2026.2 op 11 november 2026: de 3D-weergave volgt Mecway's keuze voor de as omhoog
   (*Tools* > *Options* > *General*), gelezen uit Mecway's opgeslagen instellingen; gemeten op Mecway 35. Niet gemeten:
   wanneer Mecway een gewijzigde keuze opslaat.
@@ -14,6 +18,6 @@
 - Door de gebruiker bekeken in Mecway: venster, 3D en detail met draaien en wiel, NL/ENG, handleiding,
   3D-standaardstand, schrijfknop.
 - Nog niet door de gebruiker bekeken: gespiegelde doorsneden bij omgekeerde elementen, meldingen `section_direction` en
-  `shape_inertia`, de 3D-weergave met Z omhoog.
+  `shape_inertia`, de 3D-weergave met Z omhoog. Mecway 36: de tool zelf is daarin niet getest.
 - Bekend: bij dunwandige profielen en veel doorsneden is de automatische vergroting 1×; de schuif vergroot verder.
 - Tests: op een verse checkout slaan de delen die `tests/mecway/results/` nodig hebben over.

@@ -1,12 +1,15 @@
 # Changelog
 
-## Unreleased
+## V2026.3 (2026-11-18)
 
 - **Code-Aster solution behind a Mecway 36 stub**: a save in Mecway 36 adds, for every configuration without results, an
   empty `<solution>` with only `<analysis>` and `<elset>`. When that came before the solution of MecwayAsterBridge, the
   Code-Aster result read as Mecway's own: solver label Mecway, the EY, EZ of `#ASTER-SECTIE` not used, and no refusal to
   write over the bridge's solution. Such solutions are now skipped, as is a solution whose results hold no node variable;
-  the first solution with a node variable decides. Files as Mecway 35 writes them read as before.
+  the first solution with a node variable decides. Files as Mecway 35 writes them read as before (measured). The
+  Mecway 36 layout was measured by MecwayAsterBridge and is tested here with synthetic files only; this tool itself was
+  NOT tested in Mecway 36.
+- **README**: a line that the tool comes without warranty (MPL-2.0, sections 6 and 7).
 
 ## V2026.2 (2026-11-11)
 

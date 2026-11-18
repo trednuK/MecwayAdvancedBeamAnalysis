@@ -487,11 +487,12 @@ zelf is niet gemeten.
 - **Lasten.** Formules in x, y, z en lasten die de tool niet kent, worden niet gecorrigeerd. Dat geldt ook voor elementen met
   een flexibele verbinding of offset, en voor andere analyses dan statisch.
 - **Oriëntatie.** Een oriëntatie met een formule kan de tool niet lezen.
-- **Code-Aster.** Het bimoment wordt niet gebruikt. Slaat Mecway 35 of 36 een Code-Aster-oplossing opnieuw op, dan is het spoor
-  weg en leest de tool hem als Mecway intern (gemeten). Met configuraties beslist de eerste oplossing in het bestand die resultaten
+- **Code-Aster.** Het bimoment wordt niet gebruikt. Slaat Mecway een Code-Aster-oplossing opnieuw op, dan is het spoor weg en
+  leest de tool hem als Mecway intern (gemeten op Mecway 35; Mecway 36 laat het spoor ook vallen, gemeten door
+  MecwayAsterBridge; deze tool is niet getest in Mecway 36). Met configuraties beslist de eerste oplossing in het bestand die resultaten
   heeft voor alle: staat de eigen oplossing van Mecway voor de ene configuratie vóór die van de bridge voor een andere, dan leest
   ook die van de bridge als Mecway intern, en weigert de tool dan niet om eroverheen te schrijven. De lege oplossingen die
-  Mecway 36 opslaat voor configuraties zonder resultaten worden overgeslagen. Een mix van `FORCE_POUTRE` en zwaartekracht op
+  Mecway 36 opslaat voor configuraties zonder resultaten worden overgeslagen (getest met bestanden in die vorm). Een mix van `FORCE_POUTRE` en zwaartekracht op
   `POU_D_TG` wordt niet gecorrigeerd.
 - **Andere ν** dan 0 en 0,3 zijn niet getoetst, en Mecway 34 ook niet.
 

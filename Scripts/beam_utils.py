@@ -39,7 +39,7 @@ import time
 SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
 TOOL = u"MecwayAdvancedBeamAnalysis"
 # Version of the tool (window title, log, CHANGELOG.md), as in MecwayAsterBridge
-VERSION = u"V2026.2"
+VERSION = u"V2026.3"
 LOG_NAME = "beam_log.txt"
 WORKER_LOG = "beam_worker_log.txt"
 SETTINGS_NAME = "beam_settings.json"
