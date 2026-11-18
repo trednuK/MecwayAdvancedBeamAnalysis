@@ -22,6 +22,7 @@
 from __future__ import print_function
 
 import glob
+import io
 import json
 import os
 import subprocess
@@ -383,6 +384,84 @@ def test_detection():
         f.write(head.replace(u'type="S30"', u'type="S30" solver="ccx"') + u"  </results>\n")
     got = bu.scan_head(path)
     check("CCX keeps its name", got["solver"] == "ccx" and got["aster"] is False, got)
+    test_detection_stubs(folder)
+
+
+def test_detection_stubs(folder):
+    print("-- which solver: stubs of configurations without results")
+    model = (u'<liml version="36">\n  <analysis type="S30" />\n'
+             u'  <fieldvariable name="shear force" displayunit="N" />\n'
+             u'  <configuration name="A" />\n  <configuration name="B" />\n'
+             u'  <elset name="Default" colorrgb="DADADA" />\n')
+
+    def solution(conf, tail, extra=u""):
+        # a solution with results, as the bridge (tail) or Mecway (no tail) writes it
+        return (u'  <solution configuration="{0}">\n    <analysis type="S30" />\n'
+                u'    <elset name="Default" colorrgb="DADADA" />\n{1}'
+                u'    <results precision="double">\n'
+                u'      <nodeids name="displx">AQ==\n</nodeids>\n'
+                u'      <nodevariable name="displx">\n        <valuesdouble>AA==\n'
+                u'</valuesdouble>\n{2}      </nodevariable>\n    </results>\n'
+                u'  </solution>\n').format(conf, extra, tail)
+    bridge = u'        <nodes />\n        <values />\n'
+    # the stub as a save in Mecway 36 writes it (36.0.9815, measured by the bridge);
+    # an elset name the model lacks, so that a leak would show in "shells"
+    stub36 = (u'  <solution configuration="A">\n    <analysis type="S30" />\n'
+              u'    <elset name="OnlyInStub" colorrgb="DADADA" expanded="true" />\n'
+              u'  </solution>\n')
+    stub35 = u'  <solution configuration="A" />\n'
+    sec = u'    <elset name="Sec" colorrgb="DADADA" />\n'
+    empty = (u'  <solution configuration="A">\n    <analysis type="S30" />\n'
+             u'    <results precision="double" />\n  </solution>\n')
+    novar = (u'  <solution configuration="A">\n    <results precision="double">\n'
+             u'      <elementnodevariable name="x">\n      </elementnodevariable>\n'
+             u'    </results>\n  </solution>\n')
+    cases = (
+        ("bridge only", solution(u"B", bridge), True, []),
+        ("self-closing stub, then bridge", stub35 + solution(u"B", bridge), True, []),
+        ("Mecway 36 stub, then bridge", stub36 + solution(u"B", bridge), True, []),
+        ("two Mecway 36 stubs, then bridge",
+         stub36 + stub36.replace(u'"A"', u'"C"') + solution(u"B", bridge), True, []),
+        ("bridge, then Mecway 36 stub", solution(u"B", bridge) + stub36, True, []),
+        ("Mecway 36 stub, then Mecway's own", stub36 + solution(u"B", u""), False, []),
+        ("Mecway's own, then bridge: the first with results decides",
+         solution(u"A", u"") + solution(u"B", bridge), False, []),
+        ("stubs only", stub36 + stub35.replace(u'"A"', u'"B"'), False, []),
+        ("one-line stub, then bridge",
+         u'  <solution configuration="A"></solution>\n' + solution(u"B", bridge), True, []),
+        ("<results /> gives no evidence, then bridge", empty + solution(u"B", bridge), True, []),
+        ("results without a node variable, then bridge", novar + solution(u"B", bridge),
+         True, []),
+        ("shells of the bridge's solution, not of the stub",
+         stub36 + solution(u"B", bridge, sec), True, [u"Sec"]),
+        ("shells on Mecway's own solution after a stub",
+         stub36 + solution(u"B", u"", sec), False, [u"Sec"]),
+        ("self-closing stub, then Mecway's own", stub35 + solution(u"B", u""), False, []),
+        ("bridge, then Mecway's own", solution(u"A", bridge) + solution(u"B", u""), True, []),
+        ("no solution decides: the shells of the one with results still count",
+         stub36 + novar.replace(u"    <results", sec + u"    <results"), False, [u"Sec"]),
+        ("names of a solution without evidence do not leak into the deciding one",
+         novar.replace(u"    <results", sec + u"    <results") + solution(u"B", bridge),
+         True, []),
+        ("stub and solution on one line",
+         u'  <solution configuration="A"></solution>' + solution(u"B", bridge), True, []),
+        ("self-closing stub and solution on one line",
+         u'  <solution configuration="A" />' + solution(u"B", bridge), True, []),
+        ("<solution> and <results> on one line",
+         solution(u"B", bridge).replace(u'">\n    <analysis type="S30" />\n'
+                                        u'    <elset name="Default" colorrgb="DADADA" />\n'
+                                        u'    <results', u'"><results'), True, []),
+    )
+    for i, (name, body, want, shells) in enumerate(cases):
+        for eol in (u"\n", u"\r\n"):
+            path = os.path.join(folder, "stub{0}.liml".format(i))
+            with io.open(path, "w", encoding="utf-8", newline=u"") as f:
+                f.write((model + body + u"</liml>\n").replace(u"\n", eol))
+            got = bu.scan_head(path)
+            check("{0}{1}".format(name, u", CRLF" if eol != u"\n" else u""),
+                  got["aster"] is want and got["shells"] == shells and
+                  got["fields"] == [u"shear force"] and
+                  got["configurations"] == [u"A", u"B"], got)
 
 
 def main():

@@ -47,6 +47,24 @@ clear drawings instead of long text.
   one request at a time, only the newest slider position is rendered; the panel never blocks on the
   worker. Drawing with `SetDIBitsToDevice`.
 
+## Contract with MecwayAsterBridge: the marker
+
+A solution of the bridge is recognised by the empty `<nodes />` and `<values />` that the bridge
+writes at the end of every `<nodevariable>` of its result fragment (`beam_utils._from_bridge`, on the
+first node variable after `<results>`). Mecway 35 and 36 do not write them, and drop them when an
+opened result is saved: it then reads as Mecway's own (measured). Mecway 33 and 34: NOT verified.
+
+- Skipped: a self-closing `<solution ... />`, and the stub a save in Mecway 36 writes for every
+  configuration without results (an end tag, only `<analysis>` and `<elset>` inside; 36.0.9815,
+  measured by the bridge), which may come before the solution with results; the bridge skips them
+  the same way (`bridge_hide_failed._processed_state`). Only here: a solution whose `<results>`
+  holds no node variable gives no evidence and is skipped too.
+- The first solution with a node variable decides for the whole file (the scan does not know the
+  active configuration); `"shells"` are the `<elset>` names of that solution that the model lacks
+  (when none decides: those of the skipped solutions with results, never of a stub).
+- The bridge's AGENTS.md has the same contract ("Contract with MecwayAdvancedBeamAnalysis"). A change
+  of the marker needs the same change there.
+
 ## Interfaces
 
 `section_stress.SectionField(loops, nu, props, offset, n_target, n_across)` and `measures(s)`: see the

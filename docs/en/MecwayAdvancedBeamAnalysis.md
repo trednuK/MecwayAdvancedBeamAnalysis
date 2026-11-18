@@ -475,8 +475,11 @@ measured.
 - **Loads.** Formulas in x, y, z and loads the tool does not know are not corrected. The same goes for elements with a flexible joint
   or offset, and for analyses other than static.
 - **Orientation.** The tool cannot read an orientation with a formula.
-- **Code-Aster.** The bimoment is not used. When Mecway saves a Code-Aster solution again the trace is gone and the tool reads it
-  as Mecway internal (measured). A mix of `FORCE_POUTRE` and gravity on `POU_D_TG` is not corrected.
+- **Code-Aster.** The bimoment is not used. When Mecway 35 or 36 saves a Code-Aster solution again the trace is gone and the tool
+  reads it as Mecway internal (measured). With configurations the first solution in the file that has results decides for all:
+  when Mecway's own solution of one configuration comes before the bridge's solution of another, the bridge's reads as
+  Mecway internal too, and the tool then does not refuse to write over it. The empty solutions Mecway 36 saves for configurations
+  without results are skipped. A mix of `FORCE_POUTRE` and gravity on `POU_D_TG` is not corrected.
 - **Other ν** than 0 and 0.3 were not tested, and neither was Mecway 34.
 
 ## 9. Messages

@@ -26,6 +26,7 @@
 #   "contours": the check box Contour lines
 
 import io
+import itertools
 import json
 import os
 import re
@@ -508,6 +509,9 @@ _ELSET = re.compile(r'<elset\b[^>]*\bname="([^"]*)"')
 _ANALYSIS = re.compile(r'<analysis\b([^>]*)>')
 _ATTRIBUTE = re.compile(r'(\w+)="([^"]*)"')
 _FIELD = re.compile(r'<fieldvariable\b[^>]*\bname="([^"]*)"')
+# group 1 is "/" when the tag closes itself
+_SOLUTION_TAG = re.compile(r'<solution\b[^>]*?(/?)>')
+_RESULTS_TAG = re.compile(r'<results\b[^>]*?(/?)>')
 # The field variables Mecway needs to store section forces (research note, E6), as
 # Mecway itself writes them in a saved .liml (measured)
 FORCE_FIELDS = (u"tensile force", u"shear force", u"torsion moment", u"bending moment 2")
@@ -579,7 +583,7 @@ def scan_head(path):
             out["element_selections"] = []
             for line in f:
                 if "<solution" in line:
-                    out["aster"], copy = _from_bridge(f)
+                    out["aster"], copy = _from_bridge(line, f)
                     out["shells"] = sorted(n for n in copy - elsets if not is_marker_name(n))
                     break
                 if "<" not in line:
@@ -619,29 +623,80 @@ def scan_head(path):
     return out
 
 
-def _from_bridge(lines):
-    """(bridge, component names of the solution's copy of the model). bridge: True
-    when the results after the <solution> just read are those of MecwayAsterBridge:
-    its fragment has empty <nodes /> and <values /> in every node
-    variable (bridge 6efd62a); the results of Mecway 35 have them not (measured). NOT
-    verified on Mecway 34 and older: the bridge's own format note says Mecway 33 wrote
-    these tags, so there a solution of its own could read as Code-Aster's. The analysis
-    line says nothing: it stays that of the model. Mecway 35 drops the tags when the
-    user saves the opened result, so a saved one reads as Mecway's own (measured). With
-    configurations the first solution in the file decides for all."""
-    inside = False
-    names = set()
-    for line in lines:
-        if not inside:
-            inside = "<results" in line
-            names.update(_ELSET.findall(line))
-            if "</solution" in line:
-                return False, names
-        elif "</nodevariable>" in line:
-            return False, names
-        elif "<nodes />" in line:
-            return True, names
-    return False, names
+def _from_bridge(first, lines):
+    """(bridge, component names of the deciding solution's copy of the model), from
+    the line `first` with the first <solution> on and the lines after it. bridge: True
+    when the results of the first solution with results are those of
+    MecwayAsterBridge: its fragment has empty <nodes /> and <values /> in every node
+    variable (bridge 6efd62a); the results of Mecway 35 and 36 have them not
+    (measured). NOT verified on Mecway 34 and older: the bridge's own format note says
+    Mecway 33 wrote these tags, so there a solution of its own could read as
+    Code-Aster's. The analysis line says nothing: it stays that of the model. Mecway 35
+    and 36 drop the tags when the user saves the opened result, so a saved one reads
+    as Mecway's own (measured).
+
+    Skipped, as the bridge skips them (bridge_hide_failed._processed_state): a stub
+    <solution ... /> without results, and the stub a save in Mecway 36 writes for
+    every configuration without results, with an end tag and only <analysis> and
+    <elset> inside (36.0.9815, measured by the bridge); it may come before the
+    solution with results. Skipped here as well: a solution whose results hold no
+    node variable (or <results />) gives no evidence, so that a solution of the bridge
+    after it still counts; when no solution decides, the names are those of such
+    solutions (a stub's never), so that their shells still count. With configurations
+    the first solution with a node variable decides for all: the scan does not know
+    the active one. A tag split over lines is not read (Mecway writes one per line)."""
+    state = "out"       # out: between solutions; head: before <results>;
+    names = set()       # results: before the first node variable; rest: to </solution>
+    skipped = set()     # names of the solutions with results that gave no evidence
+    with_results = False
+    for line in itertools.chain([first], lines):
+        while line:
+            if state == "out":
+                match = _SOLUTION_TAG.search(line)
+                if match is None:
+                    break
+                names, with_results = set(), False
+                line = line[match.end():]
+                if not match.group(1):      # <solution ... />: a stub
+                    state = "head"
+                continue
+            if state == "head":
+                match = _RESULTS_TAG.search(line)
+                end = line.find("</solution")
+                if match is not None and (end < 0 or match.start() < end):
+                    names.update(_ELSET.findall(line[:match.start()]))
+                    with_results = True
+                    line = line[match.end():]
+                    if not match.group(1):  # <results /> gives no evidence
+                        state = "results"
+                    continue
+                names.update(_ELSET.findall(line if end < 0 else line[:end]))
+                if end < 0:
+                    break
+                if with_results:
+                    skipped.update(names)
+                state, line = "out", line[end + len("</solution"):]
+                continue
+            if state == "results":
+                hits = [(line.find(tag), tag) for tag in
+                        ("<nodes />", "</nodevariable>", "</results", "</solution")]
+                hits = [hit for hit in hits if hit[0] >= 0]
+                if not hits:
+                    break
+                pos, tag = min(hits)
+                if tag == "<nodes />":
+                    return True, names
+                if tag == "</nodevariable>":
+                    return False, names
+                skipped.update(names)       # results without a node variable
+                state = "rest" if tag == "</results" else "out"
+                line = line[pos + len(tag):]
+                continue
+            end = line.find("</solution")   # rest
+            if end < 0:
+                break
+            state, line = "out", line[end + len("</solution"):]
+    return False, skipped
 
 
 # ==========================================

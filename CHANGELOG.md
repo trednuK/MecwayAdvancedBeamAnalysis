@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- **Code-Aster solution behind a Mecway 36 stub**: a save in Mecway 36 adds, for every configuration without results, an
+  empty `<solution>` with only `<analysis>` and `<elset>`. When that came before the solution of MecwayAsterBridge, the
+  Code-Aster result read as Mecway's own: solver label Mecway, the EY, EZ of `#ASTER-SECTIE` not used, and no refusal to
+  write over the bridge's solution. Such solutions are now skipped, as is a solution whose results hold no node variable;
+  the first solution with a node variable decides. Files as Mecway 35 writes them read as before.
+
 ## V2026.2 (2026-11-11)
 
 - **3D view follows Mecway's up axis**: the default view (the first time 3D opens for a beam, for another beam and at
